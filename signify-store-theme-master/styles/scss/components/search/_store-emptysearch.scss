@@ -9,7 +9,18 @@
       margin-left: 20px;
     }
   }
-
+  :global(.vtex-product-summary-2-x-element) {
+    border: 1px solid $gray-4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: none;
+  }
+    :global(.vtex-product-price-1-x-currencyContainer--summary) {
+      color: $primary;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+    }
   :global(.vtex-flex-layout-0-x-flexRowContent) {
     position: relative;
   }
