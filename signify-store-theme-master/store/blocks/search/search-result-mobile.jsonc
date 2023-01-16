@@ -1,0 +1,35 @@
+{
+  "search-result-layout.mobile": {
+    "children": ["flex-layout.row#category-mobile"]
+  },
+
+  "flex-layout.row#category-mobile": {
+    "children": ["flex-layout.col#category-mobile"]
+  },
+  "flex-layout.col#category-mobile": {
+    "children": [
+      "image#banner-one",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ]
+  },
+
+  // FILTROS MOBILE
+  "flex-layout.row#search-info-mobile": {
+    "children": ["filter-navigator.v3", "order-by.v2"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["container-category"],
+      "horizontalAlign": "center",
+      "colGap": 3,
+      "marginBottom": 5,
+      "marginTop": 5
+    }
+  },
+
+  // RESULTADO MOBILE
+  "flex-layout.row#search-result-mobile": {
+    "children": ["flex-layout.col#search-content"]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#home-categories": {
+    "title": "# Banner Categorias",
+    "props": {
+      "blockClass": "home-categories",
+      "marginBottom": 7,
+      "marginTop": 7,
+      "fullWidth": false,
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": ["flex-layout.col#home-categories"]
+  },
+
+  "flex-layout.col#home-categories": {
+    "children": [
+      //"rich-text#home-categories-title",
+      "list-context.image-list#categories"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "home-categories"
+    }
+  },
+
+  "list-context.image-list#categories": {
+    "children": ["slider-layout#home-categories"],
+    "title": "Slider-Imagens-Categorias",
+    "props": {
+      "blockClass": "home-categories-list-context",
+      "images": [
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 1"
+        },
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 2"
+        },
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 3"
+        },
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 4"
+        },
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 5"
+        },
+        {
+          "image": "assets/images/mocks/255x300.png",
+          "mobileImage": "assets/images/mocks/270x300.png",
+          "description": "Category 6"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home-categories": {
+    "title": "slider-categorias",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": false,
+      "label": "categorias",
+      "blockClass": "slider-categories"
+    }
+  },
+
+  "rich-text#home-categories-title": {
+    "props": {
+      "text": "Categorias",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textColor": "c-on-emphasis",
+      "blockClass": "home-categories-title"
+    }
+  }
+}

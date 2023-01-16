@@ -1,0 +1,76 @@
+<tr>
+  <td>
+    <table style="padding: 30px 0; color: #2d2d2d">
+      {{#each orders.0.paymentData.transactions}}
+      {{#each payments}}
+      <tr>
+         <td style="width: 182px; text-align: left;">
+          {{#compare paymentSystemName "==" "Mastercard"}}
+            <img
+              src="https://iwcstore.vteximg.com.br/arquivos/icon-mastercard.png?v=2"
+              style="vertical-align: middle; width: 50px; display: inline;"
+            />
+          {{/compare}} 
+          {{#compare paymentSystemName "==" "Visa"}}
+            <img
+              src="https://iwcstore.vteximg.com.br/arquivos/icon-visa.png?v=2"
+              style="vertical-align: middle; width: 50px; display: inline;"
+            />
+          {{/compare}}
+          {{#compare paymentSystemName "==" "Diners Club"}}
+          <img
+            src="https://iwcstore.vteximg.com.br/arquivos/icon-diners.png?v=2"
+            style="vertical-align: middle; width: 50px; display: inline;"
+          />
+          {{/compare}} 
+          {{#compare paymentSystemName "==" "American Express"}}
+            <img
+              src="https://iwcstore.vteximg.com.br/arquivos/icon-amex.png?v=2"
+              style="vertical-align: middle; width: 50px; display: inline;"
+            />
+          {{/compare}}
+         {{#compare paymentSystemName "==" "Boleto Bancário"}}
+            <img
+              src="https://iwcstore.vteximg.com.br/arquivos/icon-boleto.png?v=2"
+              style="vertical-align: middle; width: 50px; display: inline;"
+            />
+         {{/compare}}
+        <span
+          style="font-style: normal; font-weight: bold; font-size: 14px; line-height: 16px; color: #333333"
+        >
+          {{paymentSystemName}}
+        </span>
+        <span
+          style="font-style: normal; font-weight: bold; font-size: 14px; line-height: 16px; color: #828282"
+        >
+        {{#compare paymentSystemName "!=" "Boleto Bancário"}}
+          (************{{lastDigits}}) 
+        {{/compare}}
+        </span>
+         </td>
+        <td align="right" style="width: 182px; text-align: right;">
+          <span
+            class="details_order"
+            style="
+              font-style: normal;
+              font-weight: bold;
+              font-size: 14px;
+              line-height: 16px;
+              color: #828282;
+            "
+            >({{installments}}x)</span
+          >
+        <span
+          style="font-style: normal; font-weight: bold; font-size: 14px; line-height: 16px; color: #333333"
+        >
+          R$ {{formatCurrency value}}
+    </span>
+  </td>
+      </tr>
+        {{/each}}{{/each}}
+</table>
+</td>
+</tr>
+
+
+

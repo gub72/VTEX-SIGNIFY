@@ -1,0 +1,682 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Blusa Nó Off White -...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0,
+          "height": 1,
+          "length": 1,
+          "weight": 120,
+          "width": 1
+        },
+        "categoriesIds": "/1/6/",
+        "productClusterId": "137,140,141,142,143,157,160,189",
+        "commercialConditionId": "1",
+        "brandName": "Farm",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "83769",
+      "priceTable": null,
+      "priceValidUntil": "2019-01-09T01:30:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "uniqueId": "8F45E0BC4535405288C7552801AA3DBD",
+      "id": "83769",
+      "productId": "23103",
+      "refId": "268597_0024_2",
+      "ean": "2685970024P",
+      "name": "Blusa Nó Off White - P",
+      "skuName": "Off White - P",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 15900,
+      "listPrice": 15900,
+      "manualPrice": null,
+      "sellingPrice": 11130,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/6/",
+      "productCategories": {
+        "1": "Moda Feminina",
+        "6": "Blusa"
+      },
+      "quantity": 1,
+      "seller": "lojafarmmaceio",
+      "sellerChain": ["lojafarmmaceio"],
+      "imageUrl": "http://lojafarm.vteximg.com.br/arquivos/ids/1900885-55-55/268597_0024_1-BLUSA-NO.jpg?v=636764346011370000",
+      "detailUrl": "/blusa-no-off-white-268597-0024/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [
+        {
+          "type": "Embalagem para presente",
+          "id": "26485",
+          "name": "Embalagem para presente",
+          "allowGiftMessage": false,
+          "attachmentOfferings": [],
+          "price": 0
+        }
+      ],
+      "priceTags": [
+        {
+          "name": "discount@price-57558598-5eb9-4fce-93a4-56d150db82b8#cf286f6f-d85b-46a6-a68e-1940370558b5",
+          "value": -4770,
+          "rawValue": -47.7,
+          "isPercentual": false,
+          "identifier": "57558598-5eb9-4fce-93a4-56d150db82b8"
+        },
+        {
+          "name": "discount@shipping-54e0ac42-f791-403f-a1da-87da6dfc00dd#b38f05e4-2cc6-4e0f-900a-fbe718a07f1b",
+          "value": -1466,
+          "rawValue": -14.66,
+          "isPercentual": false,
+          "identifier": "54e0ac42-f791-403f-a1da-87da6dfc00dd"
+        },
+        {
+          "name": "discount@shipping-8ab889b9-3f15-457d-bb39-61bdbf0506ea#ee909b8f-5566-4612-8b22-58358e1054b5",
+          "value": -1466,
+          "rawValue": -14.66,
+          "isPercentual": false,
+          "identifier": "8ab889b9-3f15-457d-bb39-61bdbf0506ea"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    },
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0,
+          "height": 1,
+          "length": 1,
+          "weight": 160,
+          "width": 1
+        },
+        "categoriesIds": "/1/17/",
+        "productClusterId": "140,141,142,143,157,160,189",
+        "commercialConditionId": "1",
+        "brandName": "Farm",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "85062",
+      "priceTable": null,
+      "priceValidUntil": "2019-01-09T01:30:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "uniqueId": "8A3C89AC1A4B4C8392F460199C08B41C",
+      "id": "85062",
+      "productId": "23478",
+      "refId": "272771_8843_1",
+      "ean": "2727718843U",
+      "name": "Mochila Praiana Est Maxi Floral Frescor_p - U",
+      "skuName": "Est Maxi Floral Frescor_p - U",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 9800,
+      "listPrice": 9800,
+      "manualPrice": null,
+      "sellingPrice": 6860,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/17/",
+      "productCategories": {
+        "1": "Moda Feminina",
+        "17": "Acessórios"
+      },
+      "quantity": 1,
+      "seller": "lojafarmmaceio",
+      "sellerChain": ["lojafarmmaceio"],
+      "imageUrl": "http://lojafarm.vteximg.com.br/arquivos/ids/1818538-55-55/272771_8843_1-MOCHILA-PRAIANA.jpg?v=636739987875700000",
+      "detailUrl": "/mochila-praiana-est-maxi-floral-frescor_p-272771-8843/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [
+        {
+          "type": "Embalagem para presente",
+          "id": "60486",
+          "name": "Embalagem para presente",
+          "allowGiftMessage": false,
+          "attachmentOfferings": [],
+          "price": 0
+        }
+      ],
+      "priceTags": [
+        {
+          "name": "discount@price-57558598-5eb9-4fce-93a4-56d150db82b8#cf286f6f-d85b-46a6-a68e-1940370558b5",
+          "value": -2940,
+          "rawValue": -29.4,
+          "isPercentual": false,
+          "identifier": "57558598-5eb9-4fce-93a4-56d150db82b8"
+        },
+        {
+          "name": "discount@shipping-54e0ac42-f791-403f-a1da-87da6dfc00dd#b38f05e4-2cc6-4e0f-900a-fbe718a07f1b",
+          "value": -1954,
+          "rawValue": -19.54,
+          "isPercentual": false,
+          "identifier": "54e0ac42-f791-403f-a1da-87da6dfc00dd"
+        },
+        {
+          "name": "discount@shipping-8ab889b9-3f15-457d-bb39-61bdbf0506ea#ee909b8f-5566-4612-8b22-58358e1054b5",
+          "value": -1954,
+          "rawValue": -19.54,
+          "isPercentual": false,
+          "identifier": "8ab889b9-3f15-457d-bb39-61bdbf0506ea"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?affiliateid=SLR&sc=1&an=lojafarmmaceio",
+      "id": "lojafarmmaceio",
+      "name": "lojafarmmaceio",
+      "logo": null
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "4d78d9f82d2d4c5f81d766eaa8bda372",
+  "sequence": "1062469",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "9873ae68-7d16-4c52-8a5a-3f05a620b916",
+  "hostName": "lojafarm",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "v1062469frm-01",
+  "orderGroup": "v1062469frm",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-v1062469frm-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 6860,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 25700
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": -7710
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    },
+    {
+      "id": "Change",
+      "name": "Total das mudanças",
+      "value": -11130
+    }
+  ],
+  "clientProfileData": {
+    "email": "gelzinharodrigues2011@hotmail.com-62b.ct.vtex.com.br",
+    "firstName": "Gessica",
+    "lastName": "Aparecida Rodrigues",
+    "document": "03854312520",
+    "documentType": "cpf",
+    "phone": "73981190954",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "57558598-5eb9-4fce-93a4-56d150db82b8",
+        "name": "clube30",
+        "featured": false,
+        "description": "30% linear_ alto verão e verão",
+        "matchedParameters": {
+          "product@CatalogSystem": "22922,19077,19079,19078|exclusive",
+          "productCluster@CatalogSystem": "177,178,140|inclusive",
+          "couponCode@Marketing": "clube30"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "54e0ac42-f791-403f-a1da-87da6dfc00dd",
+        "name": "frete grátis",
+        "featured": false,
+        "description": "com o código de vendedora",
+        "matchedParameters": {
+          "slaIds": "correios",
+          "productCluster@CatalogSystem": "146|exclusive"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "8ab889b9-3f15-457d-bb39-61bdbf0506ea",
+        "name": "Frete Grátis Sellers",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "Seller@CatalogSystem": "lojafarmaldeota,lojafarmbarrasalvador,lojafarmalphaville,lojafarmbeiramarfln,lojafarmbelem,lojafarmbhboulevard,lojafarmbhshopping,lojafarmbossanovamall,lojafarmboulevardbh,lojafarmbsb,lojafarmbuzios,lojafarmcampinas,lojafarmcampogrande,lojafarmcentro,lojafarmcentro02,lojafarmcidadesaopaulo,lojafarmcuritiba,lojafarmdownton,lojafarmfashionmall,lojafarmflorianopolis,lojafarmfortaleza,lojafarmgavea,lojafarmgoiabeirasshopping,lojafarmgoiania,lojafarmgoianiashopping,lojafarmharmonia,lojafarmhigienopolis,lojafarmicarai02,lojafarmicarai,lojafarmiguatemi,lojafarmiguatemibsb,lojafarmiguatemicampinas,lojafarmiguatemijk,lojafarmiguatemiportoalegre,lojafarmiguatemiribeirao,lojafarmiguatemisalvador,lojafarmipanema,lojafarmjoaopessoa,lojafarmjardimsul,lojafarmlondrina,lojafarmmaceio,lojafarmmanauara,lojafarmmaringapark,lojafarmmarketplace,lojafarmoutlet,lojafarmnatal,lojafarmparkshoppingbsb,lojafarmpatiosavassi,lojafarmplaza,lojafarmportoalegre,lojafarmrdb,lojafarmrdl,lojafarmrecife,lojafarmriomararacaju,lojafarmriomarfortaleza,lojafarmriosul,lojafarmriomarrecife,lojafarmsalvador,lojafarmsaobernardo,lojafarmsaojosedoriopreto,lojafarmshoppingdailha,lojafarmshopleblonfabula,lojafarmshoppingpatiobatel,lojafarmshoppingtijuca,lojafarmshoppingvitoria,lojafarmSP,lojafarmteresina,lojafarmsorocaba,lojafarmvilavelha,lojafarmuberlandia,lojafarmvillagemall,lojafarmvillalobos,lojaoffpremium,1|inclusive",
+          "slaIds": "correios",
+          "productCluster@CatalogSystem": "146|exclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Gessica Aparecida Rodrigues",
+      "addressId": "60845a5695a84d6bb8a0fb7284717e41",
+      "postalCode": "45816-000",
+      "city": "Arraial D'Ajuda",
+      "state": "BA",
+      "country": "BRA",
+      "street": "Rua Evaldo Clímaco Nascimento",
+      "number": "244",
+      "neighborhood": "Santiago",
+      "complement": "A segunda casa depois da  igreja adventista do sétimo dia",
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Correios",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "60845a5695a84d6bb8a0fb7284717e41",
+        "slas": [
+          {
+            "id": "Correios",
+            "deliveryChannel": "delivery",
+            "name": "Correios",
+            "deliveryIds": [
+              {
+                "courierId": "Sedex fg",
+                "warehouseId": "1_2",
+                "dockId": "Sedex fg",
+                "courierName": "Sedex fg",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "15bd",
+            "shippingEstimateDate": "2019-01-25T13:43:06.3115728Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 1466,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": null
+          },
+          {
+            "id": "Sedex",
+            "deliveryChannel": "delivery",
+            "name": "Sedex",
+            "deliveryIds": [
+              {
+                "courierId": "Sedex",
+                "warehouseId": "1_2",
+                "dockId": "Sedex",
+                "courierName": "Sedex",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1958,
+            "listPrice": 1958,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": null
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "83769",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Correios",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "60845a5695a84d6bb8a0fb7284717e41",
+        "slas": [
+          {
+            "id": "Correios",
+            "deliveryChannel": "delivery",
+            "name": "Correios",
+            "deliveryIds": [
+              {
+                "courierId": "Sedex fg",
+                "warehouseId": "1_2",
+                "dockId": "Sedex fg",
+                "courierName": "Sedex fg",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "15bd",
+            "shippingEstimateDate": "2019-01-25T13:43:06.3115728Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 1954,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": null
+          },
+          {
+            "id": "Sedex",
+            "deliveryChannel": "delivery",
+            "name": "Sedex",
+            "deliveryIds": [
+              {
+                "courierId": "Sedex",
+                "warehouseId": "1_2",
+                "dockId": "Sedex",
+                "courierName": "Sedex",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 2610,
+            "listPrice": 2610,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": null
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "85062",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gessica Aparecida Rodrigues",
+        "addressId": "60845a5695a84d6bb8a0fb7284717e41",
+        "postalCode": "45816-000",
+        "city": "Arraial D'Ajuda",
+        "state": "BA",
+        "country": "BRA",
+        "street": "Rua Evaldo Clímaco Nascimento",
+        "number": "244",
+        "neighborhood": "Santiago",
+        "complement": "A segunda casa depois da  igreja adventista do sétimo dia",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gessica Aparecida Rodrigues",
+        "addressId": "60845a5695a84d6bb8a0fb7284717e41",
+        "postalCode": "45816-000",
+        "city": "Arraial D'Ajuda",
+        "state": "BA",
+        "country": "BRA",
+        "street": "Rua Evaldo Clímaco Nascimento",
+        "number": "244",
+        "neighborhood": "Santiago",
+        "complement": "A segunda casa depois da  igreja adventista do sétimo dia",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "C742F5B3AEA44F05BE1BB11C132EA7A6",
+        "merchantName": "LOJAFARM",
+        "payments": [
+          {
+            "id": "7C35A8FEA0D4411B8C878E9D510DDDA8",
+            "paymentSystem": "9",
+            "paymentSystemName": "Elo",
+            "value": 17990,
+            "installments": 6,
+            "connectorResponses": {
+              "nsu": "094959",
+              "tid": "314275",
+              "acquirer": "Cielo",
+              "acquirerReference": "314275",
+              "authorizationcode": "094959",
+              "pspReference": "4315466093577357"
+            },
+            "referenceValue": 17990,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "506775",
+            "lastDigits": "2395",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "314275",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "5115B3183FBA430CB34765CB5229657F",
+            "parentAccountId": "5115B3183FBA430CB34765CB5229657F",
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null
+          }
+        ],
+        "sharedTransaction": null
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": "codigodavendedora",
+    "coupon": "clube30",
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": {
+    "value": "3687 - BRUNA AUGUSTA LARA LOPES POCO"
+  },
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": {
+    "changesData": [
+      {
+        "reason": "ref 268597 nao tem em estoque",
+        "discountValue": 11130,
+        "incrementValue": 0,
+        "itemsAdded": [],
+        "itemsRemoved": [],
+        "receipt": {
+          "orderId": "v1062469frm-01",
+          "date": "2019-01-06T23:43:46.0403996Z",
+          "receipt": "34542b4f-4056-43fb-8675-034ad09821e6"
+        }
+      }
+    ]
+  },
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "8fc56a6be5944da68c9962ae00409f4c@ct.vtex.com.br",
+  "creationDate": "2019-01-04T13:42:25.9201102Z",
+  "lastChange": "2019-01-06T23:43:46.6176047Z",
+  "timeZoneCreationDate": "2019-01-04T11:42:25.9201102",
+  "timeZoneLastChange": "2019-01-06T21:43:46.6176047",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "HostName": "lojafarm",
+    "MainAccountName": "lojafarm",
+    "IsPersisted": true,
+    "IsRemoved": false,
+    "Id": "a5e99bce-8c2c-4501-9c8d-9107d8a1b496",
+    "Cnpj": "11111111111111",
+    "CompanyName": "FARM",
+    "TradingName": "FARM",
+    "AccountName": "lojafarm",
+    "DefaultUrl": null,
+    "Address": null,
+    "Number": null,
+    "Complement": null,
+    "District": null,
+    "City": null,
+    "State": null,
+    "PostalCode": null,
+    "Country": "BRA",
+    "Telephone": "55219817719",
+    "IsActive": true,
+    "Sponsor": "96f9397a-731a-4c68-a64c-28b5ebbdc818",
+    "Logo": "375640_505073546175090_599720321_n.jpg",
+    "AppId": null,
+    "IsOperating": true,
+    "LV": "LV-",
+    "Sigla": null
+  }
+}

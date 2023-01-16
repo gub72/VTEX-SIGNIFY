@@ -1,0 +1,19 @@
+.flexCol {
+  &--button-login {
+    min-width: 250px;
+  }
+}
+
+.flexRow--header-principal {
+  width: 100%;
+}
+
+.flexRow--main-header {
+  width: 100%;
+}
+
+.flexColChild--headerLinks {
+  .flexRowContent {
+    align-items: center;
+  }
+}

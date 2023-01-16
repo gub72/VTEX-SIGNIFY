@@ -1,0 +1,7 @@
+.cartIcon {
+  display: none;
+}
+
+.minicartIconContainer::before {
+  content: url("assets/images/cart-mobile.png");
+}

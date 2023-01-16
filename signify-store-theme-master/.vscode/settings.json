@@ -1,0 +1,27 @@
+{
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "git.ignoreLimitWarning": true,
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#desktop-newsletter": {
+    "children": ["modal-trigger#newsletter"],
+    "props": {
+      "blockClass": "newsletter-modal"
+    }
+  },
+
+  "modal-trigger#newsletter": {
+    "children": ["modal-layout#newsletter"],
+    "props": {
+      "trigger": "load-session"
+    }
+  },
+
+  "modal-layout#newsletter": {
+    "children": ["flex-layout.row#newsletter-container"],
+    "props": {
+      "blockClass": "newsletter"
+    }
+  },
+
+  "modal-header#newsletter": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "flex-layout.row#newsletter-container": {
+    "props": {},
+    "children": [
+      "flex-layout.col#newsletter-content-1",
+      "flex-layout.col#newsletter-content-2"
+    ]
+  },
+
+  "flex-layout.col#newsletter-content-1": {
+    "props": {
+      "blockClass": ["nl-content", "nl-content-1"],
+      "width": "40%"
+    },
+    "children": ["image#newsletter-image-desktop"]
+  },
+
+  "image#newsletter-image-desktop": {
+    "props": {
+      "src": "assets/images/newsletter-banner-desktop.jpg",
+
+      "blockClass": ["newsletter-image", "newsletter-image-mock"]
+    }
+  },
+
+  "flex-layout.col#newsletter-content-2": {
+    "props": {
+      "blockClass": ["nl-content", "nl-content-2"],
+      "width": "60%",
+      "preventVerticalStretch": false
+    },
+    "children": [
+      "modal-header#newsletter",
+      "flex-layout.row#nl-row-1",
+      "flex-layout.row#nl-row-2",
+      //"flex-layout.row#nl-row-3",
+      "flex-layout.row#nl-row-4"
+    ]
+  },
+
+  "flex-layout.row#nl-row-1": {
+    "children": ["rich-text#nl-title"],
+    "props": {
+      "blockClass": "nl-title",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#nl-row-2": {
+    "children": ["rich-text#nl-subtitle"],
+    "props": {
+      "blockClass": "nl-subtitle",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#nl-row-3": {
+    "children": ["rich-text#nl-subtitle"],
+    "props": {
+      "blockClass": "nl-subtitle",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#nl-row-4": {
+    "children": ["form#newsletter"],
+    "props": {
+      "blockClass": "nl-inputs",
+      "width": "100%",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#nl-title": {
+    "props": {
+      "text": "Você Ganhou 20% de desconto",
+      "blockClass": "nl-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "rich-text#nl-subtitle": {
+    "props": {
+      "text": "Preencha o formulário lorem ipsum dolor sit amet \n, consectetur adipiscing elit. Cras semper cursus tempus. Ut",
+      "blockClass": "nl-subtitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#nl-info": {
+    "props": {
+      "text": "*Cupom não válido para produtos da categoria sale",
+      "blockClass": "nl-info"
+    }
+  }
+}

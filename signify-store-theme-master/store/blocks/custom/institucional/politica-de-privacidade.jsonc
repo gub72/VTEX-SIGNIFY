@@ -1,0 +1,102 @@
+{
+  // Blocs
+  "store.custom#politica-de-privacidade": {
+    "blocks": ["flex-layout.row#breadcrumb-row", "flex-layout.row#main-row"]
+  },
+  // breadcrumb
+  "flex-layout.row#breadcrumb-row": {
+    "children": ["flex-layout.col#breadcrumb"],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#breadcrumb": {
+    "children": ["rich-text#breadcrumb-list"],
+    "props": {
+      "blockClass": "containerInstitucional__breadcrumb",
+      "width": "100%"
+    }
+  },
+  "rich-text#breadcrumb-list": {
+    "props": {
+      "text": "[Home](/) [Institucional](#) [Politica de privacidade](#)",
+      "blockClass": "containerInstitucional__breadcrumb-list"
+    }
+  },
+  // Main
+  "flex-layout.row#main-row": {
+    "children": ["flex-layout.col#aside", "flex-layout.col#contentPolitica"],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+
+  // aside
+  "flex-layout.col#aside": {
+    "children": [
+      "rich-text#aside-tittle",
+      "vtex.menu@2.x:menu#menu__institucional"
+    ],
+    "props": {
+      "blockClass": "institucional__menu-container",
+      "id": "institucional__menu",
+      "width": "20%"
+    }
+  },
+  "rich-text#aside-tittle": {
+    "props": {
+      "text": "###### **Título**",
+      "blockClass": "institucional__menu-container-tittle"
+    }
+  },
+
+  // content
+  "flex-layout.col#contentPolitica": {
+    "children": ["flex-layout.col#contentPolitica-text"],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.col#contentPolitica-text": {
+    "children": [
+      "rich-text#contentPolitica-tittle-1",
+      "rich-text#contentPolitica-paragraph-1",
+      "rich-text#contentPolitica-paragraph-1-2",
+      "rich-text#contentPolitica-tittle-2",
+      "rich-text#contentPolitica-paragraph-2"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#contentPolitica-tittle-1": {
+    "props": {
+      "text": "# **Politica de privacidade**"
+    }
+  },
+  "rich-text#contentPolitica-paragraph-1": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa. Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus, nec malesuada ligula semper. Fusce volutpat est sed eros accumsan tincidunt. Pellentesque tellus erat, mattis in urna non, lacinia pharetra sem. Vestibulum at enim porta, pretium dui id, molestie risus. Sed convallis vulputate lacus, vitae consequat leo lacinia et. Sed lectus velit, mollis eget bibendum at, pulvinar vehicula leo. Nam fringilla felis at nisi accumsan, a porta tellus pellentesque. Donec semper commodo justo a sagittis. Curabitur ornare, augue sit amet dictum hendrerit, enim turpis bibendum tortor, eget rutrum quam ex sed urna. Pellentesque sem enim, tempor at efficitur pellentesque, vehicula eget ante."
+    }
+  },
+  "rich-text#contentPolitica-paragraph-1-2": {
+    "props": {
+      "text": "Curabitur id leo ut sem dictum efficitur et at nibh. Praesent imperdiet enim eu metus imperdiet luctus. Aenean bibendum dui id felis vehicula iaculis. Integer orci lorem, sagittis vitae nulla non, finibus mattis ex. Donec scelerisque metus tortor, sit amet ultricies neque fermentum accumsan. Ut imperdiet mi vel ipsum tristique semper. Sed ornare pellentesque lacus et bibendum. Quisque et elementum metus. Morbi venenatis egestas nulla et feugiat. Integer id ante malesuada, vestibulum eros sed, consectetur tellus. Mauris placerat ipsum a nunc blandit, blandit viverra magna vehicula. In hac habitasse platea dictumst. Etiam at pellentesque nisl. Nam scelerisque interdum risus."
+    }
+  },
+  "rich-text#contentPolitica-tittle-2": {
+    "props": {
+      "text": "## **Subtítulo H2**"
+    }
+  },
+  "rich-text#contentPolitica-paragraph-2": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa. Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus, nec malesuada ligula semper. Fusce volutpat est sed eros accumsan tincidunt. Pellentesque tellus erat, mattis in urna non, lacinia pharetra sem. Vestibulum at enim porta, pretium dui id, molestie risus. Sed convallis vulputate lacus, vitae consequat leo lacinia et. Sed lectus velit, mollis eget bibendum at, pulvinar vehicula leo. Nam fringilla felis at nisi accumsan, a porta tellus pellentesque. Donec semper commodo justo a sagittis. Curabitur ornare, augue sit amet dictum hendrerit, enim turpis bibendum tortor, eget rutrum quam ex sed urna. Pellentesque sem enim, tempor at efficitur pellentesque, vehicula eget ante."
+    }
+  }
+}

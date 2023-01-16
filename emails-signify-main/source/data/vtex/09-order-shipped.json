@@ -1,0 +1,435 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 9800,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "TOTAL EXPRESS 03",
+    "invoiceNumber": "1930376",
+    "invoiceValue": 10696,
+    "invoiceUrl": null,
+    "issuanceDate": "2022-08-01T20:44:17.5377492+00:00",
+    "trackingNumber": "124858140001",
+    "invoiceKey": "35220827932734000408550050019303761583653880",
+    "trackingUrl": "https://status.ondeestameupedido.com/tracking/566/1240025178",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Acessório Moedor de ...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/39/",
+        "productClusterId": "138",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.3143,
+          "height": 10.2,
+          "length": 14.5,
+          "weight": 230,
+          "width": 10.2
+        },
+        "brandName": "Philips Walita",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "357",
+      "priceTable": "1",
+      "priceValidUntil": "4000-01-01T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": null,
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:walitastore:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/357",
+      "uniqueId": "01193DE4E0324609BFA0C3232380C1F2",
+      "id": "357",
+      "productId": "233",
+      "productRefId": "HR2219/00_Transparente",
+      "refId": "HR2219/00/Transparente_Un",
+      "ean": "8720389003578",
+      "name": "Camisa Extra-Slim Fit De Algodão Estampada Black - 41",
+      "skuName": "Black - 41",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 9800,
+      "listPrice": 9800,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 9800,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/39/",
+      "productCategories": {
+        "39": "Acessórios"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://hugobossstore.vteximg.com.br/arquivos/product-fake.png",
+      "detailUrl": "/acessorio-moedor-de-graos-para-liquidificador-serie-5000-philips-walita_hr2219-00_transparente/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "883221900240",
+      "priceDefinition": {
+        "calculatedSellingPrice": 9800,
+        "total": 9800,
+        "sellingPrices": [
+          {
+            "value": 9800,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=walitastore",
+      "id": "1",
+      "name": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "2da98ae9e8ce4a849ea19a2dcdd9d877",
+  "sequence": "1240025178",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "b3036f69-f55b-41d4-9e32-1c23d7445c2e",
+  "hostName": "walitastore",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1250682616860-01",
+  "orderGroup": "1250682616860",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1250682616860-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 10696,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 9800
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 896
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "190bc67195ed4638b515f25115e7d39c@ct.vtex.com.br",
+    "firstName": "John",
+    "lastName": "Vasconcelos",
+    "document": "13480159699",
+    "documentType": "cpf",
+    "phone": "+5534997820042",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": "",
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "John",
+      "addressId": "4977716455155",
+      "isDisposable": false,
+      "postalCode": "38408-138",
+      "city": "Uberlândia",
+      "state": "MG",
+      "country": "BRA",
+      "street": "Avenida César Finotti",
+      "number": "1105",
+      "neighborhood": "Santa Mônica",
+      "complement": "Ap 301",
+      "reference": null,
+      "geoCoordinates": [-48.25632095336914, -18.92461585998535]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4977716455155",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "1c34baf",
+                "warehouseId": "1_1",
+                "dockId": "171beb3",
+                "courierName": "TOTAL EXPRESS 03",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "5bd",
+            "shippingEstimateDate": "2022-08-05T17:00:00Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 896,
+            "listPrice": 896,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "357",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "John",
+        "addressId": "4977716455155",
+        "isDisposable": false,
+        "postalCode": "38408-138",
+        "city": "Uberlândia",
+        "state": "MG",
+        "country": "BRA",
+        "street": "Avenida César Finotti",
+        "number": "1105",
+        "neighborhood": "Santa Mônica",
+        "complement": "Ap 301",
+        "reference": null,
+        "geoCoordinates": [-48.25632095336914, -18.92461585998535]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "John",
+        "addressId": "4977716455155",
+        "isDisposable": false,
+        "postalCode": "38408-138",
+        "city": "Uberlândia",
+        "state": "MG",
+        "country": "BRA",
+        "street": "Avenida César Finotti",
+        "number": "1105",
+        "neighborhood": "Santa Mônica",
+        "complement": "Ap 301",
+        "reference": null,
+        "geoCoordinates": [-48.25632095336914, -18.92461585998535]
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "A4A4DB478C2641808F6823198887DD57",
+        "merchantName": "WALITASTORE",
+        "payments": [
+          {
+            "id": "2C96BC6F6A7049E4BC6679C05D7CC0F5",
+            "paymentSystem": "4",
+            "paymentSystemName": "Mastercard",
+            "value": 10696,
+            "installments": 1,
+            "connectorResponses": {
+              "Tid": "10142207310036586350",
+              "ReturnCode": "00",
+              "Message": "eRede|Success.",
+              "authId": "095904",
+              "nsu": "626148329",
+              "acquirer": "redecard"
+            },
+            "referenceValue": 10696,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "553636",
+            "lastDigits": "3718",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "10142207310036586350",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "C342185D4ABC40108216B69E58C41951",
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "addressType": "residential",
+              "receiverName": "John",
+              "addressId": "4977716455155",
+              "isDisposable": false,
+              "postalCode": "38408-138",
+              "city": "Uberlândia",
+              "state": "MG",
+              "country": "BRA",
+              "street": "Avenida César Finotti",
+              "number": "1105",
+              "neighborhood": "Santa Mônica",
+              "complement": "Ap 301",
+              "reference": null,
+              "geoCoordinates": [-48.25632095336914, -18.92461585998535]
+            }
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "1ebe8307dd554febb15e0ea9fef30064@ct.vtex.com.br",
+  "creationDate": "2022-07-31T03:43:34.2869455Z",
+  "lastChange": "2022-07-31T05:08:40.1483357Z",
+  "timeZoneCreationDate": "2022-07-31T00:43:34.2869455",
+  "timeZoneLastChange": "2022-07-31T02:08:40.1483357",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "walitastore",
+    "AccountName": "walitastore",
+    "Cnpj": "27932734000165",
+    "Id": "bd556c77-0102-460b-bc8f-7c94d17d2a8c",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-06-22T17:10:48.9161642Z",
+    "OperationDate": "2022-04-05T17:17:35.6058733+00:00",
+    "CompanyName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "TradingName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

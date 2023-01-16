@@ -1,0 +1,173 @@
+{
+  "footer-layout.desktop": {
+    "title": "# Footer Desktop",
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-3-desktop",
+      "custom-lgpd"
+    ]
+  },
+
+  /* Start Row 1 */
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-row-1-col-1-desktop",
+      "flex-layout.col#footer-row-1-col-2-desktop",
+      "flex-layout.col#footer-row-1-col-3-desktop"
+    ],
+    "props": {
+      "blockClass": ["footer-row", "footer-row-1"],
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#footer-row-1-col-1-desktop": {
+    "props": {
+      "blockClass": ["footer-col"],
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#footer-title-col-1",
+      "vtex.menu@2.x:menu#footer-col-1"
+    ]
+  },
+
+  "flex-layout.col#footer-row-1-col-2-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#footer-title-col-2",
+      "vtex.menu@2.x:menu#footer-col-2"
+    ]
+  },
+  "flex-layout.col#footer-row-1-col-3-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#footer-title-col-3",
+      "vtex.menu@2.x:menu#footer-col-3"
+    ]
+  },
+
+  /* End ROW 1 */
+
+  /* START ROW 2 */
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-row-2-col-1-desktop",
+      "flex-layout.col#footer-row-2-col-2-desktop"
+    ],
+    "props": {
+      "blockClass": ["footer-row", "footer-row-2"],
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#footer-row-2-col-1-desktop": {
+    "props": {
+      "blockClass": ["footer-col", "row-2-col-1"],
+      "width": "55%"
+      //"preventVerticalStretch": true
+    },
+    "children": ["social-networks"]
+  },
+
+  "flex-layout.col#footer-row-2-col-2-desktop": {
+    "props": {
+      "blockClass": ["footer-col", "row-2-col-2"],
+      "width": "45%"
+      //"preventVerticalStretch": true
+    },
+    "children": ["flex-layout.row#footer-row-2-col-2-desktop"]
+  },
+
+  "flex-layout.row#footer-row-2-col-2-desktop": {
+    "children": [
+      "image#footer-flag-1",
+      "image#footer-flag-2",
+      "image#footer-flag-3",
+      "image#footer-flag-4",
+      "image#footer-flag-5",
+      "image#footer-flag-6"
+    ],
+    "props": {
+      "blockClass": ["footer-row", "footer-row-2-col-2-desktop"],
+      "preventHorizontalStretch": true
+    }
+  },
+
+  /* END ROW 2 */
+
+  /* START ROW 3 */
+  "flex-layout.row#footer-3-desktop": {
+    "children": [
+      "flex-layout.col#footer-row-3-col-1-desktop",
+      "flex-layout.col#footer-row-3-col-2-desktop"
+    ],
+    "props": {
+      "blockClass": ["footer-row", "footer-row-3"],
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#footer-row-3-col-1-desktop": {
+    "props": {
+      "blockClass": ["footer-col"],
+      "verticalAlign": "middle"
+      //"preventVerticalStretch": true
+    },
+    "children": ["image#footer-brand-1"]
+  },
+
+  "flex-layout.col#footer-row-3-col-2-desktop": {
+    "props": {
+      "blockClass": ["footer-col"],
+      "preventVerticalStretch": false,
+      "width": "80%"
+    },
+    "children": ["rich-text#footer-address"]
+  },
+
+  /* END ROW 3 */
+
+  "flex-layout.col#footer-1-desktop": {
+    "props": {
+      "blockClass": ["footer-col"]
+      //"preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#footer-title-col-1",
+      "vtex.menu@2.x:menu#footer-col-1"
+    ]
+  }
+
+  /*
+    "flex-layout.row#footer-3-desktop": {
+        "children": [
+            "rich-text#footer-copyright",
+            "image#footer-image-01",
+            "image#footer-image-02",
+            "image#footer-image-03"
+        ],
+        "props": {
+            "paddingTop": 8,
+            "paddingBottom": 5,
+            "blockClass": "footer-3-desktop"
+        }
+    }
+    */
+}

@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#pitchbar": {
+    "props": {
+      "blockClass": "header-pitchbar",
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "flex-layout.col#pitchbar-col-1",
+      "flex-layout.col#pitchbar-col-2",
+      "flex-layout.col#pitchbar-col-3"
+    ]
+  },
+
+  "flex-layout.row#pitchbar-mobile": {
+    "props": {
+      "blockClass": "header-pitchbar",
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#pitchbar-col-2"]
+  },
+
+  "flex-layout.col#pitchbar-col-1": {
+    "children": ["rich-text#text-pitchbar-col-1"]
+  },
+  "flex-layout.col#pitchbar-col-2": {
+    "props": {
+      "blockClass": "pitchbar-info",
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#text-pitchbar-col-2"]
+  },
+  "flex-layout.col#pitchbar-col-3": {
+    "props": {
+      "blockClass": "pitchbar-links",
+      "horizontalAlign": "right"
+    },
+    "children": ["flex-layout.row#text-pitchbar-col-3"]
+  },
+
+  "rich-text#text-pitchbar-col-1": {},
+  "rich-text#text-pitchbar-col-2": {
+    "title": "Título central da Pitchbar",
+    "props": {
+      "blockClass": "pitchbar-text",
+      "text": "Entrega grátis em 3 dias"
+    }
+  },
+  "flex-layout.row#text-pitchbar-col-3": {
+    "children": ["vtex.menu@2.x:menu#pitchbar"]
+  },
+
+  "vtex.menu@2.x:menu#pitchbar": {
+    "props": {
+      "blockClass": "menu-pitchbar",
+      "orientation": "horizontal"
+    },
+    "children": ["menu-item#ajuda", "menu-item#chantOnline"]
+  },
+
+  "menu-item#ajuda": {
+    "props": {
+      "id": "ajuda",
+      "blockClass": "pitchbar-ajuda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ajuda",
+        "text": "Ajuda"
+      }
+    }
+  },
+
+  "menu-item#chantOnline": {
+    "props": {
+      "blockClass": "pitchbar-chantOnline",
+      "id": "chatOnline",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Chat Online",
+        "text": "Chat Online"
+      }
+    }
+  }
+}

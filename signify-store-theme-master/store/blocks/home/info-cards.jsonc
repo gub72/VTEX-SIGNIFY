@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#home-infocards-container": {
+    "title": "# Cards Categorias",
+    "props": {
+      "blockClass": "home-infocards-container"
+      //"marginBottom": 7,
+      //"marginTop": 7,
+      //"horizontalAlign": "center",
+      //"preventVerticalStretch": true
+    },
+    "children": ["flex-layout.col#home-infocards-container"]
+  },
+
+  "flex-layout.col#home-infocards-container": {
+    "props": {
+      "blockClass": "home-infocards-cards",
+      //"marginBottom": 7,
+      //"marginTop": 7,
+      "horizontalAlign": "center",
+      //"preventVerticalStretch": true
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#home-infocards__title",
+      "flex-layout.row#home-infocards-cards"
+    ]
+  },
+
+  "rich-text#home-infocards__title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## InfoCard",
+      "blockClass": "home-infocards__title"
+    }
+  },
+
+  "flex-layout.row#home-infocards-cards": {
+    "props": {
+      "blockClass": "home-infocards-cards",
+      //"marginBottom": 7,
+      //"marginTop": 7,
+      "preventHorizontalStretch": true,
+      "colGap": 7,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#home-infocards-cards",
+      "flex-layout.col#home-infocards-cards",
+      "flex-layout.col#home-infocards-cards"
+    ]
+  },
+
+  "flex-layout.col#home-infocards-cards": {
+    "props": {
+      "blockClass": "home-infocards-cards"
+
+      //"marginBottom": 7,
+      //"marginTop": 7,
+      //"horizontalAlign": "center",
+      //"preventVerticalStretch": true
+    },
+    "children": [
+      "image#home-infocard-image",
+      "rich-text#home-infocard-content__title"
+    ]
+  },
+
+  "image#home-infocard-image": {
+    "props": {
+      "src": "assets/images/mocks/350x233.png",
+      "blockClass": "home-infocard-image"
+    }
+  },
+
+  "rich-text#home-infocard-content__title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "### Categoria \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis dolor sit amet enim suscipit, nec fringilla",
+      "blockClass": "home-infocard-content__title"
+    }
+  }
+}

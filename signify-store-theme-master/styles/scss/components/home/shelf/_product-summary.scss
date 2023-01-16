@@ -1,0 +1,38 @@
+@media only screen and (min-width: 640px) {
+  .element {
+    padding: 16px;
+    margin: 5px 13px;
+    border-radius: 6px;
+    box-shadow: $box-shadow;
+    transition: 0.2s linear;
+    align-items: center;
+
+    :global(.vtex-button) {
+      border-radius: 4px;
+    }
+    &:hover {
+      box-shadow: $box-shadow;
+      border-color: $black;
+      box-sizing: border-box;
+
+      :global(.vtex-button) {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .element {
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: $box-shadow;
+    align-items: center;
+
+    :global(.vtex-button) {
+      border-radius: 4px;
+      height: 50px;
+      max-width: 208px;
+    }
+  }
+}

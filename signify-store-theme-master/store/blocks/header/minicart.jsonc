@@ -1,0 +1,9 @@
+{
+    "flex-layout.col#minicart": {
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "center"
+        },
+        "children": ["minicart.v2"]
+    }
+}

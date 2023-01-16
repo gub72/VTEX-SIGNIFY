@@ -1,0 +1,19 @@
+.socialNetworkImage {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .socialNetworkLink {
+    &--facebook::before {
+      content: url("assets/svg/icon-facebook.svg");
+    }
+
+    &--twitter::before {
+      content: url("assets/svg/icon-twitter.svg");
+    }
+
+    &--instagram::before {
+      content: url("assets/svg/icon-instagram.svg");
+    }
+  }
+}

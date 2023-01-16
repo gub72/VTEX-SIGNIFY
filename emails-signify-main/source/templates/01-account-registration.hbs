@@ -1,0 +1,70 @@
+
+<!-- partial:partials/view/_html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table style="margin: auto;">
+    <tbody>
+
+      <!-- partial:partials/view/_header-logo.hbs -->
+      <!-- partial -->
+
+      <tr style="border: 0; color: #2D2D2D;">
+        <td style="padding:70px 12px 25px;">
+          <p style="font-size:16px; color:#333333; text-align: left;">
+            <span style="font-weight: bold; font-size:20px;">
+              Bem-vindo(a), {{#compare userName "!=" "null"}}
+              {{userName}}!
+              {{/compare}}
+            </span>
+            <br />
+            <br />
+            Agora você é um cliente com vantagens exclusivas que só a {{_accountInfo.CompanyName}} tem!
+            <br />
+            <br />
+            Você terá acesso antecipado a lançamentos e promoções!
+            <br />
+            <br />
+            Aproveite!
+            <br />
+            <br />
+            Você ganhou <span style="font-weight: bold; color: #000;">5% DE DESCONTO</span> na sua próxima compra!
+            <br />
+            <br />
+            Caso ainda não tenha utilizado, coloque o código abaixo na finalização da compra:
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div style="margin:15px auto;margin-bottom:0px;flex-direction:column;display: flex;justify-content:center;align-items: center; position: relative; background-image: url(https://hugobossstore.vteximg.com.br/arquivos/registrationBanner.png); height: 315px; box-sizing: border-box;">
+            <p style="z-index:9;font-size:22px; font-weight: bold; position: relative; color: #fff;  text-shadow: 2px 2px #000;">BEMVINDO</p>
+            <a href="https://www.hugobossstore.com.br" target="_blank" style="text-decoration: none; 
+            position: absolute;
+            bottom: 26px;">
+              <button style="
+                            width: 251px;
+                            height: 50px;
+                            border-radius: 2px;
+                            background: #fff;
+                            color: #000;
+                            border: none;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 24px;
+                            cursor: pointer;
+                          ">
+                COMPRE AGORA
+              </button>
+            </a>
+          </div>
+        </td>
+      </tr>
+
+        <!-- partial:partials/view/_footer.hbs -->
+        <!-- partial -->
+      
+    </body>
+  </table>
+
+</html>

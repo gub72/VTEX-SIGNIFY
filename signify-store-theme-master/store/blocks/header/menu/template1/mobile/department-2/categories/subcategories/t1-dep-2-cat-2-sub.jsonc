@@ -1,0 +1,89 @@
+{
+    "vtex.menu@2.x:menu#t1-dep-2-cat-2-sub": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#t1-dep-2-cat-2-sub-1",
+            "menu-item#t1-dep-2-cat-2-sub-2",
+            "menu-item#t1-dep-2-cat-2-sub-3",
+            "menu-item#t1-dep-2-cat-2-sub-4",
+            "menu-item#t1-dep-2-cat-2-sub-5"
+        ]
+    },
+
+    "menu-item#t1-dep-2-cat-2-sub-1": {
+        "props": {
+            "type": "custom",
+            "id": "t1-dep-2-cat-2-sub-1",
+            "blockClass": ["t1-subcategory", "t1-dep-2-cat-2-sub-1"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SubCategory 1",
+                "href": "#"
+            }
+        }
+    },
+
+    "menu-item#t1-dep-2-cat-2-sub-2": {
+        "props": {
+            "type": "custom",
+            "id": "t1-dep-2-cat-2-sub-2",
+            "blockClass": ["t1-subcategory", "t1-dep-2-cat-2-sub-2"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SubCategory 2",
+                "href": "#"
+            }
+        }
+    },
+
+    "menu-item#t1-dep-2-cat-2-sub-3": {
+        "props": {
+            "type": "custom",
+            "id": "t1-dep-2-cat-2-sub-3",
+            "blockClass": ["t1-subcategory", "t1-dep-2-cat-2-sub-3"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SubCategory 3",
+                "href": "#"
+            }
+        }
+    },
+
+    "menu-item#t1-dep-2-cat-2-sub-4": {
+        "props": {
+            "type": "custom",
+            "id": "t1-dep-2-cat-2-sub-4",
+            "blockClass": ["t1-subcategory", "t1-dep-2-cat-2-sub-4"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SubCategory 4",
+                "href": "#"
+            }
+        }
+    },
+
+    "menu-item#t1-dep-2-cat-2-sub-5": {
+        "props": {
+            "type": "custom",
+            "id": "t1-dep-2-cat-2-sub-5",
+            "blockClass": ["t1-subcategory", "t1-dep-2-cat-2-sub-5"],
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "text": "SubCategory 5",
+                "href": "#"
+            }
+        }
+    }
+}

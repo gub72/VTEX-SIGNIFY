@@ -1,0 +1,146 @@
+@import "./components/buy-button/buy-button";
+
+.flexRow {
+  &--rightCol {
+    flex-direction: column;
+  }
+  &--cinza {
+    background: $gray-6;
+
+    :global(.vtex-store-components-3-x-container) {
+      max-width: 1160px;
+    }
+  }
+  &--main {
+    background: $gray-6;
+    :global(.vtex-store-components-3-x-container) {
+      max-width: 1160px;
+    }
+    @media (max-width: 1024px) {
+      padding-top: 0;
+    }
+  }
+  &--add-to-cart {
+    @media (max-width: 1024px) {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: $white;
+      z-index: 99;
+
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+    }
+  }
+  &--topSection {
+    background: $gray-6;
+
+    @media (max-width: 1024px) {
+      padding-top: 2.5rem;
+    }
+    .stretchChildrenWidth {
+      flex-direction: column;
+    }
+  }
+  &Content {
+    &--product-image {
+      @media (min-width: 1025px) {
+        flex-direction: column;
+        .stretchChildrenWidth {
+          width: 100% !important;
+          padding: 0;
+        }
+      }
+    }
+    &--add-to-cart {
+      margin: 0;
+      display: flex;
+      padding: 1.5rem 0;
+      @media (max-width: 1024px) {
+        justify-content: center;
+      }
+      @media (min-width: 1025px) {
+        justify-content: flex-start;
+      }
+    }
+    &--main {
+      background: $gray-6;
+      @media (max-width: 1024px) {
+        flex-direction: column;
+        .stretchChildrenWidth {
+          width: 100% !important;
+          padding: 0;
+        }
+      }
+      @media (min-width: 1025px) {
+      }
+    }
+    &--rightCol {
+      flex-direction: column;
+    }
+  }
+}
+.flex {
+  &Row {
+    &--notFoundColumnBreadcrumb {
+      background: $gray-6;
+
+      @media (min-width: 499px) and(max-width:1024px) {
+        display: none;
+      }
+    }
+    &--backgroundNotFound {
+      padding-top: 1rem;
+
+      @media (min-width: 500px) and(max-width:1024px) {
+        background: url("assets/images/background--404-tablet.png") $gray-6;
+        min-height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      @media (max-width: 499px) {
+        background: url("assets/images/background--404-mobile.png") $gray-6;
+        min-height: 366px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      @media (min-width: 1025px) {
+        background: url("assets/images/background--404.png") $gray-6;
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    &--notFoundShelf {
+      background: $gray-6;
+
+      @media (min-width: 100px) and(max-width:1024px) {
+        padding-top: 6rem;
+      }
+    }
+    &Content {
+      &--notFoundColumnBreadcrumb {
+        background: $gray-6;
+        max-width: 1160px;
+        margin: auto;
+        display: flex;
+        @media (min-width: 100px) and(max-width:499px) {
+          padding-left: 0.8rem;
+        }
+        .stretchChildrenWidth {
+          width: auto !important;
+        }
+      }
+      &--notFoundShelf {
+        flex-direction: column;
+      }
+    }
+  }
+  &Col {
+    &Child {
+      &--notFoundColumn {
+        text-align: center;
+      }
+    }
+  }
+}

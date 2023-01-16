@@ -1,0 +1,72 @@
+
+
+<!-- partial:partials/view/_html-head.hbs -->
+<!-- partial -->
+
+<body>
+   <table style="margin: auto">
+    <tbody>
+      
+     <!-- partial:partials/view/_header-logo.hbs -->
+     <!-- partial -->
+       
+      <tr style="border: 0; color: #2D2D2D;">
+        <td style="padding: 50px 12px">
+          <p style="font-weight: 700; font-size: 20px; line-height: 23px; padding-bottom: 20px;">O produto que você quer
+            está aqui.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>  
+            <table style="border-collapse: collapse;">
+                  <tbody>
+                    {{#each items}}
+                    <tr style="border-bottom: 1px solid #E0E0E0">
+                      <td style="padding: 20px 0">
+                        <img style="width: 154px; height: auto; margin-right: 40px" src={{image}} alt="">
+                      </td>
+                      <td style="font-size: 15px; line-height: 26px; color:#333333; padding: 0 0 0 42px;">
+                        <p style="font-size: 15px; font-weight: bold; color:#333333; white-space: wrap; overflow: hidden; text-overflow: ellipsis; max-height: 50px; max-width: 200px">
+                          <a style="all: unset; cursor:pointer" href="{{link}}" target="_blank">{{productName}}</p> </a>
+                        <p style="color: #919191;  font-size:15px">Quantidade: {{quantity}}</p>
+                        </p>
+                        {{#compare sellingPrice "!=" listPrice}}
+                        <p style="color: #919191;  font-size:15px"><s>R$ {{formatCurrency listPrice}}</s></p>
+                        {{/compare}}
+                        <p style="color: #919191;font-weight: 600; padding: 0 0 15px;  font-size:15px">R$ {{formatCurrency sellingPrice}}
+                        </p>
+                      </td>
+                    </tr>
+                    {{/each}}
+                  </tbody>
+            </table>
+            </td>
+        </tr>
+       <tr>
+              <td align="center" valign="middle" style="padding-bottom: 38px; border-bottom: 1px solid #f1f1f1">
+                <a href="https://{{_accountInfo.AccountName}}.com.br?{{addToCartURL}}" target="_blank" style="margin-top: 40px; display: inline-block; text-decoration: none">
+                  <button style="
+                                  width: 376px;
+                                  height: 50px;
+                                  border-radius: 2px;
+                                  background: #000;
+                                  color: #fff;
+                                  border: none;
+                                  font-weight: bold;
+                                  font-size: 14px;
+                                  line-height: 24px;
+                                  cursor: pointer;
+                                ">
+                    REFAZER PEDIDO
+                  </button>
+                </a>
+              </td>
+       </tr>
+  
+        <!-- partial:partials/view/_footer.hbs -->
+        <!-- partial -->
+    </tbody>
+  </table>
+</body>
+
+</html>

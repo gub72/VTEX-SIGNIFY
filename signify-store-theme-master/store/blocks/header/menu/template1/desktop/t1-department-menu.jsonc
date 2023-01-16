@@ -1,0 +1,20 @@
+{
+  "vtex.menu@2.x:menu#t1-header": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "orientation": "horizontal",
+
+      "blockClass": "t1-header",
+      "itemProps": {
+        "activeClassName": "active"
+      }
+    },
+    "children": [
+      "menu-item#t1-department-slot-1",
+      "menu-item#t1-department-slot-2",
+      "menu-item#t1-department-slot-3",
+      "menu-item#t1-department-slot-4",
+      "menu-item#t1-department-slot-5"
+    ]
+  }
+}

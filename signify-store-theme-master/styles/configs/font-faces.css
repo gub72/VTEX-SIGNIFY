@@ -1,0 +1,14 @@
+/*
+
+Exemplo de Importação de Fonte 
+
+  @font-face {
+    font-family: "Gotham Extra";
+    src: url("assets/fonts/Gotham-ExtraLightItalic.woff2") format("woff2"),
+      url("assets/fonts/Gotham-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+
+*/

@@ -1,0 +1,175 @@
+{
+  "footer": {
+    "title": "# Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "imageUrl": "assets/svg/icon-facebook.svg",
+          "name": "Facebook",
+          "url": "#"
+        },
+        {
+          "imageUrl": "assets/svg/icon-twitter.svg",
+          "name": "Twitter",
+          "url": "#"
+        },
+        {
+          "imageUrl": "assets/svg/icon-instagram.svg",
+          "name": "Instagram",
+          "url": "#"
+        }
+      ]
+    }
+  },
+
+  /* Flags Payments*/
+  "image#footer-flag-1": {
+    "props": {
+      "src": "assets/images/ico-boleto.png",
+      "blockClass": ["payments", "footer-flag-1"]
+    }
+  },
+
+  "image#footer-flag-2": {
+    "props": {
+      "src": "assets/images/ico-visa.png",
+      "blockClass": ["payments", "footer-flag-2"]
+    }
+  },
+
+  "image#footer-flag-3": {
+    "props": {
+      "src": "assets/images/ico-master.png",
+      "blockClass": ["payments", "footer-flag-3"]
+    }
+  },
+  "image#footer-flag-4": {
+    "props": {
+      "src": "assets/images/ico-american.png",
+      "blockClass": ["payments", "footer-flag-4"]
+    }
+  },
+
+  "image#footer-flag-5": {
+    "props": {
+      "src": "assets/images/ico-elo.png",
+      "blockClass": ["payments", "footer-flag-5"]
+    }
+  },
+
+  "image#footer-flag-6": {
+    "props": {
+      "src": "assets/images/icon-clearsale.png",
+      "blockClass": ["payments", "footer-flag-6"]
+    }
+  },
+
+  "image#footer-brand-1": {
+    "props": {
+      "src": "assets/svg/logo-footer.svg",
+      "blockClass": ["logo"]
+    }
+  },
+
+  "rich-text#footer-address": {
+    "props": {
+      "text": "© Copyright 2021 - Marca Brasil | A Marca é operada na Av. Magalhães de Castro, 4800 - Jardim Panorama do Oeste, São Paulo - SP, 05679-010 | (11) 2108-4463. A loja online Marca é operada pela \n \n Infracommerce Negócios e Soluções em Internet Ltda. CNPJ 15.427.207/0001-14 - Av. Doutor Cardoso De Melo, 1855,15 andar Conjunto 151, Jardim Paulistano - 04548-005 - São Paulo/SP.",
+      "blockClass": ["footer-address"]
+    }
+  },
+
+  "link#phone-footer": {
+    "props": {
+      "href": "tel:(21) XXXX-XXXXX",
+      "label": "(21) XXXX-XXXXX",
+      "displayMode": "link",
+      "blockClass": "phone-footer"
+    }
+  },
+
+  "rich-text#footer-title-col-1": {
+    "props": {
+      "text": "Titulo",
+      "blockClass": "footer-title",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#footer-title-col-2": {
+    "props": {
+      "text": "Titulo",
+      "blockClass": "footer-title",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#footer-title-col-3": {
+    "props": {
+      "text": "Titulo",
+      "blockClass": "footer-title",
+      "font": "t-heading-5"
+    }
+  },
+
+  "rich-text#footer-title-rede-social": {
+    "props": {
+      "text": "###### Rede Social",
+      "blockClass": "footer-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+  "rich-text#footer-copyright": {
+    "props": {
+      "text": "2021 InfraCommerce. All rights reserved",
+      "blockClass": "footer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "image#footer-image-01": {
+    "props": {
+      // "src": "assets/svg/icon-certificado.svg",
+      "maxHeight": "31px"
+    }
+  },
+  "image#footer-image-02": {
+    "props": {
+      //  "src": "assets/svg/icon-vtex.svg",
+      "maxHeight": "31px"
+    }
+  },
+  "image#footer-image-03": {
+    "props": {
+      // "src": "assets/svg/icon-ed3.svg",
+      "maxHeight": "31px"
+    }
+  },
+
+  "rich-text#footer-newsletter": {
+    "props": {
+      "text": "Cadastre-se e fique por dentro das novidades",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "footer-newsletter--title"
+    }
+  },
+
+  // mobile
+
+  "image#float-whatsapp": {
+    "props": {
+      //  "src": "assets/svg/icon-whatsapp--floating.svg",
+      "width": 50,
+      "height": 45,
+      "title": "Pergunte via whatsapp",
+      "link": "############",
+      "blockClass": "float-whatsapp"
+    }
+  }
+}

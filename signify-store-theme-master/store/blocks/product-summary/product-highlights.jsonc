@@ -1,0 +1,67 @@
+{
+  "vtex.product-highlights@2.x:product-highlights#promo": {
+    "title": "Flag Promoção",
+    "props": {
+      "type": "promotion"
+    },
+    "children": ["product-highlight-wrapper#promo"]
+  },
+
+  "product-highlight-wrapper#promo": {
+    "props": {
+      "blockClass": "promo"
+    },
+    "children": [
+      //"product-highlight-text#promo"
+      "image#40porcento"
+    ]
+  },
+
+  "product-highlight-text#promo": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "promotion"
+    }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "title": "Flag Coleção",
+    "props": {
+      "type": "collection",
+      "blockClass": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["teste 2601"]
+      }
+    },
+    "children": ["product-highlight-wrapper#collection"]
+  },
+
+  "product-highlight-wrapper#collection": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["image#flag-novo"]
+  },
+
+  "image#flag-novo": {
+    "props": {
+      "src": "assets/images/flag-novo.png",
+      "blockClass": "collection",
+      "title": "novo"
+    }
+  },
+  "image#40porcento": {
+    "props": {
+      "src": "assets/images/40%OFF.png",
+      "blockClass": "collection",
+      "title": "40%OFF"
+    }
+  },
+
+  "product-highlight-text#collection": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}

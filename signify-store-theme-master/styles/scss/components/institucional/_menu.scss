@@ -1,0 +1,42 @@
+.menuContainerNav--institucional-list-order,
+.menuContainerNav--institucional-list {
+  margin: 0 0 0 20px;
+  padding: 0;
+  width: 100%;
+  max-width: 20%;
+  float: left;
+  .menuItem {
+    list-style: none;
+    position: relative;
+
+    .styledLinkContainer {
+      margin: 0;
+    }
+    &::marker {
+      color: $primary;
+    }
+    &::before {
+      content: "•";
+      font-size: 20px;
+      color: $primary;
+      position: absolute;
+      top: 1px;
+      left: -15px;
+    }
+    .link {
+      color: $gray-2;
+      text-decoration: none;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}
+.menuContainerNav--institucional-list-order {
+  .menuItem {
+    list-style: decimal;
+    &::before {
+      display: none;
+    }
+  }
+}

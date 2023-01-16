@@ -1,0 +1,147 @@
+@import "variables/all";
+
+@import "./components/product/store-components";
+
+@import "./components/newsletter/store-components";
+
+@import "./components/home/store-components";
+
+@import "./components/home/info-cards/store-components";
+
+@import "./components/header/store-components";
+
+@import "./components/header/search/store-components";
+
+@import "./components/footer/mobile/store-components";
+
+.container {
+  max-width: $xxl;
+}
+
+.notificationBarContainer {
+  background-color: $gray-4;
+  color: $black;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: $gray-4;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: $gray-2;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: $white;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: $white;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: $white;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: $white;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: $white;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: $gray-1;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+  text-transform: capitalize;
+}
+.productBrandContainer {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: $gray-1;
+  font-weight: bold;
+}
+
+.container .header-pitchbar-container {
+  padding: 0 !important;
+}

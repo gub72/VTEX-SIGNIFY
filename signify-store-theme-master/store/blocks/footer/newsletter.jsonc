@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#newsletter": {
+    "title": "# Footer - Newsletter",
+    "children": ["flex-layout.col#newsletter"],
+    "props": {
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "blockClass": "newsletter-row",
+      "marginTop": 8
+    }
+  },
+
+  "flex-layout.col#newsletter": {
+    "children": ["rich-text#newsletter-title", "newsletter-form#newsletter"],
+    "props": {
+      //"preventVerticalStretch": true,
+      //"horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "blockClass": "newsletter-col"
+    }
+  },
+
+  "newsletter-form#newsletter": {
+    "props": {
+      "blockClass": "newsletter-form"
+    },
+    "children": [
+      "newsletter-input-name#footer",
+      "newsletter-input-email#footer",
+      "newsletter-submit#footer"
+    ]
+  },
+
+  "newsletter-input-email#footer": {
+    "props": {
+      "placeholderText": "Seu Email"
+    }
+  },
+  "newsletter-input-name#footer": {
+    "props": {
+      "placeholderText": "Seu Nome"
+    }
+  },
+  "newsletter-submit#footer": {
+    "props": {
+      "submitButtonLabel": "Enviar"
+    }
+  },
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "Receba nossas novidades",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "newsletter-title"
+    }
+  }
+}

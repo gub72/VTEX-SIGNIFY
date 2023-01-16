@@ -1,0 +1,48 @@
+{
+  // Banner grid
+  "flex-layout.row#banner-grid": {
+    "title": "# Banner Grid Home",
+    "children": ["list-context.image-list#home-banner-grid"],
+    "props": {
+      "marginBottom": 8,
+      "blockClass": "fl-banner-grid"
+    }
+  },
+
+  "list-context.image-list#home-banner-grid": {
+    "children": ["slider-layout#banner-grid"],
+    "props": {
+      "blockClass": "banner-grid",
+      "images": [
+        {
+          "image": "assets/images/mocks/1110x340.png",
+          "mobileImage": "assets/images/mocks/340x140.png",
+          "description": "Loren Ipsun"
+        },
+        {
+          "image": "assets/images/mocks/540x400.png",
+          "mobileImage": "assets/images/mocks/320x230.png",
+          "description": "Loren Ipsun"
+        },
+        {
+          "image": "assets/images/mocks/540x400.png",
+          "mobileImage": "assets/images/mocks/320x230.png",
+          "description": "Loren Ipsun"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#banner-grid": {
+    "props": {
+      "showPaginationDots": "never",
+      "blockClass": "banner-grid",
+      "itemsPerPage": {
+        "desktop": 20,
+        "tablet": 20,
+        "phone": 20
+      },
+      "infinite": true
+    }
+  }
+}

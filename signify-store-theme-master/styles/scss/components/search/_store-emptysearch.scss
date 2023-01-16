@@ -1,0 +1,52 @@
+:global(.vtex-search-result-3-x-notFound--layout) {
+  @media only screen and (min-width: 967px) {
+    max-width: 1366px;
+  }
+  margin: 0 auto;
+
+  :global(.vtex-breadcrumb-1-x-container) {
+    @media only screen and (max-width: 768px) {
+      margin-left: 20px;
+    }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+    position: relative;
+  }
+
+  :global(.vtex-store-components-3-x-imageElement--empty-search-icon) {
+    margin-top: 100px;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--es-title) {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    padding: 0;
+    margin: 35px 0 0px;
+    color: $black;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--es-title-small) {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  :global(.vtex-store-components-3-x-autoCompleteOuterContainer--not-found-search) {
+    width: 520px;
+    margin-bottom: 100px;
+
+    @media only screen and (max-width: 768px) {
+      width: 320px !important;
+    }
+  }
+
+  :global(.vtex-input__suffix) {
+    @media only screen and (max-width: 768px) {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}

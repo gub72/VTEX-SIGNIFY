@@ -1,0 +1,19 @@
+.styledLinkContainer--header-favoritos {
+  margin-top: 4px;
+
+  @media only screen and (max-width: 768px) {
+    margin: 0px 10px;
+  }
+}
+
+.styledLinkContent--header-favoritos {
+  &::before {
+    content: url("assets/images/wishlist.png");
+  }
+
+  @media only screen and (max-width: 768px) {
+    &::before {
+      content: url("assets/images/wishlist-mobile.png");
+    }
+  }
+}

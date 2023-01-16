@@ -1,0 +1,9 @@
+.flexRowContent--home-infocards-container {
+  max-width: $mw-container;
+  margin: 0 auto;
+}
+
+.flexCol--home-infocards-cards {
+  display: flex;
+  align-items: center;
+}

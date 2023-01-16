@@ -1,0 +1,33 @@
+{
+  "userEmail": "johndoe@infracommerce.com.br",
+  "userName": "John Doe",
+  "domain": "ioinfracommerce.vtexcommercestable.com.br/admin/login?flow=changePswd&email=mastervtex@synapcom.com.br&returnUrl=%2Fadmin%2F",
+  "_accountInfo": {
+    "MainAccountName": "ioinfracommerce",
+    "AccountName": "ioinfracommerce",
+    "Cnpj": null,
+    "Id": "2c26db0e-e2d3-4201-a7a7-38ab63dbe06d",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-02-23T18:49:13.5824649Z",
+    "OperationDate": null,
+    "CompanyName": "InfraCommerce Do Brasil Ltda",
+    "TradingName": "InfraCommerce - BR",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

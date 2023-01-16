@@ -1,0 +1,17 @@
+@import "./variables/all";
+
+@import "./components/footer/desktop/store-footer";
+
+@import "./components/footer/mobile/store-footer";
+
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}

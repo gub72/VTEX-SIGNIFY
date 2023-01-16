@@ -1,0 +1,176 @@
+{
+  "store.custom#faq": {
+    "children": ["flex-layout.row#faq-container"],
+    "props": {
+      "blockClass": "faq"
+    }
+  },
+
+  "flex-layout.row#faq-container": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#faq-container"]
+  },
+
+  "flex-layout.col#faq-container": {
+    "children": ["rich-text#faq", "disclosure-layout-group#faq-group"]
+  },
+  "rich-text#faq": {
+    "props": {
+      "text": "## FAQ"
+    }
+  },
+
+  "disclosure-layout-group#faq-group": {
+    "children": [
+      "disclosure-layout#faq-first",
+      "disclosure-layout#faq-second",
+      "disclosure-layout#faq-third",
+      "disclosure-layout#faq-fourth"
+    ]
+  },
+
+  "disclosure-layout#faq-first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#faq-first", "disclosure-content#faq-first"]
+  },
+  "disclosure-trigger#faq-first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator#faq", "rich-text#faq-question1"]
+  },
+  "disclosure-content#faq-first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-answer1"]
+  },
+  "rich-text#faq-question1": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#faq-answer1": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234."
+    }
+  },
+
+  "disclosure-layout#faq-second": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq-second",
+      "disclosure-content#faq-second"
+    ]
+  },
+  "disclosure-trigger#faq-second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#faq-question2"]
+  },
+  "disclosure-content#faq-second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-answer2"]
+  },
+  "rich-text#faq-question2": {
+    "props": {
+      "text": "How can I track my order?"
+    }
+  },
+  "rich-text#faq-answer2": {
+    "props": {
+      "text": "After logging into your account, you can find this info at the link Orders."
+    }
+  },
+
+  "disclosure-layout#faq-third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#faq-third", "disclosure-content#faq-third"]
+  },
+  "disclosure-trigger#faq-third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#faq-question3"]
+  },
+  "disclosure-content#faq-third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-answer3"]
+  },
+  "rich-text#faq-question3": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#faq-answer3": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234."
+    }
+  },
+
+  "disclosure-layout#faq-fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#faq-fourth",
+      "disclosure-content#faq-fourth"
+    ]
+  },
+  "disclosure-trigger#faq-fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#faq-question4"]
+  },
+  "disclosure-content#faq-fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#faq-answer4"]
+  },
+  "rich-text#faq-question4": {
+    "props": {
+      "text": "How can I track my order?"
+    }
+  },
+  "rich-text#faq-answer4": {
+    "props": {
+      "text": "After logging into your account, you can find this info at the link Orders."
+    }
+  },
+
+  "disclosure-state-indicator#faq": {
+    "props": {
+      "Show": "icon-caret#faq-down",
+      "Hide": "icon-caret#faq-up"
+    }
+  },
+  "icon-caret#faq-down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#faq-up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

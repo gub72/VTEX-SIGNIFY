@@ -1,0 +1,42 @@
+.buytogether {
+}
+
+@media (max-width: 768px) {
+  .buytogether__Container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .BuyTogether__Buttom {
+    width: 90vw;
+  }
+}
+
+.buyTogether__Price--listprice,
+.buyTogether-Total__value {
+  color: #f1b51c;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.buyTogether__Price--bestprice {
+  color: #f1b51c;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: line-through;
+}
+
+.buyTogether__Image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-height: 300px;
+}
+
+.buyTogether__Signal {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}

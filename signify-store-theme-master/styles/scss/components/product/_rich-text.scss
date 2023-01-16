@@ -1,0 +1,60 @@
+.wrapper {
+}
+.heading {
+  &--title404 {
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 16px;
+    padding: 20px;
+    margin: 0;
+    color: $primary;
+
+    @media (min-width: 100px) and(max-width:1024px) {
+      font-size: 100px !important;
+    }
+    @media (min-width: 1025px) {
+      font-size: 150px !important;
+    }
+  }
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  &--notFoundShelfTitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    color: $gray-1;
+  }
+  &--descriptionNotFound {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+
+    color: $negative-darkest;
+    width: 100%;
+
+    @media (max-width: 499px) {
+      max-width: 290px;
+    }
+    @media (max-width: 499px) and (min-width: 1024px) {
+      max-width: 500px;
+    }
+    @media (min-width: 1025px) {
+      max-width: 540px;
+    }
+  }
+}
+
+.container {
+  &--notFoundShelfTitle {
+    margin: 1rem 0;
+  }
+  &--title404 {
+    margin-top: 1.5rem;
+  }
+}

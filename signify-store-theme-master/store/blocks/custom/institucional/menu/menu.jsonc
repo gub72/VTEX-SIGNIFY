@@ -1,0 +1,79 @@
+{
+  // menu aside
+  "vtex.menu@2.x:menu#menu__institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "institucional__menu-container"
+    },
+    "children": [
+      "menu-item#menu__institucional-item-1",
+      "menu-item#menu__institucional-item-2",
+      "menu-item#menu__institucional-item-3",
+      "menu-item#menu__institucional-item-4"
+    ]
+  },
+  "menu-item#menu__institucional-item-1": {
+    "props": {
+      "id": "menu-item-institucional",
+      "blockClass": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lorem ipsum 1",
+        "text": "Lorem ipsum 1"
+      }
+    }
+  },
+  "menu-item#menu__institucional-item-2": {
+    "props": {
+      "id": "menu-item-institucional",
+      "blockClass": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lorem ipsum 2",
+        "text": "Lorem ipsum 2"
+      }
+    }
+  },
+  "menu-item#menu__institucional-item-3": {
+    "props": {
+      "id": "menu-item-institucional",
+      "blockClass": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lorem ipsum 3",
+        "text": "Lorem ipsum 3"
+      }
+    }
+  },
+  "menu-item#menu__institucional-item-4": {
+    "props": {
+      "id": "menu-item-institucional",
+      "blockClass": "menu-item-institucional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Lorem ipsum 4",
+        "text": "Lorem ipsum 4"
+      }
+    }
+  }
+}

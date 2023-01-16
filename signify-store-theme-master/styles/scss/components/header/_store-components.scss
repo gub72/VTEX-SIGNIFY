@@ -1,0 +1,32 @@
+// SEARCH
+.searchBarContainer {
+  max-width: 270px;
+  margin: 0 auto;
+
+  :global(.vtex-styleguide-9-x-input) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    // padding: 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.autoCompleteOuterContainer {
+  :global(.vtex-input-prefix__group) {
+    flex-direction: row-reverse;
+    border-radius: 0;
+  }
+
+  :global(.vtex-input__suffix)::after {
+    content: " ";
+    position: absolute;
+    border-left: 1px$gray-4 solid;
+    top: 8px;
+    left: 18%;
+    height: 60%;
+    margin-top: auto;
+  }
+}

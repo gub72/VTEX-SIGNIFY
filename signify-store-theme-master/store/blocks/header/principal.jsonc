@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "header-principal"
+    },
+    "children": [
+      "flex-layout.col#search-desktop",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#headerLinks"
+    ]
+  },
+
+  "flex-layout.col#search-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left"
+    },
+    "children": ["search-bar"]
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["logo#desk"]
+  },
+
+  "logo#desk": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/logo.png",
+      "width": 180
+    }
+  },
+
+  "flex-layout.col#headerLinks": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "blockClass": "headerLinks"
+    },
+    "children": ["flex-layout.row#headerLinks"]
+  },
+
+  "flex-layout.row#headerLinks": {
+    "children": [
+      "flex-layout.col#login",
+      "vtex.menu@2.x:menu#user-options",
+      "flex-layout.col#minicart"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+
+  "flex-layout.col#login": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "blockClass": "button-login"
+    },
+    "children": ["login"]
+  },
+
+  "vtex.menu@2.x:menu#user-options": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#favoritos"]
+  },
+
+  "menu-item#favoritos": {
+    "props": {
+      "id": "favoritos",
+      "blockClass": "header-favoritos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Favoritos",
+        "text": ""
+      }
+    }
+  }
+}

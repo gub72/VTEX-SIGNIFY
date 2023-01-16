@@ -1,0 +1,410 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Camisa Extra-Slim Fi...",
+        "totalItems": 1
+      },
+      "cancellationReason": null,
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/6/54/140/",
+            "productClusterId": "141,149,150,152",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.7083,
+              "height": 50,
+              "length": 34,
+              "weight": 250,
+              "width": 2
+            },
+            "brandName": "HUGO",
+            "brandId": "2000001",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "106",
+          "priceTable": null,
+          "priceValidUntil": "2023-07-20T14:42:04Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:hugobossstore:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/106",
+          "uniqueId": "343277C97D6A49FC8C247CD948E32D6F",
+          "id": "106",
+          "productId": "24",
+          "productRefId": "50463497001",
+          "refId": "4037555408001",
+          "ean": "4037555408001",
+          "name": "Camisa Extra-Slim Fit De Algodão Estampada Black - 41",
+          "skuName": "Black - 41",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 30000,
+          "listPrice": 30000,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 30000,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/1/6/54/140/",
+          "productCategories": {
+            "1": "Masculino",
+            "6": "Roupas",
+            "54": "Camisas",
+            "140": "Camisa Social"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "http://hugobossstore.vteximg.com.br/arquivos/product-fake.png",
+          "detailUrl": "/camisa-extra-slim-fit-de-algodao-estampada-50463497001/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 30000,
+            "total": 30000,
+            "sellingPrices": [
+              {
+                "value": 30000,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hugobossstore",
+          "id": "1",
+          "name": "InfraCommerce - BR",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "12cca177c02146a79c247207346f51cd",
+      "sequence": "500005",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "8ff36abf-d3c7-4f51-bb46-239db7aecd24",
+      "hostName": "hugobossstore",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1248152778766-01",
+      "orderGroup": "1248152778766",
+      "state": "payment-pending",
+      "isCheckedIn": false,
+      "sellerOrderId": "00-1248152778766-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 31129,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "Total dos Itens",
+          "value": 30000
+        },
+        {
+          "id": "Discounts",
+          "name": "Total dos Descontos",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "Total do Frete",
+          "value": 1129
+        },
+        {
+          "id": "Tax",
+          "name": "Total da Taxa",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "d07b77cab67a4c448d65688e73578698@ct.vtex.com.br",
+        "firstName": "John",
+        "lastName": "Doo",
+        "document": "01234567890",
+        "documentType": "cpf",
+        "phone": "+551111111111",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": "",
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": false,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "residential",
+          "receiverName": "John Doe",
+          "addressId": "4974984693816",
+          "isDisposable": false,
+          "postalCode": "03283-110",
+          "city": "São Paulo",
+          "state": "SP",
+          "country": "BRA",
+          "street": "Rua Conde Amadeu Barbelini",
+          "number": "0",
+          "neighborhood": "Vila Ema",
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": [-46.5421142578125, -23.587879180908203]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "NORMAL",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "4974984693816",
+            "slas": [
+              {
+                "id": "NORMAL",
+                "deliveryChannel": "delivery",
+                "name": "NORMAL",
+                "deliveryIds": [
+                  {
+                    "courierId": "103ae88",
+                    "warehouseId": "12b96c2",
+                    "dockId": "154138c",
+                    "courierName": "LOGGI",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": null,
+                "lockTTL": "12d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 1129,
+                "listPrice": 1129,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": 0,
+                "polygonName": "",
+                "transitTime": "2bd"
+              }
+            ],
+            "shipsTo": ["BRA"],
+            "itemId": "106",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "John Doe",
+            "addressId": "4974984693816",
+            "isDisposable": false,
+            "postalCode": "03283-110",
+            "city": "São Paulo",
+            "state": "SP",
+            "country": "BRA",
+            "street": "Rua Conde Amadeu Barbelini",
+            "number": "0",
+            "neighborhood": "Vila Ema",
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [-46.5421142578125, -23.587879180908203]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "John Doe",
+            "addressId": "4974984693816",
+            "isDisposable": false,
+            "postalCode": "03283-110",
+            "city": "São Paulo",
+            "state": "SP",
+            "country": "BRA",
+            "street": "Rua Conde Amadeu Barbelini",
+            "number": "0",
+            "neighborhood": "Vila Ema",
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": [-46.5421142578125, -23.587879180908203]
+          }
+        ],
+        "pickupPoints": []
+      },
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "9855F7D1967E4948BBB7A6D75CF60D22",
+            "merchantName": "HUGOBOSSSTORE",
+            "payments": [
+              {
+                "id": "C67C116AC7B0492E9AF55EECD035D53E",
+                "paymentSystem": "6",
+                "paymentSystemName": "Mastercard",
+                "value": 31129,
+                "installments": 1,
+                "connectorResponses": {
+                  "Tid": "752334826",
+                  "ReturnCode": null,
+                  "Message": null,
+                  "nsu": "752334826",
+                  "acquirer": "pagarme"
+                },
+                "referenceValue": 31129,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": "https://api.pagar.me/1/boletos/live_cl5tpwhzes58x0tm5uy0jfuak",
+                "koinUrl": null,
+                "tid": "752334826",
+                "redemptionCode": null,
+                "giftCardId": null,
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "group": "bankInvoice",
+                "dueDate": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": "23791229286001082174672000046903490590000031129",
+                "bankIssuedInvoiceIdentificationNumberFormatted": "23791.22928 60010.821746 72000.046903 4 90590000031129",
+                "bankIssuedInvoiceBarCodeNumber": "23791229286001082174672000046903490590000031129",
+                "bankIssuedInvoiceBarCodeType": "i25",
+                "billingAddress": null
+              }
+            ],
+            "sharedTransaction": false
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "pt-BR",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "BRA",
+        "saveUserData": false,
+        "timeZone": "E. South America Standard Time",
+        "currencyCode": "BRL",
+        "currencyLocale": 1046,
+        "currencySymbol": "R$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "invoiceData": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": null,
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "7996f0f5b7d644948a691634d4b661e9@ct.vtex.com.br",
+      "creationDate": "2022-07-20T14:46:16.7711828Z",
+      "lastChange": "2022-07-20T14:46:26.1451762Z",
+      "timeZoneCreationDate": "2022-07-20T11:46:16.7711828",
+      "timeZoneLastChange": "2022-07-20T11:46:26.1451762",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://orderplaced--hugobossstore.myvtex.com/account#/orders",
+  "orderGroup": "1248152778766",
+  "subjectItemAttachment": {
+    "item": "Camisa Extra-Slim Fi...",
+    "totalItems": 1
+  },
+  "split": false,
+  "totalValue": 31129,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "hugobossstore",
+    "AccountName": "hugobossstore",
+    "Cnpj": null,
+    "Id": "2c26db0e-e2d3-4201-a7a7-38ab63dbe06d",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-02-23T18:49:13.5824649Z",
+    "OperationDate": null,
+    "CompanyName": "InfraCommerce Do Brasil Ltda",
+    "TradingName": "InfraCommerce - BR",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

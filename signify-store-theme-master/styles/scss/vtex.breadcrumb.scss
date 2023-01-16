@@ -1,0 +1,31 @@
+@import "./variables/all";
+
+.home {
+  &Link {
+    padding-left: 0;
+
+    &::before {
+      content: "Home";
+      display: block;
+      color: $primary;
+      font-weight: 700;
+    }
+  }
+
+  &Icon {
+    display: none;
+  }
+}
+.link,
+.term,
+.homeLink {
+  font-size: 11px;
+  color: $gray-2;
+}
+
+.arrow {
+  padding: 0;
+}
+.caretIcon {
+  display: none;
+}

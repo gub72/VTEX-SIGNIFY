@@ -1,0 +1,38 @@
+@import "./colors";
+
+$color: $primary;
+
+$stroke-width: 3px;
+$size: 102px;
+
+@keyframes icon {
+  50% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  75% {
+    fill: transparent;
+    stroke-width: $stroke-width;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: $color;
+    stroke-width: 0px;
+  }
+}
+
+@keyframes text {
+  50% {
+    fill: transparent;
+  }
+  75% {
+    fill: transparent;
+    stroke-dashoffset: 0;
+    stroke-width: $stroke-width;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: $color;
+    stroke-width: 0px;
+  }
+}

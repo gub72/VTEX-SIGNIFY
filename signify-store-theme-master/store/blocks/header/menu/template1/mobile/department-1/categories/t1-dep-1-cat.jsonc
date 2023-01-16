@@ -1,0 +1,162 @@
+{
+    "flex-layout.row#t1-dep-1": {
+        "props": {
+            "blockClass": ["t1-department", "t1-dep-1"]
+        },
+        "children": ["flex-layout.col#t1-dep-1-cat-1"]
+    },
+
+    "flex-layout.col#t1-dep-1-cat-1": {
+        "props": {
+            "blockClass": ["t1-category", "t1-dep-1-cat-1"]
+        },
+
+        "children": ["rich-text#t1-dep-1-cat", "vtex.menu@2.x:menu#t1-dep-1"]
+    },
+
+    "rich-text#t1-dep-1-cat": {
+        "props": {
+            "text": "Departamento 1",
+            "blockClass": ["t1-department", "t1-dep-1"],
+            "font": "t-heading-5",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "vtex.menu@2.x:menu#t1-dep-1": {
+        "children": [
+            "menu-item#t1-dep-1-cat-1",
+            "menu-item#t1-dep-1-cat-2",
+            "menu-item#t1-dep-1-cat-3",
+            "menu-item#t1-dep-1-cat-4",
+            "menu-item#t1-dep-1-cat-5"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "t1-dep-1"
+        }
+    },
+
+    //==================== ITEMS
+
+    // CATEGORY 1
+
+    "menu-item#t1-dep-1-cat-1": {
+        "props": {
+            "id": "t1-dep-1-cat-1",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["t1-category", "t1-dep-1-cat-1"],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "t1-dep-1-cat-1",
+                "text": "D1 - Category 1",
+                "href": "#"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-1"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-1": {
+        "children": ["vtex.menu@2.x:menu#t1-dep-1-cat-1-sub"]
+    },
+
+    // CATEGORY 2
+
+    "menu-item#t1-dep-1-cat-2": {
+        "props": {
+            "id": "t1-dep-1-cat-2",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["t1-category", "t1-dep-1-cat-2"],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "t1-dep-1-cat-2",
+                "text": "D1 - Category 2",
+                "href": "#"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-2"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-2": {
+        "children": ["vtex.menu@2.x:menu#t1-dep-1-cat-2-sub"]
+    },
+
+    // CATEGORY 3
+
+    "menu-item#t1-dep-1-cat-3": {
+        "props": {
+            "id": "t1-dep-1-cat-3",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["t1-category", "t1-dep-1-cat-3"],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "t1-dep-1-cat-3",
+                "text": "D1 - Category 3",
+                "href": "#"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-3"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-3": {
+        "children": ["vtex.menu@2.x:menu#t1-dep-1-cat-3-sub"]
+    },
+
+    // CATEGORY 4
+
+    "menu-item#t1-dep-1-cat-4": {
+        "props": {
+            "id": "t1-dep-1-cat-4",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["t1-category", "t1-dep-1-cat-4"],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "t1-dep-1-cat-4",
+                "text": "D1 - Category 4",
+                "href": "#"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-4"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-4": {
+        "children": ["vtex.menu@2.x:menu#t1-dep-1-cat-4-sub"]
+    },
+
+    // CATEGORY 4
+
+    "menu-item#t1-dep-1-cat-5": {
+        "props": {
+            "id": "t1-dep-1-cat-5",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": ["t1-category", "t1-dep-1-cat-5"],
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "t1-dep-1-cat-5",
+                "text": "D1 - Category 5",
+                "href": "#"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-5"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#t1-dep-1-cat-5": {
+        "children": ["vtex.menu@2.x:menu#t1-dep-1-cat-5-sub"]
+    }
+}

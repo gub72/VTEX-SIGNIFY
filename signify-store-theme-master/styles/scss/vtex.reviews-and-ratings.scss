@@ -1,0 +1,19 @@
+@import "./variables/all";
+
+.container {
+  max-width: 96rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.inlineContainer {
+  margin-left: 0rem;
+}
+
+.star--filled {
+  color: $primary;
+}
+
+.star--empty {
+  color: $white;
+}

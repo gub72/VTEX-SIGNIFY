@@ -1,0 +1,28 @@
+.custom-breadcumb-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.custom-breadcumb-container svg {
+  width: 20px;
+  height: 12px;
+}
+
+.custom-breadcumb-container .custom-breadcumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  color: #83817f;
+  font-size: 14px;
+}
+
+.custom-breadcumb-container .custom-breadcumb span {
+  display: flex;
+}
+
+.custom-breadcumb-container .custom-breadcumb a {
+  color: #83817f;
+  text-decoration: none;
+}

@@ -1,0 +1,101 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "props": {
+      "blockClass": "header"
+    },
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop",
+      "header-row#4-desktop"
+    ]
+  },
+
+  "header-row#1-desktop": {
+    "title": "# [Header Desk] - PitchBar",
+    "children": ["flex-layout.row#pitchbar"],
+    "props": {
+      "blockClass": "1-desktop",
+      "sticky": true
+    }
+  },
+
+  "header-row#2-desktop": {
+    "title": "# [Header Desk] - Principal",
+    "children": ["flex-layout.row#1-desktop"],
+    "props": {
+      "blockClass": "2-desktop",
+      "sticky": true,
+      "fullWidth": false
+    }
+  },
+
+  "header-row#3-desktop": {
+    "title": "# [Header Desk] - Menu",
+    "children": ["flex-layout.row#2-desktop"],
+    "props": {
+      "blockClass": "3-desktop",
+      //"sticky": true,
+      "fullWidth": false
+      //"zIndex": 1
+    }
+  },
+
+  "header-row#4-desktop": {
+    "title": "# [Header Desk] - Modal Newsletter",
+    "children": ["flex-layout.row#desktop-newsletter"],
+    "props": {
+      "blockClass": "4-desktop",
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center"
+    },
+    "children": ["vtex.menu@2.x:menu#t1-header"]
+  },
+
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "iconClasses": "icon-search",
+      "placeholder": "O que você está procurando?",
+      // "maxWidth": 400,
+      "emptyPlaceholder": "Nenhum resultado encotrado!",
+      "autocompleteAlignment": "left",
+      "displayMode": "search-button",
+      "openAutocompleteOnFocus": true,
+      "autocompleteFullWidth": false
+      //"hasIconLeft": true
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Olá! Faça login ou cadastre-se",
+      "hasGoogleOneTap": true,
+      "showPasswordVerificationIntoTooltip": true,
+      "mirrorTooltipToRight": false
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

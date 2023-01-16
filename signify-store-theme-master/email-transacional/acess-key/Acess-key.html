@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>{{_accountInfo.TradingName}}</title>
+  <style type="text/css">
+    p {
+      font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body marginwidth="0" marginheight="0" bgcolor="#fff" style="padding:0px 0px;color:#333;" leftmargin="0" topmargin="0">
+  <table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" align="left" valign="top">
+    <tbody>
+      <tr>
+        <td align="center" valign="top">
+          <table width="100%" style="max-width: 32rem;" align="center" cellpadding="0" cellspacing="0" border="0"
+            valign="top">
+            <tbody>
+              <tr>
+                <td>
+                  <div>
+                    <div style="background-color: #F1F1F1; padding: 40px; display: flex; justify-content: center;">
+                      <img style="width: 165px;height: auto"
+                        src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email-2.png?v=1" width="77px"
+                        height="28px" style="display:block;outline:none;border:none;text-decoration:none"
+                        class="CToWUd">
+                    </div>
+                    {{#eq aditionalData.locale "pt-BR"}}
+                    <p style="margin-top:40px; font-weight: bold; font-size:16px;color:#3f3f40">
+                      Olá {{to.0.name}}.</p>
+                    <p style="font-size:16px;color:#3f3f40">
+                      Este é o código para acessar o site {{_accountInfo.CompanyName}}
+                    </p>
+                    <p
+                      style="width:200px;margin:0 auto;border-bottom:1px solid #828282;letter-spacing: 12px;display:flex;justify-content:center;color:#828282;font-size:30px;margin-top:70px;margin-bottom:2rem">
+                      <strong>{{aditionalData.accessKey}}</strong>
+                    </p>
+
+                    <p style="margin-bottom:40px;font-size:16px;color:#3f3f40">
+                      Para entrar na sua conta, basta inserir no formulário que ficou aberto no seu navegador.</p>
+                    <p style="margin-top:0px;font-size:16px;color:#3f3f40">
+                      Qualquer dúvida, pode falar com a gente através do email: email@loja.com.br ou do telefone: (11)
+                      9999-9999</p><br>
+                    <p style="margin-top:0px;font-size:16px;color:#3f3f40">
+                      Atenciosamente</p><br>
+                    <div>
+                      <img style="width: 150px;height:auto;"
+                        src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email-2.png?v=1" width="77px"
+                        height="28px" style="display:block;outline:none;border:none;text-decoration:none"
+                        class="CToWUd">
+                    </div>
+                    <div>
+                      <p style="margin-top:30px;font-size:16px;color:#3f3f40">
+                        email@email.com.br<br>0800 123 45678</p>
+                    </div>
+                    <div
+                      style="color:#e3e4e6;border-top:1px solid #e3e4e6;border-bottom:0px solid #e3e4e6;margin-bottom:2rem;margin-top:1rem">
+                    </div>
+                    <div style="flex-direction:column;align-items:center;display:flex; justify-content:center;">
+                      <p style="color:#686868;font-size:18px;font-weight: normal">Atendimento</p>
+                      <p style="color:#686868;font-size:24px">0000-0000</p>
+                      <p style="font-size:18px;color:#686868">Formas de Pagamento</p>
+                      <div style="display:flex;gap:12px;">
+                        <img src="https://ioinfracommerce.vteximg.com.br/arquivos/visa.png?v=1">
+                        <img src="https://ioinfracommerce.vteximg.com.br/arquivos/mastercard.png?v=1">
+                        <img src="https://ioinfracommerce.vteximg.com.br/arquivos/diners.png?v=1">
+                        <img src="https://ioinfracommerce.vteximg.com.br/arquivos/amex.png?v=1">
+                        <img src="https://ioinfracommerce.vteximg.com.br/arquivos/boleto.png?v=1">
+                      </div>
+                      <p style="margin:55px 0;font-size:15px;text-align:center;color:#686868">Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat. veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                      <img style="margin-bottom: 50px"
+                        src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email.png?v=1">
+                    </div>
+
+                    {{else eq aditionalData.locale "es-AR"}}
+                    <p style="font-size:24px;color:#25354d;margin-bottom:0px">
+                      <strong>Su clave de acceso es:</strong>
+                    </p>
+                    <p style="color:#dd1659;font-size:42px;margin-top:0px;margin-bottom:2rem">
+                      <strong>{{aditionalData.accessKey}}</strong>
+                    </p>
+                    <p style="font-size:16px;color:#3f3f40">
+                      Hola, {{to.0.name}},</p>
+                    <p style="font-size:16px;color:#3f3f40">
+                      Regrese a la página de login e ingrese el código de arriba para confirmar su
+                      identidad.
+                    </p>
+                    <p style="margin-bottom:0px;font-size:16px;color:#3f3f40">
+                      Atentamente,</p>
+                    <p style="margin-top:0px;font-size:16px;color:#3f3f40">
+                      Equipo VTEX</p><br>
+                    <div
+                      style="color:#e3e4e6;border-top:1px solid #e3e4e6;border-bottom:0px solid #e3e4e6;margin-bottom:2rem;margin-top:1rem">
+                    </div>
+                    <p style="font-size:12px;color:#727273;margin-top:.25rem;margin-bottom:0px">
+                      Hemos actualizado nuestro correo de envío de clave de acesso. <a
+                        href="https://help.vtex.com/announcements/nuevo-layout-en-el-e-mail-de-codigo-de-acesso--5h0Q4Bwps65m7BI2tPocnO"
+                        alt="Lea más" style="font-weight:bold;color:#3F3F40">Lea más</a>
+                    </p><br>
+                    <p style="font-size:12px;color:#727273;margin-bottom:0px">
+                      Este correo electrónico se envía automáticamente y no recibe respuestas.
+                    </p>
+                    <p style="font-size:12px;color:#727273;margin-top:.25rem;margin-bottom:0px">
+                      ¿Necesitas ayuda? <a href="https://help.vtex.com/?locale=es" alt="VTEX Help"
+                        style="font-weight:bold;color:#3F3F40">Contáctanos</a>
+                    </p><br>
+                    <p style="font-size:12px;color:#727273;margin-bottom:0px">
+                      © VTEX Praia de Botafogo, 300, 3º Andar, Botafogo, Rio de Janeiro, RJ,
+                      22250-040
+                    </p>
+                    {{else}}
+                    <p style="font-size:24px;color:#25354d;margin-bottom:0px">
+                      <strong>Your access code is:</strong>
+                    </p>
+                    <p style="color:#dd1659;font-size:42px;margin-top:0px;margin-bottom:2rem">
+                      <strong>{{aditionalData.accessKey}}</strong>
+                    </p>
+                    <p style="font-size:16px;color:#3f3f40">
+                      Hello, {{to.0.name}},</p>
+                    <p style="font-size:16px;color:#3f3f40">
+                      Please, return to the login page and insert the code above to verify your
+                      identity.
+                    </p>
+                    <p style="margin-bottom:0px;font-size:16px;color:#3f3f40">
+                      Best regards,</p>
+                    <p style="margin-top:0px;font-size:16px;color:#3f3f40">
+                      VTEX Team</p><br>
+                    <div
+                      style="color:#e3e4e6;border-top:1px solid #e3e4e6;border-bottom:0px solid #e3e4e6;margin-bottom:2rem;margin-top:1rem">
+                    </div>
+                    <p style="font-size:12px;color:#727273;margin-top:.25rem;margin-bottom:0px">
+                      We've updated our access code email. <a
+                        href="https://help.vtex.com/announcements/new-access-code-email-template--5h0Q4Bwps65m7BI2tPocnO"
+                        alt="Read more" style="font-weight:bold;color:#3F3F40">Read more</a>
+                    </p><br>
+                    <p style="font-size:12px;color:#727273;margin-bottom:0px">
+                      This email is automatically sent and doesn't receive responses.
+                    </p>
+                    <p style="font-size:12px;color:#727273;margin-top:.25rem;margin-bottom:0px">
+                      Need help? <a href="https://help.vtex.com/?locale=en" alt="VTEX Help"
+                        style="font-weight:bold;color:#3F3F40">Contact us</a>
+                    </p><br>
+                    <p style="font-size:12px;color:#727273;margin-bottom:0px">
+                      © VTEX Praia de Botafogo, 300, 3º Andar, Botafogo, Rio de Janeiro, RJ,
+                      22250-040
+                    </p>
+                    {{/eq}}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

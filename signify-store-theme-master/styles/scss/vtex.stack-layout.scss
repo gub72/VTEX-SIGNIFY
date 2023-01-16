@@ -1,0 +1,12 @@
+@import "./variables/all";
+
+@import "./components/home/shelf/stack-layout";
+
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  top: 0;
+  left: auto;
+}

@@ -1,0 +1,9 @@
+{
+  "image#banner-one": {
+    "props": {
+      "title": "Category image",
+      "src": "https://via.placeholder.com/1366x240",
+      "description": "Loren Ipsun"
+    }
+  }
+}

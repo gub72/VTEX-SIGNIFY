@@ -1,0 +1,39 @@
+{
+  "list-context.image-list#main-banner": {
+    "title": "# Banner Principal",
+    "children": ["slider-layout#main-banner"],
+    "props": {
+      "height": 400,
+      "images": [
+        {
+          "image": "assets/images/mocks/1366x400.png",
+          "mobileImage": "assets/images/mocks/320x320.png",
+          "link": "#"
+        },
+        {
+          "image": "assets/images/mocks/1366x400.png",
+          "mobileImage": "assets/images/mocks/320x320.png",
+          "link": "#"
+        },
+        {
+          "image": "assets/images/mocks/1366x400.png",
+          "mobileImage": "assets/images/mocks/320x320.png",
+          "link": "#"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#main-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "main-banner"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "userEmail": "ailsom@animale.com.br",
+  "userName": "Ailsom",
+  "domain": "lojafyi.vtexcommercestable.com.br/admin/login?flow=changePswd&email=ailsom@animale.com.br&returnUrl=%2Fadmin%2F",
+  "_accountInfo": {
+    "HostName": "lojafyi",
+    "MainAccountName": "lojafyi",
+    "IsPersisted": true,
+    "IsRemoved": false,
+    "Id": "1d74ae64-7a74-4e9c-921e-4b75ddddf849",
+    "Cnpj": "11111111111111",
+    "CompanyName": "RBX RIO COMERCIO DE ROUPAS S.A",
+    "TradingName": "RBX RIO COMERCIO DE ROUPAS S.A",
+    "AccountName": "lojafyi",
+    "DefaultUrl": null,
+    "Address": null,
+    "Number": null,
+    "Complement": null,
+    "District": null,
+    "City": null,
+    "State": null,
+    "PostalCode": null,
+    "Country": "BRA",
+    "Telephone": "55219817719",
+    "IsActive": true,
+    "Sponsor": "09ec7457-ba9d-4483-9f5e-b0428845eb5e",
+    "Logo": null,
+    "AppId": null,
+    "IsOperating": false,
+    "LV": "LV-",
+    "Sigla": null
+  }
+}

@@ -1,0 +1,102 @@
+.menuContainerNav--t1-header {
+  display: flex;
+  justify-content: center;
+
+  .styledLinkContent--t1-department {
+    align-items: center;
+    justify-content: center;
+  }
+  .menuItem--t1-department-item {
+    margin-bottom: 10px;
+  }
+
+  .menuItem--t1-department--isClosed {
+    .styledLinkContent--t1-department:not(.styledLinkContent--t1-department-slot-5) {
+      &::after {
+        content: "";
+        background: url("assets/images/icon-header-arrow.png") 50% / contain
+          no-repeat;
+        padding: 0 10px;
+        transform: rotate(0deg);
+        transition: all 0.3s ease;
+        height: 5px;
+      }
+    }
+  }
+
+  .menuItem--t1-department--isOpen {
+    .styledLinkContent--t1-department:not(.styledLinkContent--t1-department-slot-5) {
+      &::after {
+        content: "";
+        transform: rotate(180deg);
+        transition: all 0.3s ease;
+        background: url("assets/images/icon-header-arrow.png") 50% / contain
+          no-repeat;
+        padding: 0 10px;
+        height: 5px;
+      }
+    }
+  }
+
+  .submenuWrapper {
+    width: 547px;
+    height: 290px;
+    box-sizing: border-box;
+    padding: 23px;
+    box-shadow: $box-shadow;
+    border-radius: 4px;
+
+    &--isOpen {
+      visibility: visible;
+      opacity: 1;
+      transform: rotateX(0deg);
+    }
+
+    &--isClosed {
+      visibility: hidden;
+      opacity: 1;
+      transform: rotateX(90deg);
+    }
+  }
+}
+
+.styledLinkContent--t1-category {
+  position: relative;
+  font-weight: bold;
+  .accordionIcon--t1-category {
+    content: url("assets/images/arrow-mobile.png");
+    transition: all 0.4s ease;
+    position: absolute;
+    right: 10px;
+
+    &--isOpen {
+      transform: rotate(90deg);
+    }
+
+    &--isClosed {
+    }
+  }
+}
+
+.menuItem--t1-category {
+  border-bottom: 1px solid $gray-4;
+  .styledLinkContainer--t1-category {
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    .styledLink--t1-category {
+      width: 100%;
+    }
+  }
+}
+
+.styledLinkContainer--t1-subcategory {
+  margin: auto 10px;
+  line-height: 20px;
+  font-size: 12px;
+
+  .styledLinkContent--t1-subcategory {
+    font-size: 12px;
+  }
+}

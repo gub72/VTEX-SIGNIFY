@@ -1,0 +1,76 @@
+.heading-level-1 {
+  font-size: $font-size-h4;
+  color: $primary;
+}
+
+.paragraph {
+  font-size: $font-size-xs;
+  line-height: $font-size-h4;
+  color: $gray-2;
+}
+
+.link--containerInstitucional__breadcrumb-list {
+  color: $secondary;
+  text-decoration: none;
+  padding: 5px 5px 0 0;
+  &::after {
+    content: ">";
+    color: $secondary;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  &:hover,
+  &:first-child {
+    color: $primary;
+  }
+  &:last-child {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.flexColChild--institucional__menu-container {
+  &--tittle {
+    color: $primary;
+  }
+}
+.container--institucional__menu-container-tittle {
+  color: $secondary;
+  font-size: $font-size-base;
+}
+.container--blockquote {
+  width: 100%;
+  max-width: 690px;
+  margin: auto;
+  padding: 0 20px;
+  background-color: $gray-4 !important;
+  margin-bottom: 20px;
+  .wrapper--blockquote {
+    position: relative;
+    &::before {
+      content: '"';
+      width: 15px;
+      height: 11px;
+      font-size: 40px;
+      font-style: italic;
+      color: $primary;
+      position: absolute;
+      top: 5px;
+      left: -10px;
+    }
+    .paragraph--blockquote {
+      color: $gray-2;
+      font-size: $font-size-lg;
+      font-style: italic;
+      font-weight: 400;
+      line-height: $font-size-h4;
+      padding-left: 15px;
+    }
+  }
+}
+
+.container--contentSobreNos-list {
+  display: flex;
+  flex-wrap: wrap;
+}

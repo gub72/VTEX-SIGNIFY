@@ -1,0 +1,64 @@
+.flexRowContent--add-to-cart
+  .stretchChildrenWidth:nth-child(odd)
+  :global(.vtex-button) {
+  background: $primary;
+  border: none;
+  color: $white;
+  height: 50px;
+  font-size: 13px;
+}
+
+.flexRowContent--add-to-cart .stretchChildrenWidth:nth-child(odd) {
+  @media (min-width: 500px) and (max-width: 1024px) {
+    width: 448px !important;
+    padding-right: 0;
+  }
+  @media (min-width: 100px) and (max-width: 499px) {
+    width: 100% !important;
+    max-width: 227px;
+    padding-right: 0;
+  }
+  @media (min-width: 1025px) {
+    width: calc(100% - 66px) !important;
+    padding-right: 0;
+  }
+}
+
+.flexRowContent--add-to-cart :global(.vtex-wish-list-1-x-outline)::after {
+  display: none;
+}
+.flexRowContent--add-to-cart .stretchChildrenWidth:nth-child(even) {
+  width: 50px !important;
+}
+.flexRowContent--add-to-cart
+  .stretchChildrenWidth:nth-child(even)
+  :global(.vtex-button) {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid $primary;
+  background-color: $gray-6;
+  padding: 0;
+  margin-left: 1rem;
+}
+.flexRowContent--add-to-cart
+  .stretchChildrenWidth:nth-child(even)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  right: unset;
+  position: relative;
+  top: unset;
+}
+
+.flexRowContent--add-to-cart
+  .stretchChildrenWidth:nth-child(even)
+  :global(.vtex-button__label) {
+  padding: 0;
+}
+.flexRowContent--add-to-cart
+  .stretchChildrenWidth:nth-child(even)
+  :global(.vtex-button)
+  :global(.vtex-wish-list-1-x-wishlistIcon) {
+  background: url("assets/svg/icon-wishlist-pdp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

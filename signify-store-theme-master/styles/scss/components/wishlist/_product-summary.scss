@@ -1,0 +1,35 @@
+:global(.vtex-product-summary-2-x-element--shelf-wish) {
+  .price_installmentContainer {
+    text-align: center;
+  }
+
+  .nameWrapper {
+    text-align: center;
+  }
+
+  .price_sellingPriceContainer {
+    text-align: center;
+
+    .price_sellingPrice {
+      text-align: center;
+      color: $black;
+    }
+  }
+
+  .vtex-button {
+    height: 50px;
+    max-width: 208px;
+  }
+
+  .nameWrapper {
+    .brandName {
+      font-size: 14px;
+      font-weight: normal;
+      color: $gray-2;
+    }
+  }
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+  margin-top: 20px;
+}

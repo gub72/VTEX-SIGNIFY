@@ -1,0 +1,26 @@
+.imageElement--slider-categories {
+  border-radius: 6px;
+}
+
+.sliderRightArrow--slider-categories {
+  right: -25px;
+}
+
+.sliderLeftArrow--slider-categories {
+  left: -25px;
+}
+
+.sliderArrows--slider-categories {
+  padding: 0;
+  margin: 0;
+  background: $gray-4 !important;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.caretIcon {
+  width: 10px;
+  width: 15px;
+  color: $primary;
+}

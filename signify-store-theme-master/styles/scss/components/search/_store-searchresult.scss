@@ -1,0 +1,93 @@
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  :global(.vtex-breadcrumb-1-x-link) {
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  :global(.vtex-product-summary-2-x-container) {
+    max-width: none !important;
+    position: relative;
+  }
+
+  :global(.vtex-product-summary-2-x-element) {
+    margin-bottom: 30px;
+  }
+
+  :global(.vtex-product-summary-2-x-element) {
+    border: 1px solid $gray-4;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: none;
+
+    :global(.vtex-product-price-1-x-currencyContainer--summary) {
+      color: $primary;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    :global(.vtex-product-price-1-x-installments--summary) {
+      margin-top: -10px;
+    }
+
+    :global(.vtex-product-price-1-x-installmentValue--summary) {
+      :global(.vtex-product-price-1-x-currencyContainer--summary) {
+        font-size: 10px;
+        color: $gray-2;
+        font-weight: normal;
+      }
+    }
+
+    :global(.vtex-product-summary-2-x-buyButton) {
+      max-width: 100%;
+    }
+  }
+
+  :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 24px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  :global(.vtex-search-result-3-x-filterPopupButton) {
+    @media only screen and (max-width: 768px) {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }
+
+  :global(.vtex-search-result-3-x-totalProducts--layout) {
+    @media only screen and (max-width: 768px) {
+      border: none;
+      padding-top: 0px;
+      font-size: 10px;
+      padding-bottom: 30px;
+    }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--orderByAndSwitcher) {
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--summaryListDesktop) {
+    width: 100%;
+
+    :global(.vtex-store-components-3-x-productBrandName--summaryListDesktop) {
+      color: $gray-2;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--buyNowButton) {
+      display: none;
+    }
+  }
+}

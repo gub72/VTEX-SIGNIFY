@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+  .flexRow--footer-row-menu {
+    border-bottom: 1px solid $gray-4;
+  }
+
+  .flexRow--footer-1-mobile {
+    border-top: 1px solid $gray-4;
+  }
+
+  .flexRow--footer-5-mobile-slot-1 {
+    width: 100vw;
+
+    .flexRowContent--footer-5-mobile-slot-1 {
+      display: flex;
+      justify-content: center;
+
+      :global(.vtex-store-components-3-x-imageElement--payments) {
+        margin: 0 6px;
+      }
+    }
+  }
+
+  .flexRowContent--footer-7-mobile {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}

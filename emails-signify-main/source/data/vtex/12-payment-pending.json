@@ -1,0 +1,410 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Camiseta De Algodão ...",
+        "totalItems": 1
+      },
+      "cancellationReason": null,
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/6/53/137/",
+            "productClusterId": "139,140,148,152,153",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.1788,
+              "height": 33,
+              "length": 26,
+              "weight": 250,
+              "width": 1
+            },
+            "brandName": "BOSS",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "11",
+          "priceTable": null,
+          "priceValidUntil": "2023-09-21T17:34:39Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:hugobossstore:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/11",
+          "uniqueId": "8A75585CE0144A41AC043DC9EBC5FCD1",
+          "id": "11",
+          "productId": "2",
+          "productRefId": "50412363481",
+          "refId": "4043861951834",
+          "ean": "4043861951834",
+          "name": "Camiseta De Algodão Com Logo Curvado NavyBlue - EGG - XXXL",
+          "skuName": "NavyBlue - EGG - XXXL",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 46000,
+          "listPrice": 46000,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 46000,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/1/6/53/137/",
+          "productCategories": {
+            "1": "Masculino",
+            "6": "Roupas",
+            "53": "Camisetas",
+            "137": "Camisetas Estampadas"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "http://hugobossstore.vteximg.com.br/arquivos/ids/155559-350-350/4043861951148-Camiseta-BOSS-Tee-Curved-Azul_1.jpg?v=637877263784130000",
+          "detailUrl": "/camiseta-de-algodao-com-logo-curvado-50412363481/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 46000,
+            "total": 46000,
+            "sellingPrices": [
+              {
+                "value": 46000,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hugobossstore",
+          "id": "1",
+          "name": "InfraCommerce - BR",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "c2873967781a4487a9978914cbbc810e",
+      "sequence": "500097",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "56144518-5518-4d1e-822c-487e226108d2",
+      "hostName": "hugobossstore",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1263310500097-01",
+      "orderGroup": "1263310500097",
+      "state": "payment-pending",
+      "isCheckedIn": false,
+      "sellerOrderId": "00-1263310500097-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 47018,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "Total dos Itens",
+          "value": 46000
+        },
+        {
+          "id": "Discounts",
+          "name": "Total dos Descontos",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "Total do Frete",
+          "value": 1018
+        },
+        {
+          "id": "Tax",
+          "name": "Total da Taxa",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "0a516dd34e0d40529065f470875d4944@ct.vtex.com.br",
+        "firstName": "QA",
+        "lastName": "B2C",
+        "document": "33458728031",
+        "documentType": "cpf",
+        "phone": "+5511999999999",
+        "corporateName": "IFC",
+        "tradeName": "IFC",
+        "corporateDocument": "17554676000120",
+        "stateInscription": "Isento",
+        "corporatePhone": "+55 11 99999 9999",
+        "isCorporate": true,
+        "profileCompleteOnLoading": true,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "residential",
+          "receiverName": "QA B2C",
+          "addressId": "4987994919642",
+          "isDisposable": false,
+          "postalCode": "01532-001",
+          "city": "São Paulo",
+          "state": "SP",
+          "country": "BRA",
+          "street": "Rua Castro Alves",
+          "number": "123",
+          "neighborhood": "Aclimação",
+          "complement": "123",
+          "reference": null,
+          "geoCoordinates": [-46.63577651977539, -23.569957733154297]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "NORMAL",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "4987994919642",
+            "slas": [
+              {
+                "id": "NORMAL",
+                "deliveryChannel": "delivery",
+                "name": "NORMAL",
+                "deliveryIds": [
+                  {
+                    "courierId": "153de5a",
+                    "warehouseId": "1_1",
+                    "dockId": "154138c",
+                    "courierName": "TOTAL 1",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "3bd",
+                "shippingEstimateDate": null,
+                "lockTTL": "12d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 1018,
+                "listPrice": 1018,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": 0,
+                "polygonName": "",
+                "transitTime": "2bd"
+              }
+            ],
+            "shipsTo": ["BRA"],
+            "itemId": "11",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "QA B2C",
+            "addressId": "4987994919642",
+            "isDisposable": false,
+            "postalCode": "01532-001",
+            "city": "São Paulo",
+            "state": "SP",
+            "country": "BRA",
+            "street": "Rua Castro Alves",
+            "number": "123",
+            "neighborhood": "Aclimação",
+            "complement": "123",
+            "reference": null,
+            "geoCoordinates": [-46.63577651977539, -23.569957733154297]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "QA B2C",
+            "addressId": "4987994919642",
+            "isDisposable": false,
+            "postalCode": "01532-001",
+            "city": "São Paulo",
+            "state": "SP",
+            "country": "BRA",
+            "street": "Rua Castro Alves",
+            "number": "123",
+            "neighborhood": "Aclimação",
+            "complement": "123",
+            "reference": null,
+            "geoCoordinates": [-46.63577651977539, -23.569957733154297]
+          }
+        ],
+        "pickupPoints": []
+      },
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "4871C00B87794020873DF6871A664E18",
+            "merchantName": "HUGOBOSSSTORE",
+            "payments": [
+              {
+                "id": "EA30796A5AF0403BBF4D12553C52D1A3",
+                "paymentSystem": "6",
+                "paymentSystemName": "Boleto Bancário",
+                "value": 47018,
+                "installments": 1,
+                "connectorResponses": {
+                  "Tid": "865534724",
+                  "ReturnCode": null,
+                  "Message": null,
+                  "nsu": "865534724",
+                  "acquirer": "pagarme"
+                },
+                "referenceValue": 47018,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": "https://api.pagar.me/1/boletos/live_cl8bzgswn1r8t01m5b56t30wt",
+                "koinUrl": null,
+                "tid": "865534724",
+                "redemptionCode": null,
+                "giftCardId": null,
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "group": "bankInvoice",
+                "dueDate": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": "23791229286001116714992000046901491220000047018",
+                "bankIssuedInvoiceIdentificationNumberFormatted": "23791.22928 60011.167149 92000.046901 4 91220000047018",
+                "bankIssuedInvoiceBarCodeNumber": "23791229286001116714992000046901491220000047018",
+                "bankIssuedInvoiceBarCodeType": "i25",
+                "billingAddress": null
+              }
+            ],
+            "sharedTransaction": false
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "pt-BR",
+        "optinNewsLetter": true
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "BRA",
+        "saveUserData": false,
+        "timeZone": "E. South America Standard Time",
+        "currencyCode": "BRL",
+        "currencyLocale": 1046,
+        "currencySymbol": "R$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "invoiceData": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": null,
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "f20647822a864049b430ac756ae68ca8@ct.vtex.com.br",
+      "creationDate": "2022-09-21T18:53:15.8568809Z",
+      "lastChange": "2022-09-21T18:53:24.6481423Z",
+      "timeZoneCreationDate": "2022-09-21T15:53:15.8568809",
+      "timeZoneLastChange": "2022-09-21T15:53:24.6481423",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://hugobossstore.myvtex.com/account#/orders",
+  "orderGroup": "1263310500097",
+  "subjectItemAttachment": {
+    "item": "Camiseta De Algodão ...",
+    "totalItems": 1
+  },
+  "split": false,
+  "totalValue": 47018,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "hugobossstore",
+    "AccountName": "hugobossstore",
+    "Cnpj": null,
+    "Id": "2c26db0e-e2d3-4201-a7a7-38ab63dbe06d",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-02-23T18:49:13.5824649Z",
+    "OperationDate": null,
+    "CompanyName": "InfraCommerce Do Brasil Ltda",
+    "TradingName": "InfraCommerce - BR",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

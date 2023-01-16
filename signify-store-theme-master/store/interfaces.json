@@ -1,0 +1,21 @@
+{
+  "helmet-component": {
+    "component": "HelmetComponent"
+  },
+  "custom-breadcrumb": {
+    "component": "CustomBreadCrumb"
+  },
+  "custom-lgpd": {
+    "component": "LGPD"
+  },
+  "helloworld": {
+    "component": "HelloWorld"
+  },
+  "site-map": {
+    "component": "SiteMap"
+  },
+
+  "buytogether-bysku": {
+    "component": "BuyTogetherBySku"
+  }
+}

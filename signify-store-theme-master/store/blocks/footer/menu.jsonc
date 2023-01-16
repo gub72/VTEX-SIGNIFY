@@ -1,0 +1,384 @@
+{
+    /* DESKTOP ************************/
+
+    /* MENU 1 */
+
+    "vtex.menu@2.x:menu#footer-col-1": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-footer"]
+        },
+        "children": [
+            "menu-item#footer-col-1-item-1",
+            "menu-item#footer-col-1-item-2",
+            "menu-item#footer-col-1-item-3",
+            "menu-item#footer-col-1-item-4"
+        ]
+    },
+
+    "menu-item#footer-col-1-item-1": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1"
+            }
+        }
+    },
+
+    "menu-item#footer-col-1-item-2": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2"
+            }
+        }
+    },
+
+    "menu-item#footer-col-1-item-3": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3"
+            }
+        }
+    },
+
+    "menu-item#footer-col-1-item-4": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4"
+            }
+        }
+    },
+
+    /* MENU 2 */
+    "vtex.menu@2.x:menu#footer-col-2": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-footer"]
+        },
+        "children": [
+            "menu-item#footer-col-2-item-1",
+            "menu-item#footer-col-2-item-2",
+            "menu-item#footer-col-2-item-3",
+            "menu-item#footer-col-2-item-4"
+        ]
+    },
+
+    "menu-item#footer-col-2-item-1": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1"
+            }
+        }
+    },
+
+    "menu-item#footer-col-2-item-2": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2"
+            }
+        }
+    },
+
+    "menu-item#footer-col-2-item-3": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3"
+            }
+        }
+    },
+
+    "menu-item#footer-col-2-item-4": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4"
+            }
+        }
+    },
+
+    /* MENU 3 */
+    "vtex.menu@2.x:menu#footer-col-3": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["menu-footer"]
+        },
+        "children": [
+            "menu-item#footer-col-3-item-1",
+            "menu-item#footer-col-3-item-2",
+            "menu-item#footer-col-3-item-3",
+            "menu-item#footer-col-3-item-4"
+        ]
+    },
+
+    "menu-item#footer-col-3-item-1": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 1"
+            }
+        }
+    },
+
+    "menu-item#footer-col-3-item-2": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 2"
+            }
+        }
+    },
+
+    "menu-item#footer-col-3-item-3": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 3"
+            }
+        }
+    },
+
+    "menu-item#footer-col-3-item-4": {
+        "props": {
+            "id": "menu-item-footer",
+            "blockClass": "menu-item-footer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4",
+                "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet 4"
+            }
+        }
+    },
+
+    /* MOBILE ******************************************/
+
+    /* ROW 1 - MOBILE */
+
+    "vtex.menu@2.x:menu#footer-1-mobile": {
+        "children": ["menu-item#footer-1-mobile"],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["footer-mobile"]
+        }
+    },
+
+    "menu-item#footer-1-mobile": {
+        "props": {
+            "id": "menu-item-footer-1-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-footer-mobile",
+            "itemProps": {
+                "type": "internal",
+                //"href": "#",
+                "noFollow": true,
+                "tagTitle": "Título 1",
+                "text": "Título 1"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-1-mobile"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-1-mobile": {
+        "children": ["vtex.menu@2.x:menu#footer-1-submenu-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#footer-1-submenu-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-col-1-item-1",
+            "menu-item#footer-col-1-item-2",
+            "menu-item#footer-col-1-item-3",
+            "menu-item#footer-col-1-item-4"
+        ]
+    },
+
+    /* ROW 2 - MOBILE */
+
+    "vtex.menu@2.x:menu#footer-2-mobile": {
+        "children": ["menu-item#footer-2-mobile"],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["footer-mobile"]
+        }
+    },
+
+    "menu-item#footer-2-mobile": {
+        "props": {
+            "id": "menu-item-footer-2-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-footer-mobile",
+            "itemProps": {
+                "type": "internal",
+                //"href": "#",
+                "noFollow": true,
+                "tagTitle": "Título 1",
+                "text": "Título 1"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-2-mobile"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-2-mobile": {
+        "children": ["vtex.menu@2.x:menu#footer-2-submenu-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#footer-2-submenu-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-col-2-item-1",
+            "menu-item#footer-col-2-item-2",
+            "menu-item#footer-col-2-item-3",
+            "menu-item#footer-col-2-item-4"
+        ]
+    },
+
+    /* ROW 3 - MOBILE */
+
+    "vtex.menu@2.x:menu#footer-3-mobile": {
+        "children": ["menu-item#footer-3-mobile"],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": ["footer-mobile"]
+        }
+    },
+
+    "menu-item#footer-3-mobile": {
+        "props": {
+            "id": "menu-item-footer-3-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "blockClass": "menu-item-footer-mobile",
+            "itemProps": {
+                "type": "internal",
+                //"href": "#",
+                "noFollow": true,
+                "tagTitle": "Título 1",
+                "text": "Título 1"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#footer-3-mobile"]
+    },
+
+    "vtex.menu@2.x:submenu.accordion#footer-3-mobile": {
+        "children": ["vtex.menu@2.x:menu#footer-3-submenu-mobile"]
+    },
+
+    "vtex.menu@2.x:menu#footer-3-submenu-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#footer-col-3-item-1",
+            "menu-item#footer-col-3-item-2",
+            "menu-item#footer-col-3-item-3",
+            "menu-item#footer-col-3-item-4"
+        ]
+    }
+}

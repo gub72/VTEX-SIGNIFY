@@ -1,0 +1,82 @@
+{
+    "shelf.relatedProducts#view": {
+        "props": {
+            "recommendation": "view",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "showTitle": true,
+                "titleText": "Quem viu, viu também"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "shelf.relatedProducts#viewAndBought": {
+        "props": {
+            "recommendation": "viewAndBought",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "titleText": "Quem viu comprou também"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "shelf.relatedProducts#buy": {
+        "props": {
+            "recommendation": "buy",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "titleText": "Quem comprou levou também"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "shelf.relatedProducts#similars": {
+        "props": {
+            "recommendation": "similars",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "showTitle": true,
+                "titleText": "Você pode gostar"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "shelf.relatedProducts#suggestions": {
+        "props": {
+            "recommendation": "suggestions",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "titleText": "Sugestões"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "shelf.relatedProducts#accessories": {
+        "props": {
+            "recommendation": "accessories",
+            "productList": {
+                "itemsPerPage": 4,
+                "minItemsPerPage": 2,
+                "titleText": "Acessórios"
+            }
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    }
+}

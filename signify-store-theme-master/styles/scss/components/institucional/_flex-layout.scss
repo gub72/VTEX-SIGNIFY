@@ -1,0 +1,54 @@
+.flexRow--containerInstitucional {
+  max-width: $mw-container;
+  margin: 0 auto;
+  :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+    display: flex;
+  }
+  :global(.vtex-disclosure-layout-1-x-trigger--question) {
+    border-bottom: 1px solid $gray-4;
+    justify-content: space-between;
+    :global(.vtex-store-icons-0-x-caretIcon) {
+      width: 14px !important;
+      height: 8px !important;
+      opacity: 0.7 !important;
+    }
+    :global(.vtex-rich-text-0-x-paragraph) {
+      color: $gray-2;
+      margin: 5px 0;
+      &::before {
+        display: none !important;
+      }
+    }
+  }
+
+  &____breadcrumb {
+    &--list {
+      .paragraph----list {
+        font-size: $font-size-base;
+        color: $secondary;
+        text-decoration: none;
+      }
+    }
+  }
+  .flexColChild--institucional__menu-container {
+    height: auto !important;
+    :global(.vtex-menu-2-x-styledLinkContainer--menu-item-institucional) {
+      margin: 0;
+      :global(.vtex-menu-2-x-styledLinkContent) {
+        color: $secondary;
+        font-size: 14px;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  .flexRowContent--faq {
+    max-width: 100%;
+  }
+}
+
+.flexRowContent--menu-link .institucional__menu-container {
+  height: 200px;
+  color: $primary;
+}

@@ -1,0 +1,27 @@
+.paragraph--nl-title {
+  margin-top: 0;
+
+  @media only screen and (max-width: $md) {
+    margin-top: 23px;
+  }
+}
+
+.container--nl-subtitle {
+  .paragraph--nl-subtitle {
+    margin: 0;
+    line-height: 24px;
+    font-weight: normal;
+
+    @media only screen and (max-width: $md) {
+      padding: 0 15px;
+    }
+  }
+}
+
+.container--nl-title {
+}
+
+.container--nl-feedback-success {
+  margin-top: 50px;
+  color: $success;
+}

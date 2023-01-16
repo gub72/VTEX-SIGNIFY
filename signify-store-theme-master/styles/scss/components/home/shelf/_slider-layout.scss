@@ -1,0 +1,47 @@
+.shelf {
+  .sliderTrackContainer {
+    max-width: 800px;
+  }
+}
+
+.paginationDotsContainer--home-shelf {
+  margin-bottom: -24px;
+}
+
+@media only screen and (min-width: 769px) {
+  .sliderRightArrow--home-shelf {
+    right: 40px;
+  }
+
+  .sliderLeftArrow--home-shelf {
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+.sliderLayoutContainer--home-shelf {
+  max-width: $xxl;
+  margin: 0 auto;
+}
+
+.sliderArrows--home-shelf {
+  padding: 0;
+  margin: 0;
+  background: $gray-4 !important;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.caretIcon {
+  width: 10px;
+  width: 15px;
+  color: $primary;
+}
+
+.paginationDot {
+  width: 6px !important;
+  height: 6px !important;
+}

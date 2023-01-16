@@ -1,0 +1,464 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 28490,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "Diálogo",
+    "invoiceNumber": "1930389",
+    "invoiceValue": 29496,
+    "invoiceUrl": null,
+    "issuanceDate": "2022-08-01T19:46:10.8640015+00:00",
+    "trackingNumber": "124859870001",
+    "invoiceKey": "35220827932734000408550050019303891641322591",
+    "trackingUrl": "https://status.ondeestameupedido.com/tracking/566/1240025182",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Multiprocessador Pow...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/17/31/",
+        "productClusterId": "138,146,148",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1.6088,
+          "height": 22,
+          "length": 18,
+          "weight": 2000,
+          "width": 19.5
+        },
+        "brandName": "Philips Walita",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "159",
+      "priceTable": "1",
+      "priceValidUntil": "4000-01-01T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:walitastore:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/159",
+      "uniqueId": "74A0CBF94F334126AE7E7352916337FD",
+      "id": "159",
+      "productId": "82",
+      "productRefId": "RI7300/91_Preto",
+      "refId": "RI7300/90/Preto_220V",
+      "ean": "8720389002571",
+      "name": "Camisa Extra-Slim Fit De Algodão Estampada Black - 41",
+      "skuName": "Black - 41",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 29990,
+      "listPrice": 29990,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 28490,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/17/31/",
+      "productCategories": {
+        "17": "Up na sua Alimentação",
+        "31": "Processadores de Alimentos"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://hugobossstore.vteximg.com.br/arquivos/product-fake.png",
+      "detailUrl": "/multiprocessador-powerchop-600_ri7300-91_preto/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "discount@price-88ac6f00-8481-4dcb-b3bd-22eb9facf52e#179236f5-3186-40da-b1e3-4acc10ca0816",
+          "value": -1500,
+          "rawValue": -15,
+          "isPercentual": false,
+          "identifier": "88ac6f00-8481-4dcb-b3bd-22eb9facf52e"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "886730090240",
+      "priceDefinition": {
+        "calculatedSellingPrice": 28490,
+        "total": 28490,
+        "sellingPrices": [
+          {
+            "value": 28490,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=walitastore",
+      "id": "1",
+      "name": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "23d0baad85164353bbc97cf344da900f",
+  "sequence": "1240025182",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "308065f4-d509-4af7-a9a9-c4f68956c4ef",
+  "hostName": "walitastore",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1250703203470-01",
+  "orderGroup": "1250703203470",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1250703203470-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 29496,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 29990
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": -1500
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 1006
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "7c5fd295ee484a9b966ca39e69d9bd5e@ct.vtex.com.br",
+    "firstName": "Rafael",
+    "lastName": "de Lucena Valle",
+    "document": "00987944932",
+    "documentType": "cpf",
+    "phone": "+5548998043542",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": "",
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "88ac6f00-8481-4dcb-b3bd-22eb9facf52e",
+        "name": "Walita Store Cupom Pop up 5% Off",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "couponCode@Marketing": "WALITA5"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Rafael de Lucena Valle",
+      "addressId": "4977739813134",
+      "isDisposable": false,
+      "postalCode": "88053-700",
+      "city": "Florianópolis",
+      "state": "SC",
+      "country": "BRA",
+      "street": "Rodovia Jornalista Maurício Sirotsky Sobrinho",
+      "number": "6006",
+      "neighborhood": "Jurerê",
+      "complement": "AP403",
+      "reference": null,
+      "geoCoordinates": [-48.495121002197266, -27.457719802856445]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4977739813134",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "1a01c15",
+                "warehouseId": "1_1",
+                "dockId": "171beb3",
+                "courierName": "Diálogo",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "4bd",
+            "shippingEstimateDate": "2022-08-04T17:00:00Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1006,
+            "listPrice": 1006,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "2bd"
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "159",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Rafael de Lucena Valle",
+        "addressId": "4977739813134",
+        "isDisposable": false,
+        "postalCode": "88053-700",
+        "city": "Florianópolis",
+        "state": "SC",
+        "country": "BRA",
+        "street": "Rodovia Jornalista Maurício Sirotsky Sobrinho",
+        "number": "6006",
+        "neighborhood": "Jurerê",
+        "complement": "AP403",
+        "reference": null,
+        "geoCoordinates": [-48.495121002197266, -27.457719802856445]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Rafael de Lucena Valle",
+        "addressId": "4977739813134",
+        "isDisposable": false,
+        "postalCode": "88053-700",
+        "city": "Florianópolis",
+        "state": "SC",
+        "country": "BRA",
+        "street": "Rodovia Jornalista Maurício Sirotsky Sobrinho",
+        "number": "6006",
+        "neighborhood": "Jurerê",
+        "complement": "AP403",
+        "reference": null,
+        "geoCoordinates": [-48.495121002197266, -27.457719802856445]
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "54C2D99D32834F05B7E860142DCA2BFD",
+        "merchantName": "WALITASTORE",
+        "payments": [
+          {
+            "id": "4E80B76D85D14217AF6281393BEC84AE",
+            "paymentSystem": "2",
+            "paymentSystemName": "Visa",
+            "value": 29496,
+            "installments": 1,
+            "connectorResponses": {
+              "Tid": "10472207310249481049",
+              "ReturnCode": "00",
+              "Message": "eRede|Success.",
+              "authId": "766756",
+              "nsu": "10904987",
+              "acquirer": "redecard"
+            },
+            "referenceValue": 29496,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "498453",
+            "lastDigits": "4662",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "10472207310249481049",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "5CFD4F136EE445208CAA9C21A2A2E677",
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "addressType": "residential",
+              "receiverName": "Rafael de Lucena Valle",
+              "addressId": "4977739813134",
+              "isDisposable": false,
+              "postalCode": "88053-700",
+              "city": "Florianópolis",
+              "state": "SC",
+              "country": "BRA",
+              "street": "Rodovia Jornalista Maurício Sirotsky Sobrinho",
+              "number": "6006",
+              "neighborhood": "Jurerê",
+              "complement": "AP403",
+              "reference": null,
+              "geoCoordinates": [-48.495121002197266, -27.457719802856445]
+            }
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": null,
+    "coupon": "WALITA5",
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "1d4efa3045f84879b4a41c88eb71e8a5@ct.vtex.com.br",
+  "creationDate": "2022-07-31T05:53:22.67864Z",
+  "lastChange": "2022-07-31T07:16:27.1733503Z",
+  "timeZoneCreationDate": "2022-07-31T02:53:22.67864",
+  "timeZoneLastChange": "2022-07-31T04:16:27.1733503",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "walitastore",
+    "AccountName": "walitastore",
+    "Cnpj": "27932734000165",
+    "Id": "bd556c77-0102-460b-bc8f-7c94d17d2a8c",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-06-22T17:10:48.9161642Z",
+    "OperationDate": "2022-04-05T17:17:35.6058733+00:00",
+    "CompanyName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "TradingName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

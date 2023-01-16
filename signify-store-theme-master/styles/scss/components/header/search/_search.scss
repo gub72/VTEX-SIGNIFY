@@ -1,0 +1,11 @@
+.biggy-autocomplete-wrapper {
+  //width: 30vw;
+}
+
+.biggy-autocomplete-wrapper {
+  @media only screen and (max-width: 768px) {
+    width: 100vw !important;
+    position: absolute;
+    top: -63px;
+  }
+}

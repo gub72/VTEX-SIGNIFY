@@ -1,0 +1,21 @@
+@import "./variables/all";
+
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 90px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightWrapper--promo {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  background: $gray-7;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

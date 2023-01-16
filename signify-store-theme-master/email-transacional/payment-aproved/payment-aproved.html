@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml" style="
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{_accountInfo.TradingName}}</title>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      border-spacing: 0;
+    }
+
+    body {
+      margin: auto;
+      background-color: #F9F9F9;
+    }
+
+    table {
+      width: 100%;
+      max-width: 400px;
+      border: 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <table style="margin: auto;">
+    <tbody>
+
+      <tr style="background-color: #F1F1F1;">
+        <td style="text-align: center; margin-top: 23px;">
+          <img style="margin: 23px 0; width: 165px; height: auto;"
+            src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email-2.png" alt="logo infracommerce">
+        </td>
+      </tr>
+
+      <tr style="background: #f9f9f9; border: 0">
+        <td style="padding: 50px 12px"><img src="https://ioinfracommerce.vteximg.com.br/arquivos/payment-aproved.png"
+            alt="tracking do pedido confirmado"></td>
+      </tr>
+
+      <tr style="border: 0; color: #2D2D2D;">
+        <td style="padding: 0 12px">
+          <p style="font-weight: 700; font-size: 20; line-height: 23px; padding-bottom: 20px;">Olá,
+            {{orders.0.clientProfileData.firstName}}</p>
+          <p style="margin-bottom: 70px">Parabéns seu pedido foi aprovado!
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px">
+          <table>
+            <tr>
+              <td>
+                <p style="font-size: 20px; font-weight:700; line-height: 23px; color:#2d2d2d">Resumo da Compra</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table>
+                  <tbody>
+                    {{#each items}}
+                    <tr>
+                      <td>
+                        <img style="width: 154px; height: auto; margin-right: 40px" src={{imageUrl}} alt="">
+                      </td>
+                      <td style="font-size: 15px; line-height: 26px; color:#828282">
+                        <p style="font-weight: bold; color:#2D2D2D">{{name}}</p>
+                        <p>Quantidade: {{quantity}}</p>
+                        <p>Entrega: {{../shippingData.logisticsInfo.0.selectedSla}}</p>
+
+                        <p style="font-weight: 600;">R$ {{formatCurrency sellingPrice}}</p>
+                      </td>
+                    </tr>
+                    {{/each}}
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table
+                  style="width: 50%; font-size: 16px; line-height: 22px; font-weight: 400; padding: 50px 0; color: ##333333;">
+                  {{#each totals}}
+                  <tr>
+                    {{#compare id "==" "Items"}}
+                    <td style="padding-bottom: 15px;">Subtotal:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  <tr>
+                    {{#compare id "==" "Discounts"}}
+                    <td style="padding-bottom: 15px;">Descontos:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  <tr>
+                    {{#compare id "==" "Shipping"}}
+                    <td style="padding-bottom: 15px;">Frete:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  {{/each}}
+                  <tr style="font-weight: 700; font-size: 18px;">
+                    <td>Total:</td>
+                    {{#each paymentData.transactions}}
+                    {{#each payments}}
+                    <td>R$ {{formatCurrency value}}</td>
+                    {{/each}}
+                    {{/each}}
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="font-size: 18px; font-weight:normal; line-height:24px; color:#2d2d2d">
+                  A partir de agora, vamos separar os itens do pedido {{orderId}} e preparar sua entrega prevista para
+                  acontecer até o dia
+                  {{#if shippingData.logisticsInfo.0.selectedSla}}
+                  {{#each shippingData.logisticsInfo.0.slas}}
+                  {{#compare name '==' ../shippingData.logisticsInfo.0.selectedSla}}
+                  {{formatDate shippingEstimateDate}}
+                  {{/compare}}
+                  {{/each}}
+                  {{/if}} <br><br>
+                  Fique tranquilo(a), assim que sua entrega for despachada, entraremos novamente em contato. E
+                  lembre-se: você pode acompanhar o andamento do seu pedido pelo site! :) <br><br>
+                  Obrigado pela confiança.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr style="background:#F9F9F9; border: 0;">
+        <td>
+          <table style="background-color: #fff;">
+            <tbody>
+              <tr>
+                <td style="text-align: left; padding: 70px 12px 0; background-color: #f9f9f9;">
+                  <p style="margin-bottom: 9px;">Atenciosamente,</p>
+                  <img style="width: 165px; height: auto; margin-bottom: 11px; padding-left: 5px;"
+                    src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email-2.png" alt="logo infracommerce">
+                  <p>email@email.com.br</p>
+                  <p style="margin-bottom: 70px;">0000-0000</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td style="text-align: center; color: #707070; border-top: 1px solid #EDEDED; padding: 50px 0;">
+                          <p style="margin-bottom: 30px; font-size: 18px; line-height: 20px;">Atendimento</p>
+                          <p style="font-size: 26px; line-height: 20px;">0000-0000</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center; color: #707070; margin-bottom: 50px;">
+                          <p style="margin-bottom: 30px;">Formas de Pagamento</p>
+                          <img style="margin-bottom: 50px; width: 100%; max-width: 360px;"
+                            src="https://ioinfracommerce.vteximg.com.br/arquivos/payments.png"
+                            alt="logos e bandeiras de pagamento">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="text-align:center;">
+                  <p
+                    style="margin:0 max-width: 376px; font-size: 15px; line-height: 17.25px; color: #707070; margin-bottom: 50px; padding-top: 20px;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                    quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
+                    labore et dolore magnam aliquam quaerat voluptatem.
+                  </p>
+                  <img style="height: 17px; width: auto; margin-bottom: 50px;"
+                    src="https://ioinfracommerce.vteximg.com.br/arquivos/infra-email.png"
+                    alt="logo agencia infracommerce">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

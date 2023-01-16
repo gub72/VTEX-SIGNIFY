@@ -1,0 +1,194 @@
+{
+    "menu-item#t1-department-slot-4": {
+        "props": {
+            "blockClass": ["t1-department", "t1-department-slot-4"],
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": false,
+                "tagTitle": "slot-4",
+                "text": "Item de Menu 04"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#t1-department-slot-4"]
+    },
+
+    "vtex.menu@2.x:submenu#t1-department-slot-4": {
+        "props": {},
+        "children": [
+            "flex-layout.col#t1-department-slot-4-col-1-items",
+            "flex-layout.col#t1-department-slot-4-col-2-image"
+        ]
+    },
+
+    "flex-layout.col#t1-department-slot-4-col-1-items": {
+        "props": {
+            "width": "auto",
+            "blockClass": "t1-department-slot-4-col-1-items"
+        },
+        "children": ["vtex.menu@2.x:menu#t1-department-slot-4-col-1-items"]
+    },
+
+    "vtex.menu@2.x:menu#t1-department-slot-4-col-1-items": {
+        "props": {
+            "blockClass": "submenu-container",
+            "orientation": "vertical"
+        },
+
+        "children": [
+            "menu-item#t1-department-slot-4-item-1",
+            "menu-item#t1-department-slot-4-item-2",
+            "menu-item#t1-department-slot-4-item-3",
+            "menu-item#t1-department-slot-4-item-4",
+            "menu-item#t1-department-slot-4-item-5",
+            "menu-item#t1-department-slot-4-item-6"
+        ]
+    },
+
+    "menu-item#t1-department-slot-4-item-1": {
+        "props": {
+            "id": "",
+            "blockClass": [
+                "t1-department-slot-4-item-1",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 1"
+            }
+        }
+    },
+
+    "menu-item#t1-department-slot-4-item-2": {
+        "props": {
+            "id": "",
+            "blockClass": [
+                "t1-department-slot-4-item-2",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 2"
+            }
+        }
+    },
+
+    "menu-item#t1-department-slot-4-item-3": {
+        "props": {
+            "blockClass": [
+                "t1-department-slot-4-item-3",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "id": "",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 3"
+            }
+        }
+    },
+
+    "menu-item#t1-department-slot-4-item-4": {
+        "props": {
+            "blockClass": [
+                "t1-department-slot-4-item-4",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "id": "",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 4"
+            }
+        }
+    },
+
+    "menu-item#t1-department-slot-4-item-5": {
+        "props": {
+            "blockClass": [
+                "t1-department-slot-4-item-5",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "id": "",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 5"
+            }
+        }
+    },
+
+    "menu-item#t1-department-slot-4-item-6": {
+        "props": {
+            "blockClass": [
+                "t1-department-slot-4-item-6",
+                "t1-department-slot-4-item",
+                "t1-department-item"
+            ],
+            "id": "",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Loren Ipsun",
+                "text": "Slot 4 Item 6"
+            }
+        }
+    },
+
+    "flex-layout.col#t1-department-slot-4-col-2-image": {
+        "props": {
+            "width": "auto",
+            "blockClass": "t1-department-slot-4-col-2-image"
+        },
+        "children": ["image#t1-department-slot-4-col-2-image"]
+    },
+
+    "image#t1-department-slot-4-col-2-image": {
+        "props": {
+            "alt": "t1-department-slot-4-col-2-image",
+            "src": "assets/images/mocks/318x244.png",
+            "blockClass": "t1-banner-menu",
+            "maxHeight": 244,
+            "maxWidth": 318,
+            "link": "#"
+        }
+    }
+}

@@ -1,0 +1,294 @@
+.container {
+  margin-right: 0;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+    border-bottom: none;
+    height: 50px;
+
+    padding: 10px 0;
+  }
+
+  :global(.vtex-button) {
+    border: 0;
+
+    &:hover {
+      background: transparent;
+    }
+  }
+
+  :global(.vtex-button__label) {
+    padding: 0 !important;
+    :first-child {
+      margin: 0;
+    }
+  }
+}
+
+.box {
+  .content {
+    border-radius: 5px;
+    padding: 0;
+    width: 410px;
+    &Container {
+      margin-top: 0.8rem;
+    }
+    &Form {
+      min-width: unset;
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
+.content {
+  &Form {
+    min-width: 25rem;
+
+    @media (max-width: 449px) {
+      min-width: 100% !important;
+      margin-bottom: 1rem;
+    }
+  }
+}
+.loginOptionsContainer {
+  min-width: 25rem;
+
+  @media (max-width: 449px) {
+    min-width: 100% !important;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.contentAlwaysWithOptions {
+  max-width: 50rem;
+  @media (max-width: 449px) {
+    max-width: 100% !important;
+  }
+}
+
+.arrowUp {
+  z-index: 1;
+  display: none;
+  background: $gray-4;
+  box-shadow: -6px -5px 5px 0px #00000012;
+}
+.formTitle {
+  color: $gray-1;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  background: $gray-4;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0;
+  width: 100%;
+}
+.formSubtitle {
+  font-size: 12px;
+  line-height: 16px;
+  color: $gray-1;
+  margin-top: 0;
+}
+.optionsList,
+.inputContainer {
+  max-width: 330px;
+  width: 100%;
+  margin: auto;
+  padding: 0rem 0 1.5rem;
+}
+.inputContainerAccessCode {
+  input {
+    text-align: center;
+    color: $green;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 700;
+  }
+}
+.formFooter {
+  background: $gray-4;
+  width: 100%;
+  padding: 1rem 2rem 2rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url("assets/svg/icon-lock.svg");
+}
+.arrowBackIcon {
+  display: none;
+}
+.backButton {
+  :global(.vtex-button__label) {
+    display: flex;
+    align-items: center;
+    :global(.t-small) {
+      color: $gray-1;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    :global(span.flex) {
+      :global(div:nth-child(1)) {
+        width: 10px;
+        height: 14px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background: url("assets/svg/icon-arrow-back-login.svg");
+      }
+    }
+  }
+}
+.sendButton {
+  button {
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+  }
+}
+
+.emailForm {
+  .inputContainer {
+    padding: 3rem 0;
+    input {
+      border-width: 1px;
+    }
+  }
+}
+
+.formLinkContainer {
+  a {
+    color: $green;
+    font-size: 12px;
+  }
+}
+.emailAndPasswordForm {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    :global(.vtex-login-2-x-formLinkContainer) {
+      padding: 0 2.5rem;
+    }
+    :global(.vtex-login-2-x-inputContainerEmail) {
+      order: 1;
+    }
+    :global(.vtex-login-2-x-inputContainerPassword) {
+      order: 3;
+      padding-bottom: 0;
+    }
+    :global(.vtex-login-2-x-formLinkContainer.justify-end) {
+      order: 2;
+      padding-bottom: 1rem;
+    }
+    :global(.vtex-login-2-x-formLinkContainer:last-of-type) {
+      order: 4;
+      padding-bottom: 3rem;
+      justify-content: flex-end;
+    }
+    :global(.vtex-login-2-x-formFooter) {
+      order: 5;
+    }
+  }
+}
+.inputContainerEmail {
+  order: 1;
+}
+.formError {
+  background: transparent;
+  color: $support-1;
+}
+.button {
+  button {
+    height: 50px;
+    border: none;
+    transition: all 0.2s;
+    font-size: 13px;
+  }
+}
+.emailPasswordOptionBtn {
+  button {
+    background: $support-2;
+    border: 1px solid $support-2 !important;
+
+    &:hover {
+      opacity: 0.9;
+      background: $support-2;
+    }
+    span {
+      color: $white;
+    }
+  }
+}
+.accessCodeOptionBtn {
+  button {
+    background: $support-4;
+    border: 1px solid $support-4 !important;
+    span {
+      color: $white;
+    }
+    &:hover {
+      opacity: 0.9;
+      background: $support-4;
+    }
+  }
+}
+.options {
+  min-width: unset !important;
+}
+.box {
+  right: -223px !important;
+  border-radius: 5px;
+}
+
+.profileIcon {
+  display: none;
+}
+
+.label {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  color: $gray-2;
+  text-transform: none;
+  padding: 0;
+  align-items: center;
+
+  @include media(">tablet") {
+    flex-direction: row-reverse;
+  }
+
+  &::before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+
+    background-image: url("assets/svg/user.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+
+    @media only screen and (max-width: 1024px) {
+      margin: 0;
+      padding-left: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    //  font-size: 0;
+  }
+}

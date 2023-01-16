@@ -1,0 +1,686 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 8510,
+        "description": null
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 0,
+        "price": 12770,
+        "description": null
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 0,
+        "description": null
+      }
+    ],
+    "courier": "TEX COURIER S.A.",
+    "invoiceNumber": "76372-2",
+    "invoiceValue": 21280,
+    "invoiceUrl": "http://eldoc.com.br/eldoc/html/externo/consultar_nfe.sbx?chave=35170411137051040641550050000763721854307277",
+    "issuanceDate": "2017-05-05T17:16:32.1470358",
+    "trackingNumber": "003838575BR",
+    "invoiceKey": "35170411137051040641550050000763721854307277",
+    "trackingUrl": "http://status.intelipost.com.br/tracking/6438/25235528",
+    "embeddedInvoice": null,
+    "type": "Output",
+    "courierStatus": null
+  },
+  "subjectItemAttachment": {
+    "item": "Crazy Feelings Des. ...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0.1193,
+          "height": 14.9,
+          "length": 6.2,
+          "weight": 252,
+          "width": 6.2
+        },
+        "categoriesIds": "/1000041/1000051/",
+        "productClusterId": "138,140,144,180,206,287,380,381,463,492,501,540,550,617,632,660,670,671,674,681,702,708,775,804,821,824,847,889,912,919,920,1031,1036,1061,1081,1095,1103,1106,1108,1109,1141,1142,1156,1157,1158,1159,1164,1167,1180,1186,1187,1188,1194,1197,1209,1214,1215,1216,1220,1239,1266,1282,1291,1298,1302,1311,1318,1341,1400,1404,1440,1442,1443",
+        "commercialConditionId": "1",
+        "brandName": "O Boticário",
+        "brandId": "2000045",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2003082",
+      "priceValidUntil": "2017-05-15T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "A7B821C69FD0422DA89206D301580285",
+      "id": "2003082",
+      "productId": "2002303",
+      "refId": "24497",
+      "ean": "7891033244973",
+      "name": "Crazy Feelings Des. Colônia, 110ml",
+      "skuName": "Crazy Feelings Des. Colônia, 110ml",
+      "modalType": null,
+      "tax": 0,
+      "price": 8990,
+      "listPrice": 8990,
+      "manualPrice": null,
+      "sellingPrice": 8510,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1000041/1000051/",
+      "productCategories": {
+        "1000041": "Perfumaria",
+        "1000051": "Mulheres"
+      },
+      "defaultPicker": null,
+      "handlerSequence": 0,
+      "handling": false,
+      "quantity": 1,
+      "seller": "1",
+      "imageUrl": "http://boticario.vteximg.com.br/arquivos/ids/182197-60-60/24497-crazy.jpg",
+      "detailUrl": "/crazy-feelings-des--colonia-110ml-24497/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "itemAttachment": {
+        "name": null,
+        "content": {}
+      },
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "discount@shipping-3a99ff23-9c10-470c-8373-8cd6b5d1fc11#f28aae48-05ce-4c6a-90c0-5de142808e51",
+          "value": -221,
+          "rawValue": -2.21,
+          "isPercentual": false,
+          "identifier": "3a99ff23-9c10-470c-8373-8cd6b5d1fc11"
+        },
+        {
+          "name": "discount@shipping-7f5d863a-c901-49fc-a061-8a2c0a75ab2b#3ee6ee83-1f42-4e06-99d3-cf37a6a59981",
+          "value": -221,
+          "rawValue": -2.21,
+          "isPercentual": false,
+          "identifier": "7f5d863a-c901-49fc-a061-8a2c0a75ab2b"
+        },
+        {
+          "name": "DISCOUNT@GIFTCARD_boticario",
+          "value": -480,
+          "rawValue": -4.8,
+          "isPercentual": false,
+          "identifier": null
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    },
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0.1451,
+          "height": 17,
+          "length": 6.4,
+          "weight": 416,
+          "width": 6.4
+        },
+        "categoriesIds": "/1000041/1000049/",
+        "productClusterId": "138,140,144,206,239,240,244,380,381,382,463,492,512,576,590,609,629,632,638,670,681,703,708,747,784,785,791,821,884,908,918,920,965,992,997,998,1016,1036,1081,1105,1136,1139,1141,1145,1164,1174,1181,1185,1213,1240,1260,1262,1291,1298,1300,1304,1305,1310,1318,1332,1333,1334,1335,1340,1341,1365,1369,1371,1400",
+        "commercialConditionId": "1",
+        "brandName": "Malbec",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2003356",
+      "priceValidUntil": "2017-05-15T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "29010D133F86442E9DB6753D2861E922",
+      "id": "2003356",
+      "productId": "2002505",
+      "refId": "28922",
+      "ean": "7891033289226",
+      "name": "Malbec Noir Des. Colônia, 100ml",
+      "skuName": "Malbec Noir Des. Colônia, 100ml",
+      "modalType": null,
+      "tax": 0,
+      "price": 13490,
+      "listPrice": 13490,
+      "manualPrice": null,
+      "sellingPrice": 12770,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1000041/1000049/",
+      "productCategories": {
+        "1000041": "Perfumaria",
+        "1000049": "Homens"
+      },
+      "defaultPicker": null,
+      "handlerSequence": 0,
+      "handling": false,
+      "quantity": 0,
+      "seller": "1",
+      "imageUrl": "http://boticario.vteximg.com.br/arquivos/ids/183279-60-60/28922-malbec-noir-fragrancia.jpg",
+      "detailUrl": "/malbec-noir-des--colonia-100ml-28922/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "itemAttachment": {
+        "name": null,
+        "content": {}
+      },
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "discount@shipping-3a99ff23-9c10-470c-8373-8cd6b5d1fc11#f28aae48-05ce-4c6a-90c0-5de142808e51",
+          "value": -364,
+          "rawValue": -3.64,
+          "isPercentual": false,
+          "identifier": "3a99ff23-9c10-470c-8373-8cd6b5d1fc11"
+        },
+        {
+          "name": "discount@shipping-7f5d863a-c901-49fc-a061-8a2c0a75ab2b#3ee6ee83-1f42-4e06-99d3-cf37a6a59981",
+          "value": -364,
+          "rawValue": -3.64,
+          "isPercentual": false,
+          "identifier": "7f5d863a-c901-49fc-a061-8a2c0a75ab2b"
+        },
+        {
+          "name": "DISCOUNT@GIFTCARD_boticario",
+          "value": -720,
+          "rawValue": -7.2,
+          "isPercentual": false,
+          "identifier": null
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    },
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0.1374,
+          "height": 12.7,
+          "length": 8.8,
+          "weight": 436,
+          "width": 5.9
+        },
+        "categoriesIds": "/1000071/",
+        "productClusterId": "138,463,513,628,777,788,1022,1031,1209,1211",
+        "commercialConditionId": "1",
+        "brandName": "Cuide-se bem",
+        "brandId": "2000012",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2004498",
+      "priceValidUntil": null,
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "E5BE50A5C6AF4E3F8295F995D62CC740",
+      "id": "2004498",
+      "productId": "2003591",
+      "refId": "72162",
+      "ean": "7891033721627",
+      "name": "Cuide-se Bem Sabonete em barra sortido, 5 x 80g - Promocional",
+      "skuName": "Cuide-se Bem Sabonete em barra sortido, 5 x 80g - Promocional",
+      "modalType": null,
+      "tax": 0,
+      "price": 1750,
+      "listPrice": 1750,
+      "manualPrice": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/1000071/",
+      "productCategories": {
+        "1000071": "PRM"
+      },
+      "defaultPicker": null,
+      "handlerSequence": 0,
+      "handling": false,
+      "quantity": 1,
+      "seller": "1",
+      "imageUrl": "http://boticario.vteximg.com.br/arquivos/ids/188361-60-60/sabonete-cuide-se-promocional-72162.jpg",
+      "detailUrl": "/cuide-se-bem-sabonete-em-barra-sortido-5-x-80g---promocional_72162/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "itemAttachment": {
+        "name": null,
+        "content": {}
+      },
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "DISCOUNT@GIFT",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "2951272a-0a21-486a-927f-859f7cb8d2b7"
+        },
+        {
+          "name": "discount@shipping-7f5d863a-c901-49fc-a061-8a2c0a75ab2b#3ee6ee83-1f42-4e06-99d3-cf37a6a59981",
+          "value": -382,
+          "rawValue": -3.82,
+          "isPercentual": false,
+          "identifier": "7f5d863a-c901-49fc-a061-8a2c0a75ab2b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=boticario",
+      "id": "1",
+      "name": "Boticario",
+      "logo": ""
+    }
+  ],
+  "paymentData": {
+    "giftCards": [
+      {
+        "redemptionCode": "",
+        "provider": "boticario",
+        "value": 1200,
+        "balance": 1200,
+        "name": null,
+        "caption": "Clube Viva",
+        "id": "72222999049",
+        "inUse": true,
+        "isSpecialCard": true,
+        "groupName": null
+      }
+    ],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "B1F7D11C65B646C7B94BBC7B3EC59995",
+        "merchantName": "BOTICARIO",
+        "payments": [
+          {
+            "id": "4C4745A413A94F06B1131CD1D4231544",
+            "paymentSystem": "4",
+            "paymentSystemName": "Mastercard",
+            "value": 21280,
+            "installments": 5,
+            "connectorResponses": {
+              "nsu": "017522",
+              "tid": "169883",
+              "acquirerReference": "169883",
+              "acquirer": "Cielo",
+              "authorizationcode": "017522",
+              "pspReference": "1814932910244226"
+            },
+            "referenceValue": 21280,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "527496",
+            "lastDigits": "0899",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "169883",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "C19F4DEFB95A4FDE9D189F8539416119",
+            "parentAccountId": "C19F4DEFB95A4FDE9D189F8539416119"
+          }
+        ]
+      }
+    ]
+  },
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "orderFormId": "c302d847c40e4285a5a43c6c6f2e35f3",
+  "sequence": "73068630",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "160c8c70-ac12-4821-abc4-bc0353670eb1",
+  "hostName": "boticario",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "orderId": "v73068630bot-01",
+  "orderGroup": "v73068630bot",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-v73068630bot-01",
+  "storeId": null,
+  "value": 21280,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 22480
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    },
+    {
+      "id": "Discounts_boticario",
+      "name": "Total dos Descontos - boticario",
+      "value": -1200
+    }
+  ],
+  "clientProfileData": {
+    "attachmentId": "clientProfileData",
+    "email": "rodrigo@vtex.com.br",
+    "firstName": "TATIANE",
+    "lastName": "RADAELLI",
+    "document": "72222999049",
+    "documentType": "cpf",
+    "phone": "+514426325",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false
+  },
+  "ratesAndBenefitsData": {
+    "attachmentId": "ratesAndBenefitsData",
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "3a99ff23-9c10-470c-8373-8cd6b5d1fc11",
+        "name": "2016.12.06_Frete Grátis Itens Blacklist Boti",
+        "featured": false,
+        "description": "Frete grátis apenas para os skus blacklist de Boticário"
+      },
+      {
+        "id": "7f5d863a-c901-49fc-a061-8a2c0a75ab2b",
+        "name": "2016.08_frete gratis principal 109,90",
+        "featured": false,
+        "description": "frete gratis acima de 109,90"
+      },
+      {
+        "id": "2951272a-0a21-486a-927f-859f7cb8d2b7",
+        "name": "2017_04_16 - Ciclo 6 - Nas compras acima de R$200 ganhe brinde",
+        "featured": false,
+        "description": "Nas compras acima de R$ 200 ganhe brinde."
+      },
+      {
+        "id": "DISCOUNT@GIFTCARD_boticario",
+        "name": "DISCOUNT@GIFTCARD_boticario",
+        "featured": null,
+        "description": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "attachmentId": "shippingData",
+    "address": {
+      "addressType": "RESIDENTIAL",
+      "receiverName": "TATIANE  RADAELLI",
+      "addressId": "TATIANE",
+      "postalCode": "90540110",
+      "city": "PORTO ALEGRE",
+      "state": "RS",
+      "country": "BRA",
+      "street": "R FELICISSIMO DE AZEVEDO",
+      "number": "53",
+      "neighborhood": "SAO JOAO",
+      "complement": "804",
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": null,
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "004_Total Express",
+                "warehouseId": "1_1",
+                "dockId": "1_1_1",
+                "courierName": "004_Total Express",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2017-05-08T08:04:25.3015931Z",
+            "lockTTL": "6d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 221,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            }
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "2003082"
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Normal",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": null,
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "004_Total Express",
+                "warehouseId": "1_1",
+                "dockId": "1_1_1",
+                "courierName": "004_Total Express",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2017-05-08T08:04:25.303593Z",
+            "lockTTL": "6d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 364,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            }
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "2003356"
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "Normal",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": null,
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "004_Total Express",
+                "warehouseId": "1_1",
+                "dockId": "1_1_1",
+                "courierName": "004_Total Express",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": "2017-05-08T08:04:25.303593Z",
+            "lockTTL": "6d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 382,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            }
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "2004498"
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "RESIDENTIAL",
+        "receiverName": "TATIANE  RADAELLI",
+        "addressId": "TATIANE",
+        "postalCode": "90540110",
+        "city": "PORTO ALEGRE",
+        "state": "RS",
+        "country": "BRA",
+        "street": "R FELICISSIMO DE AZEVEDO",
+        "number": "53",
+        "neighborhood": "SAO JOAO",
+        "complement": "804",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "attachmentId": "clientPreferencesData",
+    "locale": "pt-BR",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "attachmentId": "marketingData",
+    "utmSource": "chaordic-mail",
+    "utmMedium": "email",
+    "utmCampaign": "reducaodepreco",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "checkToSavePersonDataByDefault": false,
+    "templateOptions": {
+      "toggleCorporate": false
+    },
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "salesChannel": "1",
+  "followUpEmail": "rodrigo@vtex.com.br",
+  "creationDate": "2017-04-27T11:03:32.0689189Z",
+  "lastChange": "2017-05-05T20:16:41.0013091Z",
+  "timeZoneCreationDate": "2017-04-27T08:03:32.0689189",
+  "timeZoneLastChange": "2017-05-05T17:16:41.0013091",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "_accountInfo": {
+    "HostName": "vtex",
+    "MainAccountName": "vtex",
+    "IsPersisted": true,
+    "IsRemoved": false,
+    "Id": "e39d05f9-0c54-4469-a626-8bb5cff169f8",
+    "Cnpj": "123456789",
+    "CompanyName": "Vtex Remarkable Technology",
+    "TradingName": "VTEX",
+    "AccountName": "vtex",
+    "DefaultUrl": null,
+    "Address": "PRAIA DE BOTAFOGO",
+    "Number": "518",
+    "Complement": "",
+    "District": "BOTAFOGO",
+    "City": "RIO DE JANEIRO",
+    "State": "RJ",
+    "PostalCode": "22250040",
+    "Country": "Brazil",
+    "Telephone": "2222222222",
+    "IsActive": false,
+    "Sponsor": null,
+    "Logo": "branding.png",
+    "AppId": "80ec8b10-25b7-48de-b425-7b93554002cb",
+    "IsOperating": false,
+    "LV": "LV-1000009",
+    "Sigla": null
+  }
+}

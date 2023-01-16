@@ -1,0 +1,35 @@
+:global(.vtex-product-summary-2-x-element--shelf-wish) {
+  .wishlistIconContainer {
+    position: absolute;
+    top: 9px;
+    right: 60px !important;
+    z-index: 2;
+
+    :global(.vtex-button)::hover {
+      outline: none !important;
+    }
+
+    :global(.vtex-button__label) {
+      padding: 0 !important;
+    }
+  }
+}
+
+.iconSize {
+  width: 20px;
+  height: 20px;
+}
+
+.outline {
+  background: none;
+  &::after {
+    content: url("assets/svg/icon-wishlist-empty.svg");
+  }
+}
+
+.fill {
+  background: none;
+  &::after {
+    content: url("assets/svg/icon-wishlist-fill.svg");
+  }
+}

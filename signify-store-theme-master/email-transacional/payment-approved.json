@@ -1,0 +1,422 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Vestido transpassado...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 0.42,
+          "width": 1
+        },
+        "categoriesIds": "/3/23/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "brandName": "dressto",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "15005",
+      "priceTable": null,
+      "priceValidUntil": "4000-01-01T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "3C7FE65347AE4C819FCDB1E4C5E8E647",
+      "id": "15005",
+      "productId": "10001",
+      "refId": "01320304130801",
+      "ean": "01320304130801",
+      "name": "Vestido transpassado de veludo - VERMELHO VINHO - PP",
+      "skuName": "Vestido transpassado de veludo - VERMELHO VINHO - PP",
+      "modalType": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 43900,
+      "listPrice": 43900,
+      "manualPrice": null,
+      "sellingPrice": 43900,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/23/",
+      "productCategories": {
+        "3": "Bazar",
+        "23": "Vestidos"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dresstoshop.vteximg.com.br/arquivos/ids/155394-55-55/imagemteste1.jpg?v=636753692461770000",
+      "detailUrl": "/vestido-transpassado-de-veludo--vermelho-vinho-01320304-1308/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=dresstoshop",
+      "id": "1",
+      "name": "DRESS TO CLOTHING BOUTIQUE LTDA",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "orderFormId": "78411d32654a4d30830ee488386eee03",
+  "sequence": "500034",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "125a42ee-0fbb-4218-93b3-901d57af146a",
+  "hostName": "dresstoshop",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "orderId": "873133090783-01",
+  "orderGroup": "873133090783",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-873133090783-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 45441,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 43900
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 1541
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "gustavo.trindade@live.com-2b.ct.vtex.com.br",
+    "firstName": "Gustavo",
+    "lastName": "Trindade",
+    "document": "08954136710",
+    "documentType": "cpf",
+    "phone": "+5521981334444",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Gustavo Trindade", //
+      "addressId": "7b7d9a7d77314cf79073fe45a3dd7c2a",
+      "postalCode": "24936-470",
+      "city": "Maricá",
+      "state": "RJ",
+      "country": "BRA",
+      "street": "Rua Van Lerbergue Quadra",
+      "number": "8136",
+      "neighborhood": "Barroco (Itaipuaçu)",
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Sedex",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "7b7d9a7d77314cf79073fe45a3dd7c2a",
+        "slas": [
+          {
+            "id": "Sedex",
+            "deliveryChannel": "delivery",
+            "name": "Sedex",
+            "deliveryIds": [
+              {
+                "courierId": "4",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Correios - Sedex",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2018-11-06T16:55:19.5460112Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1541,
+            "listPrice": 1541,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null
+          },
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Flash - Normal",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "6bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 2058,
+            "listPrice": 2058,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null
+          },
+          {
+            "id": "Expressa",
+            "deliveryChannel": "delivery",
+            "name": "Expressa",
+            "deliveryIds": [
+              {
+                "courierId": "2",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Flash - Expressa",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 2610,
+            "listPrice": 2610,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "15005",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gustavo Trindade",
+        "addressId": "7b7d9a7d77314cf79073fe45a3dd7c2a",
+        "postalCode": "24936-470",
+        "city": "Maricá",
+        "state": "RJ",
+        "country": "BRA",
+        "street": "Rua Van Lerbergue Quadra",
+        "number": "8136",
+        "neighborhood": "Barroco (Itaipuaçu)",
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gustavo Trindade",
+        "addressId": "7b7d9a7d77314cf79073fe45a3dd7c2a",
+        "postalCode": "24936-470",
+        "city": "Maricá",
+        "state": "RJ",
+        "country": "BRA",
+        "street": "Rua Van Lerbergue Quadra",
+        "number": "8136",
+        "neighborhood": "Barroco (Itaipuaçu)",
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "8C0A529FCA8A4A0AB434E33CE9F072BE",
+        "merchantName": "DRESSTOSHOP",
+        "payments": [
+          {
+            "id": "FB61BDC5D1354CB1B9550FEBD58D68B2",
+            "paymentSystem": "17",
+            "paymentSystemName": "Promissory",
+            "value": 45441,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 45441,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "promissory",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null
+          }
+        ],
+        "sharedTransaction": null
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "1cd548175f824b3eb86a7a91fbc1e0fa@ct.vtex.com.br",
+  "creationDate": "2018-11-01T16:51:47.7024415Z",
+  "lastChange": "2018-11-01T16:56:00.8381137Z",
+  "timeZoneCreationDate": "2018-11-01T13:51:47.7024415",
+  "timeZoneLastChange": "2018-11-01T13:56:00.8381137",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "HostName": "dresstoshop",
+    "MainAccountName": "dresstoshop",
+    "IsPersisted": true,
+    "IsRemoved": false,
+    "Id": "4042bc0a-d60a-4952-902e-af620094af41",
+    "Cnpj": "11111111111111",
+    "CompanyName": "DRESS TO CLOTHING BOUTIQUE LTDA",
+    "TradingName": "DRESS TO CLOTHING BOUTIQUE LTDA",
+    "AccountName": "dresstoshop",
+    "DefaultUrl": null,
+    "Address": "Rua do Carmo",
+    "Number": "71",
+    "Complement": null,
+    "District": "Centro",
+    "City": "RIO DE JANEIRO",
+    "State": "RJ",
+    "PostalCode": "20011-020",
+    "Country": "Brasil",
+    "Telephone": "219692151",
+    "IsActive": true,
+    "Sponsor": "d8f7b108-4475-4e58-973b-5eec36d900b5",
+    "Logo": null,
+    "AppId": null,
+    "IsOperating": false,
+    "LV": "LV-11111",
+    "Sigla": null
+  }
+}

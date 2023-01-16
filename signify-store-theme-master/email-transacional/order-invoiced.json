@@ -1,0 +1,579 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 7690,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": null,
+    "invoiceNumber": "3519",
+    "invoiceValue": 7690,
+    "invoiceUrl": null,
+    "issuanceDate": "2018-10-30T00:00:00",
+    "trackingNumber": "",
+    "invoiceKey": "200002952",
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null
+  },
+  "subjectItemAttachment": {
+    "item": "MEIA KENDALL SC 7/8 ...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 0,
+          "height": 0,
+          "length": 0,
+          "weight": 0.09,
+          "width": 0
+        },
+        "categoriesIds": "/3/80/99/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "brandName": "HANES BRANDS",
+        "brandId": "2000006",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "68",
+      "priceTable": null,
+      "priceValidUntil": "2019-10-30T14:08:16Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "BD45E98B9837425C8FBA98AF32485955",
+      "id": "68",
+      "productId": "6",
+      "refId": "11518",
+      "ean": "7896191277849",
+      "name": "MEIA KENDALL SC 7/8 S/PON SIL MEL P 2613",
+      "skuName": "MEIA KENDALL SC 7/8 S/PON SIL MEL P 2613",
+      "modalType": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 7690,
+      "listPrice": 7690,
+      "manualPrice": null,
+      "sellingPrice": 7690,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/80/99/",
+      "productCategories": {
+        "3": "Cuidados com a Saúde",
+        "80": "Ortopedia e fisioterapia",
+        "99": "Meias de compressão"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://drogariavenancio.vteximg.com.br/arquivos/ids/155421-55-55/5_Z.jpg?v=636759788440600000",
+      "detailUrl": "/meiakendallsc7-8s-ponsilmelp2613-11518/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "discount@shipping-c77ee728-494b-4cf5-a85f-73787a520a33#d07eced9-31f2-4fef-b7ee-cb7feefeb962",
+          "value": -212,
+          "rawValue": -2.12,
+          "isPercentual": false,
+          "identifier": "c77ee728-494b-4cf5-a85f-73787a520a33"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "MM",
+      "unitMultiplier": 1
+    },
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 1,
+          "height": 50,
+          "length": 45,
+          "weight": 0.02,
+          "width": 40
+        },
+        "categoriesIds": "/1/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "brandName": "Venancio",
+        "brandId": "2000543",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6422",
+      "priceTable": null,
+      "priceValidUntil": null,
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "uniqueId": "8D99AFEBF3AF4FD99DA9D41A10836A2F",
+      "id": "6422",
+      "productId": "6422",
+      "refId": null,
+      "ean": "1234",
+      "name": "Brindeteste Brinde Teste",
+      "skuName": "Brinde Teste",
+      "modalType": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 1,
+      "listPrice": 1,
+      "manualPrice": null,
+      "sellingPrice": 0,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/",
+      "productCategories": {
+        "1": "Higiene e Cuidados Pessoais"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://drogariavenancio.vteximg.com.br/arquivos/ids/155424-55-55/5_Z.jpg?v=636764925953830000",
+      "detailUrl": "/brindeteste/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "DISCOUNT@GIFT",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "d9740041-6864-40e1-b265-00fc889e5a2c"
+        },
+        {
+          "name": "discount@shipping-c77ee728-494b-4cf5-a85f-73787a520a33#d07eced9-31f2-4fef-b7ee-cb7feefeb962",
+          "value": -47,
+          "rawValue": -0.47,
+          "isPercentual": false,
+          "identifier": "c77ee728-494b-4cf5-a85f-73787a520a33"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=drogariavenancio",
+      "id": "1",
+      "name": "VENANCIO PRODUTOS FARMACEUTICOS LTDA",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "orderFormId": "a21fd1ec5169451ea8f766196820e2cb",
+  "sequence": "500058",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "732fee18-5076-4bfa-b0f5-7bdcd1d1fcc1",
+  "hostName": "drogariavenancio",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "orderId": "872620580713-01",
+  "orderGroup": "872620580713",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-872620580713-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 7690,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 7690
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "alinemaione@gmail.com-16b.ct.vtex.com.br",
+    "firstName": "Aline",
+    "lastName": "Maione",
+    "document": "08237968760",
+    "documentType": "cpf",
+    "phone": "+5521988920410",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "d9740041-6864-40e1-b265-00fc889e5a2c",
+        "name": "Promoção Brinde",
+        "featured": false,
+        "description": "Compre uma meia e ganhe um brinde",
+        "matchedParameters": {
+          "buyAndWin@Marketing": "68"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "c77ee728-494b-4cf5-a85f-73787a520a33",
+        "name": "Frete Gratis",
+        "featured": false,
+        "description": "Frete Gratis para compras acima de R$ 150,00",
+        "matchedParameters": {},
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Aline Maione",
+      "addressId": "65af4015920742a484c620ff3251cae3",
+      "postalCode": "20510-150",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "country": "BRA",
+      "street": "Rua Itacuruçá",
+      "number": "26",
+      "neighborhood": "Tijuca",
+      "complement": "304",
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "65af4015920742a484c620ff3251cae3",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "11dc950",
+                "warehouseId": "101122c",
+                "dockId": "154eb5c",
+                "courierName": "Jadlog",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "7bd",
+            "shippingEstimateDate": "2018-11-08T14:11:52.0978717Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 212,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "68",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "65af4015920742a484c620ff3251cae3",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "11dc950",
+                "warehouseId": "101122c",
+                "dockId": "154eb5c",
+                "courierName": "Jadlog",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "7bd",
+            "shippingEstimateDate": "2018-11-08T14:11:52.0978717Z",
+            "lockTTL": "10d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 47,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "6422",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Aline Maione",
+        "addressId": "65af4015920742a484c620ff3251cae3",
+        "postalCode": "20510-150",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "country": "BRA",
+        "street": "Rua Itacuruçá",
+        "number": "26",
+        "neighborhood": "Tijuca",
+        "complement": "304",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Aline Maione",
+        "addressId": "65af4015920742a484c620ff3251cae3",
+        "postalCode": "20510-150",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "country": "BRA",
+        "street": "Rua Itacuruçá",
+        "number": "26",
+        "neighborhood": "Tijuca",
+        "complement": "304",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [
+      {
+        "redemptionCode": "MPBS-TXTV-UQMF-YJXE",
+        "provider": "VtexGiftCard",
+        "value": 5000,
+        "balance": 5000,
+        "name": null,
+        "caption": null,
+        "id": "732fee18-5076-4bfa-b0f5-7bdcd1d1fcc1_5",
+        "inUse": true,
+        "isSpecialCard": false,
+        "groupName": null
+      }
+    ],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "81BA752D7E844CDC82CB88AA35E2F4AF",
+        "merchantName": "DROGARIAVENANCIO",
+        "payments": [
+          {
+            "id": "508425AF0B54424F881161D7C406AD6C",
+            "paymentSystem": "16",
+            "paymentSystemName": "Vale",
+            "value": 5000,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 5000,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "51f9b5fb39134762a99284234093d747",
+            "redemptionCode": "MPBS-TX**-****-YJXE",
+            "giftCardId": "732fee18-5076-4bfa-b0f5-7bdcd1d1fcc1_5",
+            "giftCardProvider": "VtexGiftCard",
+            "giftCardAsDiscount": false,
+            "group": "giftCard",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null
+          },
+          {
+            "id": "663FFFF960C445BC8B04D90D5240535D",
+            "paymentSystem": "6",
+            "paymentSystemName": "Boleto Bancário",
+            "value": 2690,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 2690,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": "https://shopline.itau.com.br/shopline/shopline.aspx?DC=G183U175U211U13U236U100U157U163U233U60U165U217U103U205U11U136U92U103U208U14U7U145U43U99U247U245U52U32U223U99U182U103U206U241U105U14U62U194U82U193U83U234U145U114U222U73U59U84U139U253U125U125U161U65U97U225U215U10U214U228U231U154U6U74U160U173U87U217U180U144U83U164U196U70U19U111U164U240U140U135U197U42U77U213U228U149U51U156U206U173U69U100U133U188U227U27U172U205U243U45U55U183U171U171U134U49U216U204U14U95U71U110U230U189U186U165U201U46U158U250U73U22U1U9U96U197U190U214U37U2U144U40U250U211U9U160U17U79U53U115U251U29U100U166U228U103U153U129U23U0U155U236U200U158U181U235U112U38U136U251U44U154U167U220U193U78U167U166U165U111U240U95U12U128U235U23U233U31U58U67U225U30U160U119U165U88U209U28U212U117U133U99U179U183U51U73U189U128U25U218U85U249U201U78U108U161U156U112U22U168U211U253U112U204U10U47U136U134U212U21U34U120U88U53U79U113U67U63U138U223U165U55U55U155U24U101U50U197U171U34U162U42U119U5U25U220U203U67U104U64U79U214U143U130U66U251U115U25U179U247U79U125U187U203U219U46U112U154U177U3U163U114U77U230U247U13U212U50U155U111U25U77U35U165U178U189U139U234U183U183U160U174U233U220U29U106U154U214U51U239U214U30U27U66U218U159U15U53U252U218U14U106U69U89U45U114U74U47U177U76U49U98U178U186U144U14U155U82U192U55U94U97U22U22U168U106U83U1U6U92U155U152U62U39U36U37U33U98U145U162U87U7U166U182U219U53U85U90U202U72U20U137U118U51U70U230U239U177U1U232U76U156U44U212U187U4U128U209U63U250U212U180U225U165U70U8U50U53U114U96U9U171U122U78U231U161U157U99U168U28U163U117U70U245U146U235U48U9U92U35U182U9U254U66U197U82U89U156U158U51U78U208U20U121U179U238U44U133U130U144U69U254U129U59U24U127U16U245U9U247U7U179U138U226U59U235U28U50U68U231U193U185U155U150U74U250U64U244U",
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "bankInvoice",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null
+          }
+        ],
+        "sharedTransaction": null
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "3bb217e8915f4801a67b5fce74409ace@ct.vtex.com.br",
+  "creationDate": "2018-10-30T14:09:49.5510044Z",
+  "lastChange": "2018-10-30T14:11:51.9680346Z",
+  "timeZoneCreationDate": "2018-10-30T11:09:49.5510044",
+  "timeZoneLastChange": "2018-10-30T11:11:51.9680346",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "HostName": "drogariavenancio",
+    "MainAccountName": "drogariavenancio",
+    "IsPersisted": true,
+    "IsRemoved": false,
+    "Id": "9f3a6c39-74e0-4ac9-a721-5c41702846cb",
+    "Cnpj": "00285753000190",
+    "CompanyName": "VENANCIO PRODUTOS FARMACEUTICOS LTDA",
+    "TradingName": "VENANCIO PRODUTOS FARMACEUTICOS LTDA",
+    "AccountName": "drogariavenancio",
+    "DefaultUrl": null,
+    "Address": "Avenida Professor Manoel de Abreu",
+    "Number": "761",
+    "Complement": null,
+    "District": "Vila Isabel",
+    "City": "Rio de Janeiro",
+    "State": "RJ",
+    "PostalCode": "20550-170",
+    "Country": "Brasil",
+    "Telephone": "5521969941",
+    "IsActive": true,
+    "Sponsor": "0f7223b0-9c93-452f-a100-48b82b75500a",
+    "Logo": "Icon2.jpg",
+    "AppId": null,
+    "IsOperating": true,
+    "LV": "LV-00000",
+    "Sigla": null
+  }
+}

@@ -1,0 +1,39 @@
+@import "./variables/all";
+
+@import "./components/home/shelf/slider-layout";
+
+@import "./components/home/categorias/slider-layout";
+
+@import "./components/home/banner-principal/desktop/slider-layout";
+
+@import "./components/home/banner-grid/slider-layout";
+
+@import "./components/home/slider-layout";
+
+@import "./components/wishlist/slider-layout";
+
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer--carousel {
+  background-color: $gray-4;
+}
+
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+
+.paginationDotsContainer {
+}
+
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}

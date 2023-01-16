@@ -1,0 +1,596 @@
+.boxContainerBody {
+  @media (max-width: 499px) {
+    padding: 20px 15px;
+  }
+}
+.menuLinks {
+  :global(.b--action-primary) {
+    border: none;
+  }
+}
+.menu {
+  border-right: 1px solid $gray-4;
+  padding-right: 0;
+  margin-right: 2rem;
+}
+:global(.vtex-input-prefix__group) {
+  height: 50px;
+}
+:global(.vtex-address-form-4-x-container) {
+  height: 50px;
+}
+:global(.vtex-dropdown__label) {
+  font-weight: 700;
+  color: $gray-1;
+}
+:global(.vtex-input__label) {
+  font-weight: 700;
+  color: $gray-1;
+}
+:global(.vtex-profile-form-3-x-styleguideInput) {
+  input,
+  select {
+    height: 50px;
+  }
+  span {
+    font-weight: 700;
+    color: $gray-1;
+  }
+}
+:global(.vtex-account) {
+  background: $gray-6;
+  > :global(.w-100) {
+    max-width: 1160px;
+    margin: auto;
+  }
+}
+:global(.vtex-pageHeader__children) {
+}
+.boxContainerFooter {
+  :global(.vtex-button) {
+    text-transform: unset !important;
+    background: $primary;
+    height: 50px;
+    width: 200px;
+    &:hover {
+      background: $yellow-2 !important;
+
+      :global(.vtex-button__label) {
+        color: $white;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    :global(.vtex-button__label) {
+      color: $white;
+      font-weight: 400;
+      text-decoration: none;
+      font-size: 13px;
+    }
+  }
+}
+
+.boxContainer {
+  border-radius: 8px;
+  border: 1px solid $gray-4;
+}
+
+.dataEntryLabel,
+.newsletterContainerTitle {
+  font-weight: 700;
+  color: $gray-1;
+}
+
+.dataEntryChildren {
+  color: $gray-1;
+  font-weight: 400;
+
+  @media (max-width: 499px) {
+  }
+}
+
+.newsletterContainerMessage {
+  color: $gray-1;
+}
+
+.passwordBox {
+  :global(.vtex-checkbox__label) {
+    color: $gray-1;
+    text-decoration: underline;
+    font-weight: 400;
+  }
+}
+
+.menuLinks {
+  :global(.vtex-account_menu-link),
+  .menuLink {
+    padding: 0 0;
+    border: none;
+    color: $gray-2;
+
+    &:global(.c-on-base) {
+      color: $primary;
+    }
+  }
+}
+
+.userGreeting,
+.userName,
+:global(.vtex-pageHeader__title) {
+  color: $gray-1;
+  font-weight: 400;
+}
+
+:global(.vtex-my-account-1-x-menu) {
+  @media (max-width: 499px) {
+    padding: 3rem 1rem;
+  }
+}
+:global(.vtex-pageHeader-link__container) {
+  :global(.vtex-button) {
+    color: $negative-darkest;
+
+    text-transform: unset;
+  }
+}
+
+:global(.vtex-pageHeader__container) {
+  padding-left: 10px;
+  :global(.c-on-base) {
+    margin-top: 0;
+  }
+}
+:global(.vtex-button) {
+  transition: 0.2s all;
+  height: 50px;
+}
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+    :global(.vtex-button) {
+      background: transparent;
+      border: 1px solid $primary;
+      color: $primary;
+      outline: none;
+      text-transform: unset;
+      height: 50px;
+      &:hover {
+        background: transparent;
+        border: 1px solid $yellow-2;
+      }
+    }
+  }
+}
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  :global(.bg-action-primary) {
+    background: $primary;
+    height: 50px;
+    color: $white;
+    outline: none;
+    border: none;
+    text-transform: unset;
+    :global(.vtex-button__label) {
+    }
+    &:hover {
+      background: $yellow-2;
+    }
+  }
+}
+:global(.vtex-styleguide-9-x-mh100) {
+  width: 556px;
+  height: 315px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: initial;
+  position: relative;
+
+  :global(.vtex-styleguide-9-x-shadowTransition) {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  :global(.vtex-styleguide-9-x-scrollBar) {
+    span {
+      text-align: center;
+      display: block;
+      font-size: 38px;
+      font-weight: 400;
+      color: $gray-1;
+    }
+
+    :global(.vtex-modal__confirmation) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 0;
+
+      span {
+        margin: 0;
+
+        > :global(.vtex-button) {
+          background: $primary !important;
+          width: 80%;
+          height: 50px;
+          margin-bottom: 15px;
+          border: none;
+          color: $white;
+          &:hover {
+            background: $yellow-2 !important;
+          }
+
+          &:focus {
+            outline: none;
+          }
+
+          :global(.vtex-button__label) {
+            color: $white;
+          }
+        }
+      }
+
+      :global(.vtex-button) {
+        background: transparent;
+        border: 1px solid $gray-1;
+        width: 80%;
+        margin: auto;
+        height: 50px;
+
+        &:hover {
+          background: $gray-1;
+
+          :global(.vtex-button__label) {
+            color: $gray-1;
+          }
+        }
+
+        &:focus {
+          outline: none;
+        }
+
+        :global(.vtex-button__label) {
+          color: $gray-1;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-account__page) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+:global(.myo-progress-bar) {
+  background: $white;
+}
+:global(.tracked-mega) {
+  color: $gray-1;
+}
+:global(.vtex-account__order-details) {
+  background: $gray-6;
+}
+:global(.vtex-account__orders-list) {
+  min-height: 50vh;
+  display: flex;
+  padding: 0;
+
+  @media (max-width: 499px) {
+    padding: 1rem;
+  }
+
+  span {
+    font-weight: 400;
+    > span {
+      position: relative;
+
+      &::before {
+        content: "";
+        background: url(/arquivos/my-account-orders.png);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -100px;
+        margin: auto;
+        width: 105px;
+        height: 81px;
+      }
+
+      &::after {
+        content: "Para continuar comprando, navegue pelas categorias do site ou faça uma busca pelo seu produto.";
+        font-size: 20px;
+        text-align: center;
+        color: $gray-1;
+        position: absolute;
+        width: 90%;
+        left: 0;
+        right: 0;
+        bottom: -90px;
+        margin: auto;
+      }
+    }
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderCard) {
+    margin: 0 0 15px;
+    border: 1px solid $gray-4;
+    border-radius: 5px;
+
+    :global(.vtex-my-orders-app-3-x-orderHeader) {
+      padding: 17px 21px;
+      border-bottom: none;
+
+      background: transparent;
+      :global(.vtex-my-orders-app-3-x-orderHeaderLabel),
+      :global(.vtex-my-orders-app-3-x-orderId) {
+        font-size: 12px;
+        font-weight: 700;
+        color: $gray-1;
+        text-transform: unset;
+      }
+
+      :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+        font-size: 12px;
+        color: $gray-1;
+        text-transform: unset;
+      }
+
+      :global(.bg-success) {
+        height: 27px;
+        border-radius: 0;
+
+        span {
+          font-size: 16px;
+          color: $gray-1;
+        }
+      }
+    }
+
+    :global(.vtex-my-orders-app-3-x-orderBody) {
+      padding: 21px;
+      background: transparent;
+      span {
+        &::before {
+          content: unset;
+        }
+
+        &::after {
+          content: unset;
+        }
+      }
+
+      :global(.vtex-my-orders-app-3-x-orderProduct) {
+        .v-top.dib.w-20.h-auto {
+          width: auto !important;
+        }
+
+        img {
+          width: 65px;
+          height: 65px;
+        }
+
+        :global(.vtex-my-orders-app-3-x-orderProductName) {
+          font-size: 16px;
+          color: $primary;
+          font-weight: 700;
+          text-transform: capitalize;
+        }
+
+        :global(.vtex-my-orders-app-3-x-orderProductShipping),
+        :global(.vtex-my-orders-app-3-x-orderProductValue),
+        :global(.vtex-my-orders-app-3-x-orderProductQuantity) {
+          font-size: 12px;
+          color: $gray-1;
+        }
+
+        :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+          margin-bottom: 0;
+        }
+
+        :global(.vtex-my-orders-app-3-x-orderProductValue),
+        :global(.vtex-my-orders-app-3-x-orderProductQuantity) {
+          font-weight: 400;
+        }
+      }
+
+      :global(.vtex-my-orders-app-3-x-reorderBtn) {
+        :global(.vtex-my-orders-app-3-x-font) {
+          font-size: 13px;
+          text-decoration: none;
+        }
+      }
+      :global(.vtex-my-orders-app-3-x-cancelBtn) {
+        :global(.vtex-my-orders-app-3-x-font) {
+          font-size: 13px;
+          text-decoration: none;
+        }
+      }
+
+      :global(.vtex-my-orders-app-3-x-reorderBtn) {
+        span {
+          color: $negative-lightest;
+        }
+      }
+      :global(.vtex-my-orders-app-3-x-reorderBtn),
+      :global(.vtex-my-orders-app-3-x-cancelBtn) {
+        text-decoration: none;
+        display: block;
+
+        @media (min-width: 1025px) {
+          margin-left: auto;
+        }
+
+        @media (max-width: 499px) {
+          margin-right: auto;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        svg {
+          display: none;
+        }
+
+        :global(.vtex-my-orders-app-3-x-font) {
+          font-size: 13px;
+          display: block;
+          text-align: right;
+
+          @media (max-width: 499px) {
+            text-align: left;
+          }
+        }
+      }
+
+      :global(.vtex-my-orders-app-3-x-detailsBtn) {
+        background: $primary;
+        border: none;
+        border-radius: 4px;
+        height: 50px;
+        max-width: 256px;
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 499px) {
+          max-width: 100%;
+        }
+
+        span {
+          font-size: 13px;
+
+          color: $white;
+        }
+
+        &:hover {
+          background: $support-3;
+        }
+      }
+    }
+  }
+}
+
+:global(.vtex-pageHeader__container) {
+  position: relative;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column-reverse;
+
+  :global(.vtex-pageHeader__title) {
+    padding-left: 10px;
+    font-size: 24px;
+    color: $gray-1;
+    font-weight: 700;
+  }
+
+  :global(.vtex-pageHeader-link__container) {
+    padding-left: 10px;
+    margin-top: 15px;
+
+    span {
+      text-transform: unset;
+    }
+  }
+
+  :global(.vtex-pageHeader__children) {
+    position: absolute;
+    right: 25px;
+    top: 22px;
+
+    :global(.vtex-button) {
+      background: $primary !important;
+      width: 100%;
+      height: 50px;
+      margin-bottom: 15px;
+      border: none !important;
+      border-radius: 4px;
+      &:hover {
+        background: $yellow-2 !important;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      :global(.vtex-button__label) {
+        color: $white;
+      }
+    }
+  }
+}
+
+:global(.vtex-my-account-1-x-profile) {
+  padding: 0;
+  margin-top: 30px;
+
+  @media (max-width: 499px) {
+    padding: 0 1rem;
+  }
+}
+
+:global(.vtex-account__cards-list) {
+  background: $gray-6;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 28px;
+    font-weight: 400;
+    position: relative;
+
+    > span {
+      color: $gray-1;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      &::before {
+        content: "";
+        background: url(/arquivos/my-account-credit-card.png);
+        position: absolute;
+        top: -100px;
+        width: 106px;
+        height: 85px;
+      }
+    }
+  }
+}
+
+:global(.vtex-my-orders-app-3-x-productName) {
+  color: $gray-1;
+  text-decoration: none;
+}
+:global(.myo-product-table) {
+  :global(th) {
+    text-transform: uppercase;
+    color: $gray-1;
+  }
+}
+:global(.myo-margin-right) {
+  :global(h2) {
+    color: $gray-1;
+  }
+}
+:global(.vtex-account__create-card) {
+  border: 1px solid $gray-4;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.userImage {
+  display: none;
+}
+
+.userName {
+  font-weight: 700;
+}

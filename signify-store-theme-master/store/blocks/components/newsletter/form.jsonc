@@ -1,0 +1,61 @@
+{
+    "form#newsletter": {
+        "props": {
+            "entity": "NL",
+            "schema": "Newsletter"
+        },
+        "children": ["flex-layout.row#nl-inputs"],
+        "blocks": ["form-success"]
+    },
+
+    "flex-layout.row#nl-inputs": {
+        "children": [
+            "form-input.text#nl-nome",
+            "form-input.text#nl-email",
+            "form-submit#nl-submit"
+        ],
+        "props": {
+            "blockClass": "nl-inputs",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center"
+        }
+    },
+
+    "form-success": {
+        "children": ["rich-text#successSubmit"]
+    },
+
+    "rich-text#successSubmit": {
+        "props": {
+            "blockClass": "nl-feedback-success",
+            "text": "Dados cadastrados com sucesso!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-text-success"
+            //"textColor": "c-on-emphasis"
+        }
+    },
+
+    "form-input.text#nl-nome": {
+        "props": {
+            "pointer": "#/properties/name",
+            "label": "",
+            "placeholder": "Nome"
+        }
+    },
+    "form-input.text#nl-email": {
+        "props": {
+            "pointer": "#/properties/email",
+            "label": "",
+            "placeholder": "E-mail"
+        }
+    },
+
+    "form-submit#nl-submit": {
+        "props": {
+            "blockClass": "newsletter-submit",
+            "label": "Cadastrar"
+        }
+    }
+}

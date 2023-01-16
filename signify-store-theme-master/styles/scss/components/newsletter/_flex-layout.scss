@@ -1,0 +1,61 @@
+.flexRow--newsletter__row-logo {
+  margin-bottom: 10px;
+}
+
+.flexRow--nl-title {
+  display: flex;
+}
+
+.flexRowContent--nl-inputs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 342px;
+
+  @media only screen and (max-width: $md) {
+    width: 100%;
+  }
+}
+
+.flexRow--nl-inputs {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+
+  :global(.vtex-input-prefix__group) {
+    width: 342px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid $gray-4;
+
+    @media only screen and (max-width: $md) {
+      max-width: 234px;
+    }
+  }
+
+  :global(.vtex-button) {
+    width: 342px;
+    height: 50px;
+
+    @media only screen and (max-width: $md) {
+      max-width: 234px;
+    }
+  }
+}
+
+.flexCol--nl-content-2 {
+  height: max-content;
+}
+
+.flexColChild--nl-content-2 {
+  position: relative;
+}
+
+.flexRowContent--newsletter-mobile {
+  flex-direction: column;
+
+  .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}

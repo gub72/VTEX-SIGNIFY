@@ -1,0 +1,82 @@
+{
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Lista de Desejos"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "children": ["flex-layout.row#top", "list-context.wishlist#myaccount"]
+  },
+  "store.wishlist": {
+    "blocks": ["flex-layout.row#top", "list-context.wishlist"]
+  },
+  "flex-layout.row#top": {
+    "children": ["flex-layout.col#titleWishlist"],
+    "props": {
+      "blockClass": "top",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.col#titleWishlist": {
+    "children": ["rich-text#titleWishlist"],
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleWishlist": {
+    "props": {
+      "text": "Lista de Desejo",
+      "blockClass": "titleWishlist"
+    }
+  },
+  "list-context.wishlist": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#wishlist"]
+  },
+  "list-context.wishlist#myaccount": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#wishlistmyaccount"]
+  },
+  "product-summary.shelf#wishlist": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image#shelf",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "shelf-wish"
+    }
+  },
+  "slider-layout#wishlist": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "slider-layout#wishlistmyaccount": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

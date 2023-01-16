@@ -1,0 +1,50 @@
+// Definição das cores principais
+$primary: #f1b51c;
+$secondary: #29241f;
+$danger: #e44126;
+$success: #64c800;
+
+$white: #ffffff;
+$black: #000000;
+
+$gray-1: #333333;
+$gray-2: #686868;
+$gray-3: #b7b7b7;
+$gray-4: #f1f1f1;
+$gray-5: #414042;
+$gray-6: #f9f9f9;
+$gray-7: #e5e5e5;
+
+//$gray-7: #dff0d8;
+//$gray-8: #f2f0ef;
+//$gray-9: #191919;
+
+// neutral
+$negative-darkest: #1f1f1f;
+$negative-dark: #2d2d2d;
+$negative-lightest: #6b82ff;
+
+$yellow-2: #e99a00;
+$yellow-3: #f5c54e;
+
+$green: #50baa9;
+
+$support-1: #e44126;
+$support-2: #64c800;
+$support-3: #f3af00;
+$support-4: #2f80ed;
+$support-5: #deecff;
+
+// Global Border Color
+$border-color: rgba($gray-4, 0.2);
+$input-border-color: #fff;
+$form-feedback-icon-invalid: none;
+$form-feedback-icon-valid-color: $gray-4;
+$form-feedback-valid-color: #fff;
+
+// Base Box Shadow
+$box-shadow: 0px 17px 16px rgba(0, 0, 0, 0.08);
+
+// Text Dark
+$dark: $gray-4;
+$light: $gray-2;

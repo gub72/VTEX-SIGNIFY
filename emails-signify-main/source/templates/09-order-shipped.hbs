@@ -1,0 +1,67 @@
+<!-- partial:partials/view/_html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table style="margin: auto">
+    <tbody>
+
+        <!-- partial:partials/view/_header-logo.hbs -->
+       <!-- partial -->
+
+      <tr style="border: 0">
+        <td style="padding: 50px 12px">
+          <img src="https://philipssignifyb2c.vteximg.com.br/arquivos/transporteandamento.png" />
+        </td>
+      </tr>
+
+      <tr style="border: 0; color: #2D2D2D;">
+        <td style="padding: 0 12px 70px">
+            <p style="
+                font-weight: 700;
+                font-size: 20;
+                line-height: 23px;
+                padding-bottom: 40px;
+              ">
+              Olá, {{clientProfileData.firstName}}
+            </p>
+            <p style="padding-bottom: 40px">
+              <strong>Seu pedido nº {{orderId}} foi despachado para entrega.</strong>
+            </p>
+            <p style="padding-bottom: 40px">
+              Seu pedido foi enviado pela transportadora {{package.courier}}.
+            </p>
+            <p style="padding-bottom: 40px">Seu prazo de entrega é {{#if shippingData.logisticsInfo.0.selectedSla}}
+                  {{#each shippingData.logisticsInfo.0.slas}}
+                  {{#compare name '==' ../shippingData.logisticsInfo.0.selectedSla}}
+                  {{formatDate shippingEstimateDate}}. <br><br>
+                  {{/compare}}
+                  {{/each}}
+                  {{/if}}</p>
+          <p></p>
+          <p>Caso você note divergência em algum item de sua compra, entre em contato com a gente na Central de Atendimento.</p>
+          </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 0 12px;">
+          <table>
+            <tr>
+              <td width="100%" align="center" valign="middle">
+                <a style="display:flex;justify-content:center;font-weight: 700;
+                font-size: 14px;text-transform:uppercase;color:#fff;align-items:center;background-color:#005A8B; width: 376px; height: 50px; border-radius: 2px;" href="{{package.trackingUrl}}?utm_source=transacional&utm_medium=email&utm_campaign=pedido-enviado" target="_blank" style="display: inline-block; text-decoration: none;">
+                  Rastreie Aqui
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- partial:partials/view/_footer.hbs -->
+      <!-- partial -->
+
+    </tbody>
+  </table>
+</body>
+
+</html>

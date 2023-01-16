@@ -1,0 +1,458 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 99900,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "GFL",
+    "invoiceNumber": "1924494",
+    "invoiceValue": 103161,
+    "invoiceUrl": null,
+    "issuanceDate": "2022-07-28T23:55:27.9030425+00:00",
+    "trackingNumber": "124588870001",
+    "invoiceKey": "35220727932734000408550050019244941330875641",
+    "trackingUrl": "https://status.ondeestameupedido.com/tracking/566/1240024535",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": true,
+      "deliveredDate": "2022-08-01T19:14:33.0829333Z",
+      "data": []
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Fritadeira Airfryer ...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/17/22/",
+        "productClusterId": "138,139,142,143,147",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 9.6744,
+          "height": 35.1,
+          "length": 37.8,
+          "weight": 5800,
+          "width": 35
+        },
+        "brandName": "Philips Walita",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "176",
+      "priceTable": "1",
+      "priceValidUntil": "4000-01-01T03:00:00Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:walitastore:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/176",
+      "uniqueId": "E4C4FEED79D84198A3EA411153E0C874",
+      "id": "176",
+      "productId": "93",
+      "productRefId": "RI9217/44_Vermelho",
+      "refId": "RI9217/44/Vermelho_Un",
+      "ean": "8720389007576",
+      "name": "Camisa Extra-Slim Fit De Algodão Estampada Black - 41",
+      "skuName": "Black - 41",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 119900,
+      "listPrice": 119900,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 99900,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/17/22/",
+      "productCategories": {
+        "17": "Up na sua Alimentação",
+        "22": "Airfryers"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://hugobossstore.vteximg.com.br/arquivos/product-fake.png",
+      "detailUrl": "/airfryer-full-red-cashmere-grey-philips-walita-220v_ri9217-44_vermelho/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "discount@price-50b467e5-8321-4953-8a39-df4fedc41a3c#f72cac28-cc47-439f-9a1e-60cef75ae57b",
+          "value": -20000,
+          "rawValue": -200,
+          "isPercentual": false,
+          "identifier": "50b467e5-8321-4953-8a39-df4fedc41a3c"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "886921744240",
+      "priceDefinition": {
+        "calculatedSellingPrice": 99900,
+        "total": 99900,
+        "sellingPrices": [
+          {
+            "value": 99900,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=walitastore",
+      "id": "1",
+      "name": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "5a4f438e94364094b3a289669d449051",
+  "sequence": "1240024535",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "e96575c3-f117-4c4f-819e-2cd706f9b8b2",
+  "hostName": "walitastore",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1249890556841-01",
+  "orderGroup": "1249890556841",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1249890556841-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 103161,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Total dos Itens",
+      "value": 119900
+    },
+    {
+      "id": "Discounts",
+      "name": "Total dos Descontos",
+      "value": -20000
+    },
+    {
+      "id": "Shipping",
+      "name": "Total do Frete",
+      "value": 3261
+    },
+    {
+      "id": "Tax",
+      "name": "Total da Taxa",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "cbcdedf638a3400e8f4c6163cc3dc322@ct.vtex.com.br",
+    "firstName": "Ranyelli ",
+    "lastName": "ALMEIDA ",
+    "document": "11164281640",
+    "documentType": "cpf",
+    "phone": "+5532984610717",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": "",
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "50b467e5-8321-4953-8a39-df4fedc41a3c",
+        "name": "AFs VIVA RI9217 - R$999",
+        "featured": false,
+        "description": "AF Branca e Preta com desconto, conforme alinhado na reunião unhealthy.\n\nIncluímos a vermelha em 20/07",
+        "matchedParameters": {},
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Ranyelli  ALMEIDA ",
+      "addressId": "4976867938662",
+      "isDisposable": false,
+      "postalCode": "36500-000",
+      "city": "Ubá",
+      "state": "MG",
+      "country": "BRA",
+      "street": "Rua Jacob Campos ",
+      "number": "47",
+      "neighborhood": "Centro ",
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": [-42.94261932373047, -21.1201229095459]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Normal",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4976867938662",
+        "slas": [
+          {
+            "id": "Normal",
+            "deliveryChannel": "delivery",
+            "name": "Normal",
+            "deliveryIds": [
+              {
+                "courierId": "1ccecee",
+                "warehouseId": "1_1",
+                "dockId": "171beb3",
+                "courierName": "GFL",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "8bd",
+            "shippingEstimateDate": "2022-08-09T17:00:00Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 3261,
+            "listPrice": 3261,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "6bd"
+          }
+        ],
+        "shipsTo": ["BRA"],
+        "itemId": "176",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Ranyelli  ALMEIDA ",
+        "addressId": "4976867938662",
+        "isDisposable": false,
+        "postalCode": "36500-000",
+        "city": "Ubá",
+        "state": "MG",
+        "country": "BRA",
+        "street": "Rua Jacob Campos ",
+        "number": "47",
+        "neighborhood": "Centro ",
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": [-42.94261932373047, -21.1201229095459]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Ranyelli  ALMEIDA ",
+        "addressId": "4976867938662",
+        "isDisposable": false,
+        "postalCode": "36500-000",
+        "city": "Ubá",
+        "state": "MG",
+        "country": "BRA",
+        "street": "Rua Jacob Campos ",
+        "number": "47",
+        "neighborhood": "Centro ",
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": [-42.94261932373047, -21.1201229095459]
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "3005CF2C9BB84E9DA44636CF2BA7FE72",
+        "merchantName": "WALITASTORE",
+        "payments": [
+          {
+            "id": "8D204CA79C614A879BB6B25FD61AA788",
+            "paymentSystem": "4",
+            "paymentSystemName": "Mastercard",
+            "value": 103161,
+            "installments": 1,
+            "connectorResponses": {
+              "Tid": "10462207271804134993",
+              "ReturnCode": "00",
+              "Message": "eRede|Success.",
+              "authId": "880830",
+              "nsu": "133909785",
+              "acquirer": "redecard"
+            },
+            "referenceValue": 103161,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": "515601",
+            "lastDigits": "0507",
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": "10462207271804134993",
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "creditCard",
+            "dueDate": null,
+            "accountId": "8E1BE286187E43729EF60EFAC256A6FE",
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "addressType": "residential",
+              "receiverName": "Ranyelli  ALMEIDA ",
+              "addressId": "4976867938662",
+              "isDisposable": false,
+              "postalCode": "36500-000",
+              "city": "Ubá",
+              "state": "MG",
+              "country": "BRA",
+              "street": "Rua Jacob Campos ",
+              "number": "47",
+              "neighborhood": "Centro ",
+              "complement": null,
+              "reference": null,
+              "geoCoordinates": [-42.94261932373047, -21.1201229095459]
+            }
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "pt-BR",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "BRA",
+    "saveUserData": false,
+    "timeZone": "E. South America Standard Time",
+    "currencyCode": "BRL",
+    "currencyLocale": 1046,
+    "currencySymbol": "R$",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": true
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "9e089c8506c04e7b8941683e43137cd9@ct.vtex.com.br",
+  "creationDate": "2022-07-27T21:09:15.570607Z",
+  "lastChange": "2022-07-28T23:55:35.0044522Z",
+  "timeZoneCreationDate": "2022-07-27T18:09:15.570607",
+  "timeZoneLastChange": "2022-07-28T20:55:35.0044522",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "walitastore",
+    "AccountName": "walitastore",
+    "Cnpj": "27932734000165",
+    "Id": "bd556c77-0102-460b-bc8f-7c94d17d2a8c",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-06-22T17:10:48.9161642Z",
+    "OperationDate": "2022-04-05T17:17:35.6058733+00:00",
+    "CompanyName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "TradingName": "SYNAPCOM COMERCIO ELETRONICO LTDA",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

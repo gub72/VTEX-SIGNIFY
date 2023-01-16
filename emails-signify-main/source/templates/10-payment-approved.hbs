@@ -1,0 +1,120 @@
+
+<!-- partial:partials/view/_html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table style="margin: auto;">
+    <tbody>
+
+       <!-- partial:partials/view/_header-logo.hbs -->
+       <!-- partial -->
+
+      <tr style="border: 0">
+        <td style="padding: 50px 12px"><img src="https://philipssignifyb2c.vteximg.com.br/arquivos/pagamentoAprovado.png" />
+        </td>
+      </tr>
+
+      <tr style="border: 0; color: #2D2D2D;">
+        <td style="padding: 0 12px">
+          <p style="font-weight: 700; font-size: 20; line-height: 23px; padding-bottom: 20px;">Olá,
+             {{clientProfileData.firstName}}</p>
+          <p style="margin-bottom: 70px">Parabéns seu pedido foi aprovado!
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px">
+          <table>
+            <tr>
+              <td>
+                <p style="font-size: 20px; margin-bottom:30px; font-weight:700; line-height: 23px; color:#333333">Resumo da Compra</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table style="border-collapse: collapse;">
+                  <tbody>
+                    {{#each items}}
+                    <tr style="margin-bottom:30px; border-bottom: 1px solid #E0E0E0 ">
+                      <td style="padding: 20px 0">
+                        <img style="width: 154px; height: auto; margin-right: 40px" src={{imageUrl}} alt="">
+                      </td>
+                      <td style="font-size: 15px; line-height: 26px; color:#828282">
+                        <p style="font-weight: bold; color:#2D2D2D">{{name}}</p>
+                        <p>Quantidade: {{quantity}}</p>
+                        <p>Entrega: {{../shippingData.logisticsInfo.0.selectedSla}}</p>
+
+                        <p style="font-weight: 600;">R$ {{formatCurrency sellingPrice}}</p>
+                      </td>
+                    </tr>
+                    {{/each}}
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <table style="width: 50%; font-size: 16px; line-height: 22px; font-weight: 400; padding: 50px 0; color: #333333;">
+                  {{#each totals}}
+                  <tr>
+                    {{#compare id "==" "Items"}}
+                    <td style="padding-bottom: 15px;">Subtotal:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  <tr>
+                    {{#compare id "==" "Discounts"}}
+                    <td style="padding-bottom: 15px;">Descontos:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  <tr>
+                    {{#compare id "==" "Shipping"}}
+                    <td style="padding-bottom: 15px;">Frete:</td>
+                    <td style="padding-bottom: 15px;">R$ {{formatCurrency value}}</td>
+                    {{/compare}}
+                  </tr>
+                  {{/each}}
+                  <tr style="font-weight: 700; font-size: 18px;">
+                    <td>Total:</td>
+                    {{#each paymentData.transactions}}
+                    {{#each payments}}
+                    <td>R$ {{formatCurrency value}}</td>
+                    {{/each}}
+                    {{/each}}
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="font-size: 18px; font-weight:normal; line-height:24px; color:#2d2d2d">
+                  A partir de agora, vamos separar os itens do pedido {{orderId}} e preparar sua entrega prevista para
+                  acontecer até o dia
+                  {{#if shippingData.logisticsInfo.0.selectedSla}}
+                  {{#each shippingData.logisticsInfo.0.slas}}
+                  {{#compare name '==' ../shippingData.logisticsInfo.0.selectedSla}}
+                  {{formatDate shippingEstimateDate}}
+                  {{/compare}}
+                  {{/each}}
+                  {{/if}} <br><br>
+                  Fique tranquilo(a), assim que sua entrega for despachada, entraremos novamente em contato. E
+                  lembre-se: você pode acompanhar o andamento do seu pedido pelo site! :) <br><br>
+                  Obrigado pela confiança.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+        <!-- partial:partials/view/_footer.hbs -->
+        <!-- partial -->
+    </tbody>
+  </table>
+</body>
+
+</html>

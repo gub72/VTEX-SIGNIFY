@@ -1,0 +1,11 @@
+.wrapper--titleWishlist {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0;
+
+  .paragraph--titleWishlist {
+    color: $gray-2;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

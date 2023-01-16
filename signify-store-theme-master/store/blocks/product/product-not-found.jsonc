@@ -1,0 +1,120 @@
+{
+  "store.not-found#product": {
+    "blocks": [
+      "flex-layout.row#not-found-breadcrumb",
+      "flex-layout.row#not-found-group",
+      "flex-layout.row#not-found-shelf"
+      //vitrine
+    ]
+  },
+  "flex-layout.row#not-found-breadcrumb": {
+    "props": {
+      "marginTop": 4,
+      "paddingTop": 4,
+      "blockClass": "notFoundColumnBreadcrumb"
+    },
+    "children": [
+      "link#home",
+      "link#erro-404"
+    ]
+  },
+  "flex-layout.row#not-found-group": {
+    "props": {
+      "blockClass": "backgroundNotFound"
+    },
+    "children": [
+      "flex-layout.col#not-found-column"
+    ]
+  },
+  "flex-layout.col#not-found-column": {
+    "props": {
+      "blockClass": "notFoundColumn"
+    },
+    "children": [
+      "rich-text#text-not-found",
+      "rich-text#description-not-found",
+      "link#return"
+    ]
+  },
+  "flex-layout.row#not-found-shelf": {
+    "props": {
+      "blockClass": "notFoundShelf"
+    },
+    "children": [
+      "flex-layout.col#not-found-shelf"
+    ]
+  },
+  "flex-layout.col#not-found-shelf": {
+    "children": [
+      "rich-text#not-found-shelf-title",
+      "list-context.product-list#not-found-shelf"
+    ]
+  },
+  "list-context.product-list#not-found-shelf": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#not-found-shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "rich-text#not-found-shelf-title": {
+    "props": {
+      "blockClass": "notFoundShelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Vitrine 01"
+    }
+  },
+  "slider-layout#not-found-shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "link#home": {
+    "props": {
+      "blockClass": "breadcrumb--home",
+      "href": "/",
+      "label": "Home"
+    }
+  },
+  "link#erro-404": {
+    "props": {
+      "blockClass": "breadcrumb--404",
+      "label": "Erro 404"
+    }
+  },
+  "rich-text#text-not-found": {
+    "props": {
+      "blockClass": "title404",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# 404"
+    }
+  },
+  "rich-text#description-not-found": {
+    "props": {
+      "blockClass": "descriptionNotFound",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Desculpe! A página que você lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa. Praesent aliquet enim tellus."
+    }
+  },
+  "link#return": {
+    "props": {
+      "blockClass": "return-to-home",
+      "href": "/",
+      "label": "Voltar para home"
+    }
+  }
+}

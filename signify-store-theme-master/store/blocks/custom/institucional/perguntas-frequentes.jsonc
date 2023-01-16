@@ -1,0 +1,210 @@
+{
+  "store.custom#perguntas-frequentes": {
+    "children": [
+      "flex-layout.row#faq-breadcrumb",
+      "flex-layout.row#main-row-faq"
+    ],
+    "props": {
+      "blockClass": "perguntas-frequentes"
+    }
+  },
+
+  "flex-layout.row#faq-breadcrumb": {
+    "children": ["flex-layout.col#faq-breadcrumb"],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#faq-breadcrumb": {
+    "children": ["rich-text#breadcrumb-list-faq"],
+    "props": {
+      "blockClass": "containerInstitucional__breadcrumb",
+      "width": "100%"
+    }
+  },
+  "rich-text#breadcrumb-list-faq": {
+    "props": {
+      "text": "[Home](/) [Institucional](#) [Perguntas frequentes](#)",
+      "blockClass": "containerInstitucional__breadcrumb-list"
+    }
+  },
+
+  "flex-layout.row#main-row-faq": {
+    "children": [
+      "flex-layout.col#aside",
+      "flex-layout.row#perguntas-frequentes"
+    ],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.row#perguntas-frequentes": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": ["flex-layout.col#perguntas-frequentes"]
+  },
+
+  "flex-layout.col#perguntas-frequentes": {
+    "children": [
+      "rich-text#perguntas-frequentes",
+      "disclosure-layout-group#group"
+    ]
+  },
+  "rich-text#perguntas-frequentes": {
+    "props": {
+      "text": "# **Perguntas frequentes**"
+    }
+  },
+
+  "disclosure-layout-group#group": {
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth"
+    ]
+  },
+
+  "disclosure-layout#first": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#question1", "disclosure-state-indicator"]
+  },
+  "disclosure-content#first": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "Título?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet  Lorem ipsum dolor Lorem ipsum dolor sit Lorem ipsum dolor sit amet"
+    }
+  },
+
+  "disclosure-layout#second": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#second", "disclosure-content#second"]
+  },
+  "disclosure-trigger#second": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#question2", "disclosure-state-indicator"]
+  },
+  "disclosure-content#second": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "Título 2?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet  Lorem ipsum dolor Lorem ipsum dolor sit Lorem ipsum dolor sit amet"
+    }
+  },
+
+  "disclosure-layout#third": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#third", "disclosure-content#third"]
+  },
+  "disclosure-trigger#third": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#question3", "disclosure-state-indicator"]
+  },
+  "disclosure-content#third": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer3"]
+  },
+  "rich-text#question3": {
+    "props": {
+      "text": "Título 3?"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet  Lorem ipsum dolor Lorem ipsum dolor sit Lorem ipsum dolor sit amet"
+    }
+  },
+
+  "disclosure-layout#fourth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+  },
+  "disclosure-trigger#fourth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["rich-text#question4", "disclosure-state-indicator"]
+  },
+  "disclosure-content#fourth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer2"]
+  },
+  "rich-text#question4": {
+    "props": {
+      "text": "Título 4?"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet  Lorem ipsum dolor Lorem ipsum dolor sit Lorem ipsum dolor sit amet"
+    }
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+tipagem de objeto
+https://app.quicktype.io/
+
+
+Icons
+https://react-icons.github.io/react-icons/icons?name=fa
+
+Spinner
+https://adexin.github.io/spinners/
+https://www.davidhu.io/react-spinners/
+
+Int para Monetário
+https://github.com/vtex-apps/format-currency
+
+Tratar Orders | AddToCart
+https://github.com/vtex-apps/order-items
+
+https://github.com/vtex-apps/store-discussion/issues/664
+
+Apis
+https://github.com/felipe-ssilva/vtex-utils

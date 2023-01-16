@@ -1,0 +1,9 @@
+@import "./variables/all";
+
+.containerImg {
+  background-color: $gray-4;
+}
+
+.containerImg .img {
+  max-width: $xxl;
+}

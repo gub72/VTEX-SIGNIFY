@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#t1-dep-menu-mobile": {
+        "props": {
+            "blockClass": "t1-dep-menu-mobile"
+        },
+
+        "children": ["flex-layout.col#t1-dep-menu-mobile"]
+    },
+
+    "flex-layout.col#t1-dep-menu-mobile": {
+        "props": {
+            "blockClass": "t1-dep-menu-mobile"
+        },
+        "children": ["login#mobile", "drawer#t1-dep-1", "drawer#t1-dep-2"]
+    },
+
+    /*============== DEPARTAMENTO 1  */
+
+    "rich-text#t1-dep-1": {
+        "props": {
+            "text": "DEPARTAMENTO 1",
+            "blockClass": ["t1-dep-1"],
+            "font": "t-heading-6"
+        }
+    },
+
+    "drawer#t1-dep-1": {
+        "props": {
+            "blockClass": ["t1-drawer", "t1-dep-1"],
+            "customPixelEventId": "t1-dep-1"
+            //"isFullWidth": false
+        },
+        "children": ["flex-layout.row#t1-dep-1"],
+        "blocks": ["drawer-trigger#t1-dep-1"]
+    },
+
+    "drawer-trigger#t1-dep-1": {
+        "props": {
+            "blockClass": ["t1-dep-1", "t1-department", "t1-department-arrow"]
+        },
+        "children": ["rich-text#t1-dep-1"]
+    },
+
+    /*============== DEPARTAMENTO 2  */
+
+    "rich-text#t1-dep-2": {
+        "props": {
+            "text": "DEPARTAMENTO 2",
+            "blockClass": ["t1-dep-2"],
+            "font": "t-heading-6"
+        }
+    },
+
+    "drawer#t1-dep-2": {
+        "props": {
+            "blockClass": ["t1-drawer", "t1-dep-2"],
+            "customPixelEventId": "t1-dep-2"
+            //"isFullWidth": false
+        },
+        "children": ["flex-layout.row#t1-dep-2"],
+        "blocks": ["drawer-trigger#t1-dep-2"]
+    },
+
+    "drawer-trigger#t1-dep-2": {
+        "props": {
+            "blockClass": ["t1-dep-2", "t1-department", "t1-department-arrow"]
+        },
+        "children": ["rich-text#t1-dep-2"]
+    }
+}

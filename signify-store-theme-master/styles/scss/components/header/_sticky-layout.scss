@@ -1,0 +1,13 @@
+.container {
+}
+
+.wrapper {
+}
+
+.wrapper--stuck {
+  :global(.vtex-search-1-x-biggy-autocomplete) {
+    // position: absolute;
+    //left: -612px;
+    // z-index: 1;
+  }
+}

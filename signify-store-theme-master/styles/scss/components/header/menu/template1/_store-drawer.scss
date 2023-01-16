@@ -1,0 +1,50 @@
+.drawer--t1-menu-mobile {
+  background: rgba(0, 0, 0, 0.6);
+  overflow-y: unset !important;
+
+  .closeIcon--t1-menu-mobile {
+    color: $gray-4;
+  }
+  .closeIconButton--t1-menu-mobile {
+    position: absolute;
+    right: 0;
+  }
+
+  .openIconContainer {
+    padding: 6px;
+    border-bottom: 1px solid $gray-4;
+  }
+  .childrenContainer--t1-menu-mobile {
+    background-color: $white;
+    flex-wrap: wrap;
+    width: 85%;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  .drawerTriggerContainer--t1-department-arrow {
+    position: relative;
+    &::after {
+      content: url("assets/images/arrow-mobile.png");
+      position: absolute;
+      top: 33%;
+      right: 10px;
+    }
+  }
+}
+
+.closeIconContainer--t1-drawer {
+  .closeIconButton--t1-drawer {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 27px;
+    left: 10px;
+    z-index: 4;
+    &::after {
+      content: url("assets/images/arrow-mobile.png");
+    }
+  }
+  .closeIcon--t1-drawer {
+    display: none;
+  }
+}

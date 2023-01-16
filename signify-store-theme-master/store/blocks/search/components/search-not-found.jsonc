@@ -1,0 +1,99 @@
+{
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#search-not-found"
+    ]
+  },
+  "flex-layout.row#search-not-found": {
+    "children": ["flex-layout.col#search-not-found"],
+    "props": {
+      "blockClass": ["container", "container-category", "not-found"],
+      "paddingTop": 0
+    }
+  },
+  "flex-layout.col#search-not-found": {
+    "children": ["flex-layout.row#not-found-content"]
+  },
+  "flex-layout.row#not-found-content": {
+    "children": ["flex-layout.col#not-found-content"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "paddingTop": 0,
+      "paddingBottom": 8
+    }
+  },
+
+  "flex-layout.col#not-found-content": {
+    "children": [
+      "image#not-found-icon",
+      "rich-text#search-not-found",
+      "rich-text#search-not-found-small",
+      "search-bar#not-found",
+      "flex-layout.row#search-shelf"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "paddingTop": 8,
+      "paddingBottom": 8
+    }
+  },
+
+  //ICON
+  "image#not-found-icon": {
+    "props": {
+      "title": "Empty Search",
+      "src": "assets/images/empty-search.png",
+      "horizontalAlignment": "center",
+      "blockClass": "empty-search-icon"
+    }
+  },
+
+  // SEARCH BAR
+  "search-bar#not-found": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "blockClass": "not-found-search",
+      "iconClasses": "icon-search",
+      "placeholder": "O que você está procurando?",
+      "maxWidth": 520,
+      "emptyPlaceholder": "Nenhum resultado encotrado!",
+      "autocompleteAlignment": "left",
+      "displayMode": "search-button",
+      "openAutocompleteOnFocus": true,
+      "autocompleteFullWidth": false
+      //"hasIconLeft": true
+    }
+  },
+
+  // TEXTS
+  "rich-text#store-not-found": {
+    "props": {
+      "text": "## Desculpe, houve um erro. Tente novamente mais tarde."
+    }
+  },
+
+  "rich-text#search-not-found": {
+    "props": {
+      "title": "Título grande página de busca vazia",
+      "text": "Não encontramos nenhum resultado",
+      "blockClass": ["es-title", "strong"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+
+  "rich-text#search-not-found-small": {
+    "props": {
+      "title": "Descrição página de busca vazia",
+      "text": "Que tal realizar uma nova busca?",
+      "blockClass": "es-title-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5"
+    }
+  }
+}

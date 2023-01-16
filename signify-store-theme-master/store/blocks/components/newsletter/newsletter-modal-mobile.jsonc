@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#mobile-newsletter": {
+    "children": ["modal-trigger#newsletter-mobile"],
+    "props": {
+      "blockClass": ["newsletter-modal", "newsletter-modal-mobile"]
+    }
+  },
+
+  "modal-trigger#newsletter-mobile": {
+    "children": ["modal-layout#newsletter-mobile"],
+    "props": {
+      "trigger": "load-session"
+    }
+  },
+
+  "modal-layout#newsletter-mobile": {
+    "children": ["flex-layout.row#newsletter-container-mobile"],
+    "props": {
+      "blockClass": ["newsletter", "newsletter-mobile"]
+    }
+  },
+
+  "flex-layout.row#newsletter-container-mobile": {
+    "props": {
+      "blockClass": ["newsletter", "newsletter-mobile"],
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "modal-header#newsletter",
+      "image#newsletter-image-mobile",
+      "flex-layout.row#nl-row-1",
+      "flex-layout.row#nl-row-2",
+      "flex-layout.row#nl-row-4"
+    ]
+  },
+
+  "image#newsletter-image-mobile": {
+    "props": {
+      "src": "assets/images/newsletter-banner-mobile.png",
+
+      "blockClass": ["newsletter-image", "newsletter-image-mock"]
+    }
+  }
+}

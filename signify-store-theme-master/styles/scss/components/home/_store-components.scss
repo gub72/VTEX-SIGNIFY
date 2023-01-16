@@ -1,0 +1,11 @@
+.imageElement--slider-categories {
+  @media screen and (max-width: 1024px) {
+    max-width: 270px;
+    max-height: 300px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 255px;
+    max-height: 300px;
+  }
+}

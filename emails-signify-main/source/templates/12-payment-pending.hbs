@@ -1,0 +1,67 @@
+
+<!-- partial:partials/view/_html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table style="margin: auto;">
+    <tbody>
+
+       <!-- partial:partials/view/_header-logo.hbs -->
+       <!-- partial -->
+
+      <tr style="border: 0;">
+        <td style="padding: 70px 12px">
+          <p style="font-weight: 700; font-size: 20; line-height: 23px; padding-bottom: 20px;">Olá,
+            Fique atento ao vencimento do seu boleto bancário
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 0 12px">
+          <table>
+            <tr>
+              <td style="padding-top:27px;padding-bottom: 35px;">
+                <p style="font-size: 18px; line-height: 24px;">
+                  <strong></strong>Seu pedido n˚ {{orderId}}</strong> está aguardando a identificação de pagamento do boleto.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding-bottom: 20px">
+                <p style="font-size: 18px; font-weight:400; line-height: 24px; color:#666666">Fique atento á data de vencimento do boleto, após essa data seu pedido será cancelado. Caso o seu boleto já esteja pago, por favor, desconsidere este e-mail.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p style="font-size: 18px; font-weight:700; line-height: 24px; color:#686868">Em caso de dúvida sobre o cancelamento, entre em contato conosco.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td align="center" valign="middle" style="padding-bottom: 38px;">
+                {{#each orders.0.paymentData.transactions}}
+                  {{#each payments}}
+                    {{#eq paymentSystemName 'Boleto Bancário'}}
+                        <span>
+                            <span>
+                                <a style="display:flex;justify-content:center;font-weight: 700; font-size: 14px;text-transform:uppercase;color:#fff;align-items:center;background-color:#000; width: 376px; height: 50px; border-radius: 2px;" href="{{replace url '{Installment}' installments}}" class="button"><span style="font-size:16px;"><span>Imprimir boleto</span></span></a>
+                            </span>
+                        </span>
+                    {{/eq}}
+                  {{/each}}
+                {{/each}}
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+        <!-- partial:partials/view/_footer.hbs -->
+        <!-- partial -->
+    </tbody>
+  </table>
+</body>
+
+</html>

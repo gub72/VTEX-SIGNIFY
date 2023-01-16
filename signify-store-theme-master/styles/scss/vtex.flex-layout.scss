@@ -1,0 +1,144 @@
+@import "variables/all";
+
+@import "./components/contact/flex-layout";
+
+@import "./components/faq/flex-layout";
+
+@import "./components/footer/desktop/flex-layout";
+
+@import "./components/footer/mobile/flex-layout";
+
+@import "./components/header/flex-layout";
+
+@import "./components/header/menu/template1/flex-layout";
+
+@import "./components/header/search/flex-layout";
+
+@import "./components/home/categorias/flex-layout";
+
+@import "./components/home/info-cards/flex-layout";
+
+@import "./components/home/shelf/flex-layout";
+
+@import "./components/newsletter/flex-layout";
+
+@import "./components/product-specification-table/flex-layout";
+
+@import "./components/product/flex-layout";
+
+@import "./components/wishlist/flex-layout";
+
+@import "./components/institucional/flex-layout";
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: $gray-2;
+  color: $white;
+}
+
+.flexRowContent--main-header {
+  background-color: $white;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: $gray-4;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: $white;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: $gray-2;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: $primary;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--header-pitchbar {
+  max-height: 35px;
+  height: auto;
+  background-color: $gray-4;
+  width: 100%;
+}
+
+.flexRowContent--header-pitchbar,
+.flexCol--pitchbar-links {
+  padding: 5px 0 10px;
+}
+
+// Footer
+.flexRowContent--menu-row {
+  max-width: 1000px;
+  margin: 0 auto;
+}

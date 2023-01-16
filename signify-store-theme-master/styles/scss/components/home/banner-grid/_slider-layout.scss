@@ -1,0 +1,40 @@
+/* BANNER GRID */
+.sliderLayoutContainer--banner-grid {
+  .sliderTrackContainer {
+  }
+
+  .sliderTrack {
+    transform: none !important;
+    width: auto !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+    @media screen and (min-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      width: 1110px !important;
+      margin: 0 auto;
+    }
+
+    .slide {
+      width: auto !important;
+      &--hidden {
+        display: none;
+      }
+      &--visible {
+        &[data-index="1"] {
+          @media screen and (min-width: 1024px) {
+            grid-area: 1 / 1 / 3 / 3;
+          }
+        }
+      }
+    }
+  }
+}
+
+.imageElement--banner-grid {
+  border-radius: 6px;
+}

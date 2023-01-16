@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "oderwat.indent-rainbow",
+    "gruntfuggly.todo-tree",
+    "EditorConfig.EditorConfig",
+    "stylelint.vscode-stylelint",
+    "AgenciaE-plus.vtexio-intellisense"
+  ],
+  "unwantedRecommendations": ["simonsiefke.prettier-vscode"]
+}

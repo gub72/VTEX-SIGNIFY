@@ -1,0 +1,194 @@
+{
+  // Blocs
+  "store.custom#sobre-nos": {
+    "blocks": [
+      "flex-layout.row#breadcrumb-row-sn",
+      "flex-layout.row#main-row-sn"
+    ]
+  },
+  // breadcrumb
+  "flex-layout.row#breadcrumb-row-sn": {
+    "children": ["flex-layout.col#breadcrumb-sn"],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#breadcrumb-sn": {
+    "children": ["rich-text#breadcrumb-list-sn"],
+    "props": {
+      "blockClass": "containerInstitucional__breadcrumb",
+      "width": "100%"
+    }
+  },
+  "rich-text#breadcrumb-list-sn": {
+    "props": {
+      "text": "[Home](/) [Institucional](#) [Sobre nós](#)",
+      "blockClass": "containerInstitucional__breadcrumb-list"
+    }
+  },
+  // Main
+  "flex-layout.row#main-row-sn": {
+    "children": ["flex-layout.col#aside-sn", "flex-layout.col#contentSobreNos"],
+    "props": {
+      "blockClass": "containerInstitucional",
+      "fullWidth": false,
+      "horizontalAlign": "center"
+    }
+  },
+
+  // aside
+  "flex-layout.col#aside-sn": {
+    "children": [
+      "rich-text#aside-tittle-sn",
+      "vtex.menu@2.x:menu#menu__institucional"
+    ],
+    "props": {
+      "blockClass": "institucional__menu-container",
+      "id": "institucional__menu",
+      "width": "20%"
+    }
+  },
+  "rich-text#aside-tittle-sn": {
+    "props": {
+      "text": "###### **Título**",
+      "blockClass": "institucional__menu-container-tittle"
+    }
+  },
+
+  // content
+  "flex-layout.col#contentSobreNos": {
+    "children": ["flex-layout.col#contentSobreNos-text"],
+    "props": {
+      "width": "80%"
+    }
+  },
+  "flex-layout.col#contentSobreNos-text": {
+    "children": [
+      "rich-text#contentSobreNos-tittle-1",
+      "rich-text#contentSobreNos-paragraph-1",
+      "rich-text#contentSobreNos-paragraph-1-2",
+      "rich-text#contentSobreNos-tittle-2",
+      "rich-text#contentSobreNos-paragraph-2",
+      "rich-text#contentSobreNos-tittle-3",
+      "rich-text#contentSobreNos-paragraph-3",
+      "rich-text#contentSobreNos-paragraph-4",
+      "vtex.menu@2.x:menu#contentSobreNos-list",
+      "rich-text#contentSobreNos-paragraph-5",
+      "vtex.menu@2.x:menu#contentSobreNos-list-order"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#contentSobreNos-tittle-1": {
+    "props": {
+      "text": "# **Sobre nós**"
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-1": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa. Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus, nec malesuada ligula semper. Fusce volutpat est sed eros accumsan tincidunt. Pellentesque tellus erat, mattis in urna non, lacinia pharetra sem. Vestibulum at enim porta, pretium dui id, molestie risus. Sed convallis vulputate lacus, vitae consequat leo lacinia et. Sed lectus velit, mollis eget bibendum at, pulvinar vehicula leo. Nam fringilla felis at nisi accumsan, a porta tellus pellentesque. Donec semper commodo justo a sagittis. Curabitur ornare, augue sit amet dictum hendrerit, enim turpis bibendum tortor, eget rutrum quam ex sed urna. Pellentesque sem enim, tempor at efficitur pellentesque, vehicula eget ante."
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-1-2": {
+    "props": {
+      "text": "Curabitur id leo ut sem dictum efficitur et at nibh. Praesent imperdiet enim eu metus imperdiet luctus. Aenean bibendum dui id felis vehicula iaculis. Integer orci lorem, sagittis vitae nulla non, finibus mattis ex. Donec scelerisque metus tortor, sit amet ultricies neque fermentum accumsan. Ut imperdiet mi vel ipsum tristique semper. Sed ornare pellentesque lacus et bibendum. Quisque et elementum metus. Morbi venenatis egestas nulla et feugiat. Integer id ante malesuada, vestibulum eros sed, consectetur tellus. Mauris placerat ipsum a nunc blandit, blandit viverra magna vehicula. In hac habitasse platea dictumst. Etiam at pellentesque nisl. Nam scelerisque interdum risus."
+    }
+  },
+  "rich-text#contentSobreNos-tittle-2": {
+    "props": {
+      "text": "## **Subtítulo H2**"
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-2": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa. Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus, nec malesuada ligula semper. Fusce volutpat est sed eros accumsan tincidunt. Pellentesque tellus erat, mattis in urna non, lacinia pharetra sem. Vestibulum at enim porta, pretium dui id, molestie risus. Sed convallis vulputate lacus, vitae consequat leo lacinia et. Sed lectus velit, mollis eget bibendum at, pulvinar vehicula leo. Nam fringilla felis at nisi accumsan, a porta tellus pellentesque. Donec semper commodo justo a sagittis. Curabitur ornare, augue sit amet dictum hendrerit, enim turpis bibendum tortor, eget rutrum quam ex sed urna. Pellentesque sem enim, tempor at efficitur pellentesque, vehicula eget ante."
+    }
+  },
+  "rich-text#contentSobreNos-tittle-3": {
+    "props": {
+      "text": "## **Blockquote H2**"
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-3": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa.  Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus.",
+      "blockClass": "blockquote"
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-4": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa.  Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus."
+    }
+  },
+  "vtex.menu@2.x:menu#contentSobreNos-list": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "institucional-list"
+    },
+    "children": [
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1",
+      "menu-item##contentSobreNos-list-item-1"
+    ]
+  },
+  "menu-item##contentSobreNos-list-item-1": {
+    "props": {
+      "id": "item",
+      "blockClass": "item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Item de lista",
+        "text": "Item de lista"
+      }
+    }
+  },
+  "rich-text#contentSobreNos-paragraph-5": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis massa.  Praesent aliquet enim tellus, sed cursus nulla efficitur sed. Vestibulum pharetra sem et orci maximus."
+    }
+  },
+  "vtex.menu@2.x:menu#contentSobreNos-list-order": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "institucional-list-order"
+    },
+    "children": [
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1",
+      "menu-item##contentSobreNos-list-order-item-1"
+    ]
+  },
+  "menu-item##contentSobreNos-list-order-item-1": {
+    "props": {
+      "id": "item",
+      "blockClass": "item",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Item de lista",
+        "text": "Item de lista"
+      }
+    }
+  }
+}

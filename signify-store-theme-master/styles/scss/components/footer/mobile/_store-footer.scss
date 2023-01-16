@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+  .socialNetworkLink {
+    &--facebook::before {
+      content: url("assets/svg/icon-facebook-mobile.svg");
+    }
+
+    &--twitter::before {
+      content: url("assets/svg/icon-twitter-mobile.svg");
+    }
+
+    &--instagram::before {
+      content: url("assets/svg/icon-instagram-mobile.svg");
+    }
+  }
+
+  .socialNetworksContainer {
+    justify-content: space-between;
+    max-width: 145px;
+    margin: 0 auto;
+
+    .socialNetworkLink {
+      margin: 0;
+    }
+  }
+}

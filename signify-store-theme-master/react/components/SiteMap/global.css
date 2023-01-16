@@ -1,0 +1,21 @@
+.sitemap-app_title{
+  color: #F1B51C;
+  font-size: 24px;
+}
+
+.sitemap-app_subtitle{
+  font-size: 13px;
+  color: #686868;
+}
+
+.sitemap-app_category,
+.sitemap-app_department{
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.listItems{
+  color: #686868;
+  
+}

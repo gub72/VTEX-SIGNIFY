@@ -1,0 +1,38 @@
+.accordionIcon--menu-item-footer-mobile {
+  font-size: 0;
+  transition: all 0.3s ease;
+
+  &--isClosed {
+    transform: rotate(0);
+    &::after {
+      content: url("assets/svg/arrow.svg");
+    }
+  }
+  &--isOpen {
+    transform: rotate(180deg);
+    &::after {
+      content: url("assets/svg/arrow.svg");
+    }
+  }
+}
+
+.menuContainer--footer-mobile {
+  margin: 0 15px;
+
+  .submenuAccordion {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.styledLinkContainer--menu-item-footer-mobile {
+  margin: 0;
+  padding: 17px 0;
+}
+
+.styledLinkContent--menu-item-footer-mobile {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+}
